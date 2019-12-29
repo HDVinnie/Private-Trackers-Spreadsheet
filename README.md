@@ -1,3 +1,8 @@
+## <a name="security"></a> 🔐 Privacy
+
+If your site is listed here and you dont want it to be, please email hdinnovations@protonmail.com instead of using the issue tracker.
+
+
 Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Points | Birthdate | Updated
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 | - | - | - | - | - | - | - | - | - | - | - |
