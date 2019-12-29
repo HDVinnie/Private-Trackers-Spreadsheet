@@ -5,8 +5,9 @@ If your site is listed here and you dont want it to be, please email hdinnovatio
 
 Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Points | Birthdate | Updated
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+| AsianCinema | ACM | Movie/TV/Music | UNIT3D | 9,089 | 5,504 | 25,063 | Yes | Yes | Unknown | 12/29/19 |
 | Beyond-HD | BHD | Movie/TV | UNIT3D Fork | 15,086 | 41,495 | 170,019 | Yes | Yes | Unknown | 12/29/19 |
-| Blutopia | BLU | Movie/TV/FANRES | UNIT3D | 15,574 | 35,683 | 126,753 | Yes | Yes | unknown | 4/1/17 |
+| Blutopia | BLU | Movie/TV/FANRES | UNIT3D | 15,574 | 35,683 | 126,753 | Yes | Yes | 4/1/17 | 12/29/19 |
 | - | - | - | - | - | - | - | - | - | - | - |
 | - | - | - | - | - | - | - | - | - | - | - |
 | - | - | - | - | - | - | - | - | - | - | - |
