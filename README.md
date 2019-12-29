@@ -16,7 +16,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Points
 | ShareWood | SHW | General | UNIT3D | ??? | ??? | ??? | Yes | Yes | Unknown | Unknown | 12/29/19 |
 | TorrentLeech | TL | General | - | - | - | - | - | - | - | - | - |
 | UHDBits | UHD | Movie/TV | Gazelle | 6,559 |  29,476 | 52,150 | Yes | Yes | Unknown | Application/Invite | 12/29/19 |
-| - | - | - | - | - | - | - | - | - | - | - | - |
+| AwesomeHD | AHD | Movie/TV | Gazelle | 8,459 | 50,962 | 438,081 | Yes | Yes | Unknown | Application/Invite | 12/29/19 |
 | - | - | - | - | - | - | - | - | - | - | - | - |
 | - | - | - | - | - | - | - | - | - | - | - | - |
 | - | - | - | - | - | - | - | - | - | - | - | - |
