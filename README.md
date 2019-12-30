@@ -30,6 +30,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio 
 | JPopSuki | JPS | Music | Gazelle | 178,370 | 281,182 | 1,498,882 | Yes | Easy | Yes | `???` | Recruitment/Invite | Easy | 12/30/19 |
 | LegacyHD | LHD | General | UNIT3D | 102 | 1,591 | 3,422 | Yes | `???` | Yes | `???` | Applications | `???` | 12/29/19 |
 | LzTr | N/A | Music | Gazelle | 1,099 | 19,942 | 28,024 | Yes | Medium | Yes | `???` | Application/Invite | `???` | 12/30/19 |
+| M-Team | '???' | General/Chinese | NexusPHP | 40,803 | 305,064 | 1,885,841 | Yes | Easy | Yes | `???` | Recruitment/Invite | `???` | 12/31/19 |
 | MyAnonamouse | MAM | eBooks/Audiobooks | `???` | 56,324 | 513,953 | 4,695,033 | Yes | `???` | Yes | `???` | Application/Invite | Easy | 12/30/19 |
 | NotWhatCD | NWCD | Music | Gazelle | 2,846 | 55,978 | 168,960 | Yes | `???` | Yes | `???` | Recruitment/Invite | `???` | 12/30/19 |
 | Oppaitime | OT | Porn | Gazelle | 2,419 | 38,435 | `???` | Yes | Easy | Yes | `???` | Application/Invite | Easy | 12/30/19 |
