@@ -1,7 +1,8 @@
 ## <a name="security"></a> 🔐 Privacy
 
 If your site is listed here and you dont want it to be, please email hdinnovations@protonmail.com instead of using the issue tracker.
-
+<hr>
+<p style="color:blue;">Markdown Spreadsheet</p>
 
 Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio Diff | Points | Birthdate | Join | Join Diff | Updated
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
