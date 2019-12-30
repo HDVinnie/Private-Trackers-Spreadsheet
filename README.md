@@ -10,7 +10,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio 
 | AnimeTorrents | ANT | Anime | XBTIT | 27,411 | 18,147 | 90,708 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
 | AsianCinema | ACM | Movie/TV/Music | UNIT3D | 9,089 | 5,504 | 25,063 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
 | Audionews | `???` | Music Production | `???` | 128656 | 98150 | `???` | Yes | Hard | No | `???` | Open/Invite | Easy | 12/30/19 |
-| AvistaZ | `???` | Porn | Custom | 141,484 | 61,359 | 412,380 | Yes | Medium | Yes | `???` | Application/Invite | `???` | 12/30/19 |
+| AvistaZ | `???` | Movie/TV/Music | Custom | 141,484 | 61,359 | 412,380 | Yes | Medium | Yes | `???` | Application/Invite | `???` | 12/30/19 |
 | AwesomeHD | AHD | Movie/TV | Gazelle | 8,459 | 50,962 | 438,081 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
 | Bemaniso | `???` | Games/Music | Gazelle | 8,169 | 16,539 | 110,300 | Yes | `???` | Yes | `???` | Invite | `???` | 12/30/19 |
 | Beyond-HD | BHD | Movie/TV | UNIT3D | 15,086 | 41,495 | 170,019 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
