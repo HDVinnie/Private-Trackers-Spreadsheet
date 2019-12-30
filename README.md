@@ -6,6 +6,7 @@ If your site is listed here and you dont want it to be, please email hdinnovatio
 Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio Diff | Points | Birthdate | Join | Join Diff | Updated
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 | 32pages | 32P | Comics | Gazelle | 5,163 | 45,544 | 280,094 | Yes | `???` | Yes | `???` | Recruitment/Application/Invite | `???` | 12/30/19 |
+| Aidoru!Online | '???' | Music/TV | Custom | 34,071 | 155,144 | '???' | Yes | Easy | No | '??'/'??'/17 | Open/Invite | Easy | 12/30/19 |
 | AnimeBytes | AB | Anime | Gazelle | 16,593 | 175,975 | 1,457,776 | Yes | Easy | Yes | `???` | Recruitment/Invite | `???` | 12/30/19 |
 | AnimeTorrents | ANT | Anime | XBTIT | 27,411 | 18,147 | 90,708 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
 | AsianCinema | ACM | Movie/TV/Music | UNIT3D | 9,089 | 5,504 | 25,063 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
