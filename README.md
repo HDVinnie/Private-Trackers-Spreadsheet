@@ -16,7 +16,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio 
 | Beyond-HD | BHD | Movie/TV | UNIT3D | 15,086 | 41,495 | 170,019 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
 | Bibliotik | BIB | eBooks/Audiobooks | Custom | 6234 | 406,797 | 1,528,856 | Yes | Hard | No | 01/01/09 | Recruitment/Invite | Hard | 12/29/19
 | Blutopia | BLU | Movie/TV/FANRES | UNIT3D | 15,574 | 35,683 | 126,753 | Yes | `???` | Yes | 4/1/17 | Application/Invite | `???` | 12/29/19 |
-| BroadcasTheNet | BTN | TV | Gazelle | 35,343 | 322,389 | 3,170,076 | Yes | Hard | Yes | `???` | Recruitment/Invite | Hard | 12/30/19 |
+| BroadcasTheNet | BTN | TV | Gazelle | 35,343 | 322,389 | 3,170,076 | No | - | Yes | `???` | Recruitment/Invite | Hard | 12/30/19 |
 | CartoonChaos | CC | Movie/TV | `???` | `???` | 8,579 | `???` | Yes | `???` | Yes | `???` | Open/Invite | `???` | 12/30/19 |
 | CGPeers | CGP | CG/VFX | Gazelle | 334,345 | 33,620 | 132,058 | No | N/A | No | `???` | Open/Invite | `???` | 12/30/19 |
 | Concertos | `???` | Music | Gazelle | 2294 | 2,761 | 5681 | Yes | `???` | Yes | `???` | Recruitment/Invite | `???` | 12/30/19 |
