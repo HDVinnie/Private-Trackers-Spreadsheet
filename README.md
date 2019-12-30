@@ -9,6 +9,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio 
 | AsianCinema | ACM | Movie/TV/Music | UNIT3D | 9,089 | 5,504 | 25,063 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
 | AwesomeHD | AHD | Movie/TV | Gazelle | 8,459 | 50,962 | 438,081 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
 | Beyond-HD | BHD | Movie/TV | UNIT3D | 15,086 | 41,495 | 170,019 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
+| Bibliotik | BIB | eBooks/Audiobooks | Custom | 6234 | 406,797 | 1,528,856 | Yes | Hard | No | 01/01/09 | Recruitment/Invite | Hard | 12/29/19
 | Blutopia | BLU | Movie/TV/FANRES | UNIT3D | 15,574 | 35,683 | 126,753 | Yes | `???` | Yes | 4/1/17 | Application/Invite | `???` | 12/29/19 |
 | ExoticaZ | `???` | Porn | Custom | 36,975 | 12,064 | 109,987 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
 | HDTorrents | HDT | Movie/TV/Sports | Gazelle | 18,695 | 171,565 | 493,306 | Yes | `???` | Yes | `???` | Application/Invite/Donation | `???` | 12/29/19 |
