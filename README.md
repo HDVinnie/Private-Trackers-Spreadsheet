@@ -28,6 +28,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio 
 | HDTorrents | HDT | Movie/TV/Sports | XBTIT | 18,695 | 171,565 | 493,306 | Yes | `???` | Yes | `???` | Application/Invite/Donation | `???` | 12/29/19 |
 | IPTorrents | IPT | General | `???` | `???` | 971,790 | `???` | Yes | Easy | Yes | `???` | Application/Invite | `???` | 12/30/19 |
 | JPopSuki | JPS | Music | Gazelle | 178,370 | 281,182 | 1,498,882 | Yes | Easy | Yes | `???` | Recruitment/Invite | Easy | 12/30/19 |
+| JPTVTs | '???' | TV | Custom | 566 | 23,743 | '???' | Yes | Easy | No | '??'/'??'/17 | Invite | Easy | 12/30/19 |
 | LegacyHD | LHD | General | UNIT3D | 102 | 1,591 | 3,422 | Yes | `???` | Yes | `???` | Applications | `???` | 12/29/19 |
 | LzTr | N/A | Music | Gazelle | 1,099 | 19,942 | 28,024 | Yes | Medium | Yes | `???` | Application/Invite | `???` | 12/30/19 |
 | MyAnonamouse | MAM | eBooks/Audiobooks | `???` | 56,324 | 513,953 | 4,695,033 | Yes | `???` | Yes | `???` | Application/Invite | Easy | 12/30/19 |
