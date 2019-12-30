@@ -12,6 +12,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio 
 | Audionews | `???` | Music Production | `???` | 128656 | 98150 | `???` | Yes | Hard | No | `???` | Open/Invite | Easy | 12/30/19 |
 | AvistaZ | `???` | Porn | Custom | 141,484 | 61,359 | 412,380 | Yes | Medium | Yes | `???` | Application/Invite | `???` | 12/30/19 |
 | AwesomeHD | AHD | Movie/TV | Gazelle | 8,459 | 50,962 | 438,081 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
+| BakaBT | BBT | Anime | `???` | 55,383 | 20,611 | 270,251 | Yes | Easy | Yes | 09/06/2003 | Application | Easy | 12/31/19 |
 | Bemaniso | `???` | Games/Music | Gazelle | 8,169 | 16,539 | 110,300 | Yes | `???` | Yes | `???` | Invite | `???` | 12/30/19 |
 | Beyond-HD | BHD | Movie/TV | UNIT3D | 15,086 | 41,495 | 170,019 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
 | Bibliotik | BIB | eBooks/Audiobooks | Custom | 6234 | 406,797 | 1,528,856 | Yes | Hard | No | 01/01/09 | Recruitment/Invite | Hard | 12/29/19
@@ -25,6 +26,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio 
 | Femdomcult | FDC | Porn | Gazelle | 16,354 | 48,186 | 212,685 | Yes | `???` | Yes | `???` | Invite | `???` | 12/30/19 |
 | GazelleGames | GGn | Games | Gazelle | 17,743 | 165,131 | 1,858,547 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/30/19 |
 | HD-Space | `???` | Movie/TV/Porn | `???` | 11,910 | 87,684 | 88,419 | Yes | `???` | Yes | `???` | Recruitment/Invite | `???` | 12/30/19 |
+| HDBits | HDB | Movie/TV | `???` | 17,702 | 284,908 | 	 | Yes | Medium | Yes | `???` | Invite | Hard | 12/31/19 |
 | HDTorrents | HDT | Movie/TV/Sports | XBTIT | 18,695 | 171,565 | 493,306 | Yes | `???` | Yes | `???` | Application/Invite/Donation | `???` | 12/29/19 |
 | IPTorrents | IPT | General | `???` | `???` | 971,790 | `???` | Yes | Easy | Yes | `???` | Application/Invite | `???` | 12/30/19 |
 | JPopSuki | JPS | Music | Gazelle | 178,370 | 281,182 | 1,498,882 | Yes | Easy | Yes | `???` | Recruitment/Invite | Easy | 12/30/19 |
