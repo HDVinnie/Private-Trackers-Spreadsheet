@@ -21,6 +21,7 @@ $(document).ready( function () {
             { data: 'Updated' },
         ],
         paging: false,
+        responsive: true,
         order: [[ 0, "asc" ]]
     };
     const table = $('#table').DataTable(options);
