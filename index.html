@@ -11,13 +11,12 @@
     <link rel="stylesheet" type="text/css" href="assets/css/table.css">
 
     <!-- jQuery & Datatables -->
-    <script
-            src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
-
     <script type="text/javascript" charset="UTF-8" src="assets/js/app.js"></script>
+
+    <!-- #FONT-AWESOME -->
+    <script src="https://kit.fontawesome.com/212aaa0caa.js" crossorigin="anonymous"></script>
 
     <!-- #GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900" rel="stylesheet" type="text/css">
@@ -30,29 +29,36 @@
     <div class="table-content">
         <div class="row">
             <div class="col-lg-12">
-                <h1>Private Tracker List</h1>
-                <table id="table">
+                <h1><i class="fas fa-skull-crossbones text-danger"></i> Private Tracker List</h1>
+                <table id="table" class="dataTable table-striped compact hover">
                     <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Abbreviation</th>
+                        <th>Abbr</th>
                         <th>Type</th>
                         <th>Codebase</th>
                         <th>Users</th>
                         <th>Torrents</th>
                         <th>Peers</th>
                         <th>Ratio</th>
-                        <th>Ratio</th>
+                        <th>Ratio Diff</th>
                         <th>Points</th>
+                        <th>B-Day</th>
                         <th>Join</th>
                         <th>Join Diff</th>
                         <th>Updated</th>
                     </tr>
                     </thead>
                 </table>
-                <p>
-                    If your site is listed here and you dont want it to be, please email <a href="mailto:hdinnovations@protonmail.com">hdinnovations@protonmail.com</a> instead of using the issue tracker.
-                </p>
+                <br>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Privacy Notice</h3>
+                    </div>
+                    <div class="panel-body">
+                        If your site is listed here and you dont want it to be, please email <a href="mailto:hdinnovations@protonmail.com">hdinnovations@protonmail.com</a> instead of using the issue tracker.
+                    </div>
+                </div>
             </div>
         </div>
     </div>

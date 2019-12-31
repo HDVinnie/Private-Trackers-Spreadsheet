@@ -15,12 +15,13 @@ $(document).ready( function () {
             { data: 'Ratio' },
             { data: 'Ratio Diff' },
             { data: 'Points' },
+            { data: 'Birthdate' },
             { data: 'Join' },
             { data: 'Join Diff' },
             { data: 'Updated' },
         ],
         paging: false,
-        order: [[2, 'asc'], [0, 'asc']]
+        order: [[ 0, "asc" ]]
     };
     const table = $('#table').DataTable(options);
 } );
