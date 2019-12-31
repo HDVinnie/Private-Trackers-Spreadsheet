@@ -64,6 +64,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio 
 | ThePlace | TP | Self-help/PUA | TCG | `???` | 64,567 | `???` | Yes | Hard | No | `???` | Application/Invite | `???` | 12/30/19 |
 | TorrentLeech | TL | General | `???` | `???` | `???` | `???` | `???` | `???` | `???` | `???` | `???` | `???` | 12/29/19 |
 | ToTheGlory | TTG | General/Chinese | NexusPHP | `???` | 243,749 | 667,113 | Yes | Easy | Yes | 2/28/09 | Recruitment/Invite | `???` | 12/31/19 |
+| TranceTraffic | TT | Music | '???' | 8,537 | 25,435 | 94,099 | Yes | Medium | No | 07/19/2004 | Invite | `???` | 12/31/19 |
 | U2 | U2 | Anime | NexusPHP | 8,160 | 34,554 | 413,333 | Yes | Easy | Yes | `???` | Invite | `???` | 12/30/19 |
 | UHDBits | UHD | Movie/TV | Gazelle | 6,559 |  29,476 | 52,150 | Yes | `???` | Yes | 12/5/12 | Application/Invite | `???` | 12/29/19 |
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
