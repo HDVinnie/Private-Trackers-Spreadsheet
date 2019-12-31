@@ -12,6 +12,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio 
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 | 32pages | 32P | Comics | Gazelle | 5,163 | 45,544 | 280,094 | Yes | `???` | Yes | `???` | Recruitment/Application/Invite | `???` | 12/30/19 |
 | Aidoru!Online | `???` | Music/TV | Custom | 34,071 | 155,144 | `???` | Yes | Easy | No | `?`/`?`/17 | Open/Invite | Easy | 12/30/19 |
+| AlphaRatio | AR | General/Scene | Gazelle | 17,156 | 200,991 | 601,951 | Yes | Easy | Yes | '?'/'?'/14 | Open/Invite | Easy | 12/31/19 |
 | AnimeBytes | AB | Anime | Gazelle | 16,593 | 175,975 | 1,457,776 | Yes | Easy | Yes | `???` | Recruitment/Invite | `???` | 12/30/19 |
 | AnimeTorrents | ANT | Anime | XBTIT | 27,411 | 18,147 | 90,708 | Yes | `???` | Yes | `???` | Application/Invite | `???` | 12/29/19 |
 | Anthelion | `???` | Movie | Gazelle | 1,576 | 6,263 | 14,680 | Yes | Easy | Yes | `???` | Recruitment/Invite | Easy | 12/30/19 |
@@ -65,6 +66,7 @@ Name | Abbrevation | Type | Codebase | Users | Torrents | Peers | Ratio | Ratio 
 | TorrentLeech | TL | General | `???` | `???` | `???` | `???` | `???` | `???` | `???` | `???` | `???` | `???` | 12/29/19 |
 | ToTheGlory | TTG | General/Chinese | NexusPHP | `???` | 243,749 | 667,113 | Yes | Easy | Yes | 2/28/09 | Recruitment/Invite | `???` | 12/31/19 |
 | TranceTraffic | TT | Music | '???' | 8,537 | 25,435 | 94,099 | Yes | Medium | No | 07/19/2004 | Invite | `???` | 12/31/19 |
+| TV-Vault | TVV | TV | Gazelle | 10,491 | 47,138 | 161,555 | Yes | Medium | No | '???' | Invite | Medium | 12/31/19 |
 | U2 | U2 | Anime | NexusPHP | 8,160 | 34,554 | 413,333 | Yes | Easy | Yes | `???` | Invite | `???` | 12/30/19 |
 | UHDBits | UHD | Movie/TV | Gazelle | 6,559 |  29,476 | 52,150 | Yes | `???` | Yes | 12/5/12 | Application/Invite | `???` | 12/29/19 |
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
