@@ -2,7 +2,7 @@
 
 [Private Trackers Spreadsheet](https://hdvinnie.github.io/Private-Trackers-Spreadsheet/) - This comparative table of torrent trackers originates from discussions on [Reddit](https://www.reddit.com/r/trackers/comments/ehd7oy/new_private_trackers_spreadsheet/). 
 
-It is based on [GitHub Page](https://pages.github.com) and has the ability to sort and filter data through the use of [jQuery](https://jquery.com) and [DataTables](https://datatables.net)
+It is based on [GitHub Page](https://pages.github.com) and has the ability to sort and filter data through the use of [jQuery](https://jquery.com) and [DataTables](https://datatables.net).
 
 If you own a tracker and want to exclude it from this list, please contact us.
 
