@@ -24,7 +24,7 @@ Recommendations: [IntelliJ IDEA Community](https://www.jetbrains.com/idea/), [Vi
 
 * Make changes to the file `trackers.json`, for example:
 
-`{"Name": "32pages", "Abbreviation": "32P", "Type": "Comics", "Codebase": "Gazelle", "Users": "5,163", "Torrents": "45,544", "Peers": "280,094", "Ratio": "Yes", "Ratio Diff": "-", "Points": "Yes", "Birthdate": "-", "Join": "Application/Invite/Recruitment", "Join Diff": "-", "Updated": "12/30/19"},`
+`{"Name": "32pages", "Abbreviation": "32P", "Type": "Comics", "Codebase": "Gazelle", "Users": "5,163", "Torrents": "45,544", "Peers": "280,094", "Ratio": "Yes", "Ratio Diff": "-", "Points": "Yes", "Birthdate": "-", "Join": "Application, Invite, Recruitment", "Join Diff": "-", "Updated": "12-30-2019"}`
 
 * Commit the changes and push
 
@@ -34,9 +34,29 @@ Recommendations: [IntelliJ IDEA Community](https://www.jetbrains.com/idea/), [Vi
 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 
+You will get a notification email once the changes have been merged.
+
+* Synchronize your branch with this repository
+
+Add the url of my repository to the field `upstream <remote url>`:
+
+`git remote add upstream git@github.com:HDVinnie/Private-Trackers-Spreadsheet.git`
+
+Download the latest changes from my repository.
+
+`git fetch upstream`
+
+We are merging a new version of my repository with your master branch.
+
+`git rebase upstream/master`
+
+Pushing these changes to your GitHub repository.
+
+`git push origin master`
+
 * Profit
 
-You will get a notification email once the changes have been merged.
+Keep track of the project and make new issue, changes.
 
 ### Contacts
 
