@@ -24,7 +24,7 @@ Recommendations: [IntelliJ IDEA Community](https://www.jetbrains.com/idea/), [Vi
 
 * Make changes to the file `trackers.json`, for example:
 
-`{"Name": "32pages", "Abbreviation": "32P", "Type": "Comics", "Codebase": "Gazelle", "Users": "5,163", "Torrents": "45,544", "Peers": "280,094", "Ratio": "Yes", "Ratio Diff": "-", "Points": "Yes", "Birthdate": "-", "Join": "Application/Invite/Recruitment", "Join Diff": "-", "Updated": "12/30/19"},`
+`{"Name": "32pages", "Abbreviation": "32P", "Type": "Comics", "Codebase": "Gazelle", "Users": "5,163", "Torrents": "45,544", "Peers": "280,094", "Ratio": "Yes", "Ratio Diff": "-", "Points": "Yes", "Birthdate": "-", "Join": "Application, Invite, Recruitment", "Join Diff": "-", "Updated": "12-30-2019"}`
 
 * Commit the changes and push
 
@@ -40,7 +40,7 @@ You will get a notification email once the changes have been merged.
 
 Add the url of my repository to the field `upstream <remote url>`:
 
-`git remote add upstream git@github.com:nafanz/nafanz.github.io.git`
+`git remote add upstream git@github.com:HDVinnie/Private-Trackers-Spreadsheet.git`
 
 Download the latest changes from my repository.
 
