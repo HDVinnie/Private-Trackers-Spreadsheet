@@ -20,6 +20,26 @@ $(document).ready( function () {
             { data: 'Join Diff' },
             { data: 'Updated' },
         ],
+        columnDefs: [
+            {
+                targets: [8, 12],
+                render: function (data, type) {
+                    if (type === 'display') {
+                        if (data === 'Easy') {
+                            return '<span class="text-success">' + data + '</span>';
+                        }
+                        if (data === 'Medium') {
+                            return '<span class="text-warning">' + data + '</span>';
+                        }
+                        if (data === 'Hard') {
+                            return '<span class="text-danger">' + data + '</span>';
+                        }
+                        return data;
+                    }
+                    return data;
+                }
+            }
+        ],
         paging: false,
         responsive: true,
         order: [[ 0, "asc" ]]
