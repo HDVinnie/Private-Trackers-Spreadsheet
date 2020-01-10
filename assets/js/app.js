@@ -39,6 +39,7 @@ $(document).ready( function () {
         ],
         paging: false,
         responsive: true,
+        fixedHeader: true,
         order: [[ 0, "asc" ]]
     };
     const table = $('#table').DataTable(options);
