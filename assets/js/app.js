@@ -38,6 +38,9 @@ $(document).ready( function () {
                     if (data === 'Hard') {
                         return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #E64141;">' + data + '</span>';
                     }
+                    if (data === 'Impossible') {
+                        return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #720f0f;">' + data + '</span>';
+                    }
 
                     if (data === 'Yes') {
                         return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #50992a;">' + data + '</span>';
