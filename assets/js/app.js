@@ -14,7 +14,9 @@ $(document).ready( function () {
             { data: 'Peers' },
             { data: 'Ratio' },
             { data: 'Ratio Diff' },
+            { data: 'Freeleech' },
             { data: 'Points' },
+            { data: 'Hit & Run' },
             { data: 'Birthdate' },
             { data: 'Join' },
             { data: 'Join Diff' },
@@ -22,7 +24,7 @@ $(document).ready( function () {
         ],
         columnDefs: [
             {
-                targets: [8, 12],
+                targets: [8, 14],
                 render: function (data) {
                     if (data === 'Easy') {
                         return '<span class="text-success">' + data + '</span>';
