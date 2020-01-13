@@ -24,8 +24,7 @@ Recommendations: [IntelliJ IDEA Community](https://www.jetbrains.com/idea/), [Vi
 
 * Make changes to the file `trackers.json`, for example:
 
-`{"Name": "32pages", "Abbreviation": "32P", "Type": "Comics", "Codebase": "Gazelle", "Users": "5,163", "Torrents": "45,544", "Peers": "280,094", "Ratio": "Yes", "Ratio Diff": "-", "Points": "Yes", "Birthdate": "-", "Join": "Application, Invite, Recruitment", "Join Diff": "-", "Updated": "12-30-2019"}`
-
+`{"Name": "32pages", "Abbreviation": "32P", "Type": "Comics", "Codebase": "Gazelle", "Users": "5,163", "Torrents": "45,544", "Peers": "280,094", "Ratio": "Yes", "Ratio Diff": "-", "Freeleech": "-", "Points": "Yes", "Hit & Run": "-", "Birthdate": "-", "Join": "Application, Invite, Recruitment", "Join Diff": "-", "Updated": "12-30-2019"},`
 * Commit the changes and push
 
 `git commit -m "Add <name_tracker>"`
