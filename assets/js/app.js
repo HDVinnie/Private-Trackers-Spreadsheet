@@ -9,6 +9,7 @@ $(document).ready( function () {
             { data: 'Abbreviation' },
             { data: 'Type' },
             { data: 'Codebase' },
+            { data: 'Observatory Grade' },
             { data: 'Users' },
             { data: 'Torrents' },
             { data: 'Peers' },
@@ -24,7 +25,7 @@ $(document).ready( function () {
         ],
         columnDefs: [
             {
-                targets: [7, 8, 9, 10, 11, 14],
+                targets: [4, 8, 9, 10, 11, 12],
                 render: function (data) {
                     if (data === 'N/A') {
                         return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #9b9b9b;">' + data + '</span>';
@@ -47,6 +48,46 @@ $(document).ready( function () {
                     }
                     if (data === 'No') {
                         return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #a05262;">' + data + '</span>';
+                    }
+
+                    if (data === 'A +') {
+                        return '<span class="label label-success" style="background-color: rgba(26, 26, 26, 1);border: #0FB492 .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'A') {
+                        return '<span class="label label-success" style="background-color: rgba(26, 26, 26, 1);border: #0FB492 .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'A -') {
+                        return '<span class="label label-success" style="background-color: rgba(26, 26, 26, 1);border: #0FB492 .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'B +') {
+                        return '<span class="label label-primary" style="background-color: rgba(26, 26, 26, 1);border: #00AEC8 .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'B') {
+                        return '<span class="label label-primary" style="background-color: rgba(26, 26, 26, 1);border: #00AEC8 .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'B -') {
+                        return '<span class="label label-primary" style="background-color: rgba(26, 26, 26, 1);border: #00AEC8 .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'C +') {
+                        return '<span class="label label-warning" style="background-color: rgba(26, 26, 26, 1);border: #81519C .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'C') {
+                        return '<span class="label label-warning" style="background-color: rgba(26, 26, 26, 1);border: #81519C .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'C -') {
+                        return '<span class="label label-warning" style="background-color: rgba(26, 26, 26, 1);border: #81519C .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'D +') {
+                        return '<span class="label label-info" style="background-color: rgba(26, 26, 26, 1);border: #EE7E2A .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'D') {
+                        return '<span class="label label-info" style="background-color: rgba(26, 26, 26, 1);border: #EE7E2A .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'D -') {
+                        return '<span class="label label-info" style="background-color: rgba(26, 26, 26, 1);border: #EE7E2A .5px solid;color: #9b9b9b;">' + data + '</span>';
+                    }
+                    if (data === 'F') {
+                        return '<span class="label label-danger" style="background-color: rgba(26, 26, 26, 1);border: #E64141 .5px solid;color: #9b9b9b;">' + data + '</span>';
                     }
                     return data;
                 }
