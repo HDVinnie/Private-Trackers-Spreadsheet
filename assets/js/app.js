@@ -112,10 +112,15 @@ $(document).ready( function () {
                     };
 
                     const styles = styleMap[data] || {};
-                    const labelType = styles.labelType || 'default';
-                    const style = styles.style || '';
 
-                    return `<span class="label label-${labelType}" style="background-color: rgba(26, 26, 26, 1); ${style}"> ${data} </span>`; 
+                    if (styles){
+                        const labelType = styles.labelType || 'default';
+                        const style = styles.style || '';
+
+                        return `<span class="label label-${labelType}" style="background-color: rgba(26, 26, 26, 1); ${style}"> ${data} </span>`; 
+                    }
+
+                    return data;
                 }
             }
         ],
