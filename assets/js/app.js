@@ -111,7 +111,7 @@ $(document).ready( function () {
                         }
                     };
 
-                    const styles = styleMap[data] || {};
+                    const styles = styleMap[data];
 
                     if (styles){
                         const labelType = styles.labelType || 'default';
