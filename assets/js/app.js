@@ -83,31 +83,31 @@ $(document).ready( function () {
                         },
                         'C +': {
                             labelType: 'warning',
-                            style: 'border: #81519C .5px solid;color: #9b9b9b;'
+                            style: 'border: #81519C .5px solid; color: #9b9b9b;'
                         },
                         'C': {
                             labelType: 'warning',
-                            style: 'border: #81519C .5px solid;color: #9b9b9b;'
+                            style: 'border: #81519C .5px solid; color: #9b9b9b;'
                         },
                         'C -': {
                             labelType: 'warning',
-                            style: 'border: #81519C .5px solid;color: #9b9b9b;'
+                            style: 'border: #81519C .5px solid; color: #9b9b9b;'
                         },
                         'D +': {
                             labelType: 'info',
-                            style: 'border: #EE7E2A .5px solid;color: #9b9b9b;'
+                            style: 'border: #EE7E2A .5px solid; color: #9b9b9b;'
                         },
                         'D': {
                             labelType: 'info',
-                            style: 'border: #EE7E2A .5px solid;color: #9b9b9b;'
+                            style: 'border: #EE7E2A .5px solid; color: #9b9b9b;'
                         },
                         'D -': {
                             labelType: 'info',
-                            style: 'border: #EE7E2A .5px solid;color: #9b9b9b;'
+                            style: 'border: #EE7E2A .5px solid; color: #9b9b9b;'
                         },
                         'F': {
                             labelType: 'danger',
-                            style: 'border: #E64141 .5px solid;color: #9b9b9b;'
+                            style: 'border: #E64141 .5px solid; color: #9b9b9b;'
                         }
                     };
 
