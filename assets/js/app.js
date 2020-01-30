@@ -27,69 +27,95 @@ $(document).ready( function () {
             {
                 targets: [4, 8, 9, 10, 11, 12],
                 render: function (data) {
-                    if (data === 'N/A') {
-                        return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'Easy') {
-                        return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #0FB492;">' + data + '</span>';
-                    }
-                    if (data === 'Medium') {
-                        return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #EE7E2A;">' + data + '</span>';
-                    }
-                    if (data === 'Hard') {
-                        return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #E64141;">' + data + '</span>';
-                    }
-                    if (data === 'Impossible') {
-                        return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #720f0f;">' + data + '</span>';
-                    }
 
-                    if (data === 'Yes') {
-                        return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #50992a;">' + data + '</span>';
-                    }
-                    if (data === 'No') {
-                        return '<span class="label label-default" style="background-color: rgba(26, 26, 26, 1); color: #a05262;">' + data + '</span>';
-                    }
+                    const styleMap = {
+                        'N/A': {
+                            labelType: 'default',
+                            style: 'color: #9b9b9b;'
+                        },
+                        'Easy': {
+                            labelType: 'default',
+                            style: 'color: #0FB492;'
+                        },
+                        'Medium': {
+                            labelType: 'default',
+                            style: 'color: #EE7E2A;'
+                        },
+                        'Hard': {
+                            labelType: 'default',
+                            style: 'color: #E64141;'
+                        },
+                        'Impossible': {
+                            labelType: 'default',
+                            style: 'color: #720f0f;'
+                        },
+                        'Yes': {
+                            labelType: 'default',
+                            style: 'color: #50992a;'
+                        },
+                        'No': {
+                            labelType: 'default',
+                            style: 'color: #a05262;'
+                        },
+                        'A +': {
+                            labelType: 'success',
+                            style: 'border: #0FB492 .5px solid; color: #9b9b9b;'
+                        },
+                        'A': {
+                            labelType: 'success',
+                            style: 'border: #0FB492 .5px solid; color: #9b9b9b;'
+                        },
+                        'A -': {
+                            labelType: 'success',
+                            style: 'border: #0FB492 .5px solid; color: #9b9b9b;'
+                        },
+                        'B +': {
+                            labelType: 'primary',
+                            style: 'border: #00AEC8 .5px solid; color: #9b9b9b;'
+                        },
+                        'B': {
+                            labelType: 'primary',
+                            style: 'border: #00AEC8 .5px solid; color: #9b9b9b;'
+                        },
+                        'B -': {
+                            labelType: 'primary',
+                            style: 'border: #00AEC8 .5px solid; color: #9b9b9b;'
+                        },
+                        'C +': {
+                            labelType: 'warning',
+                            style: 'border: #81519C .5px solid;color: #9b9b9b;'
+                        },
+                        'C': {
+                            labelType: 'warning',
+                            style: 'border: #81519C .5px solid;color: #9b9b9b;'
+                        },
+                        'C -': {
+                            labelType: 'warning',
+                            style: 'border: #81519C .5px solid;color: #9b9b9b;'
+                        },
+                        'D +': {
+                            labelType: 'info',
+                            style: 'border: #EE7E2A .5px solid;color: #9b9b9b;'
+                        },
+                        'D': {
+                            labelType: 'info',
+                            style: 'border: #EE7E2A .5px solid;color: #9b9b9b;'
+                        },
+                        'D -': {
+                            labelType: 'info',
+                            style: 'border: #EE7E2A .5px solid;color: #9b9b9b;'
+                        },
+                        'F': {
+                            labelType: 'danger',
+                            style: 'border: #E64141 .5px solid;color: #9b9b9b;'
+                        }
+                    };
 
-                    if (data === 'A +') {
-                        return '<span class="label label-success" style="background-color: rgba(26, 26, 26, 1);border: #0FB492 .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'A') {
-                        return '<span class="label label-success" style="background-color: rgba(26, 26, 26, 1);border: #0FB492 .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'A -') {
-                        return '<span class="label label-success" style="background-color: rgba(26, 26, 26, 1);border: #0FB492 .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'B +') {
-                        return '<span class="label label-primary" style="background-color: rgba(26, 26, 26, 1);border: #00AEC8 .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'B') {
-                        return '<span class="label label-primary" style="background-color: rgba(26, 26, 26, 1);border: #00AEC8 .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'B -') {
-                        return '<span class="label label-primary" style="background-color: rgba(26, 26, 26, 1);border: #00AEC8 .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'C +') {
-                        return '<span class="label label-warning" style="background-color: rgba(26, 26, 26, 1);border: #81519C .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'C') {
-                        return '<span class="label label-warning" style="background-color: rgba(26, 26, 26, 1);border: #81519C .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'C -') {
-                        return '<span class="label label-warning" style="background-color: rgba(26, 26, 26, 1);border: #81519C .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'D +') {
-                        return '<span class="label label-info" style="background-color: rgba(26, 26, 26, 1);border: #EE7E2A .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'D') {
-                        return '<span class="label label-info" style="background-color: rgba(26, 26, 26, 1);border: #EE7E2A .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'D -') {
-                        return '<span class="label label-info" style="background-color: rgba(26, 26, 26, 1);border: #EE7E2A .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    if (data === 'F') {
-                        return '<span class="label label-danger" style="background-color: rgba(26, 26, 26, 1);border: #E64141 .5px solid;color: #9b9b9b;">' + data + '</span>';
-                    }
-                    return data;
+                    const styles = styleMap[data] || {};
+                    const labelType = styles.labelType || 'default';
+                    const style = styles.style || '';
+
+                    return `<span class="label label-${labelType}" style="background-color: rgba(26, 26, 26, 1); ${style}"> ${data} </span>`; 
                 }
             }
         ],
