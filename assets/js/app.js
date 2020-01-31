@@ -25,7 +25,7 @@ $(document).ready( function () {
         ],
         columnDefs: [
             {
-                targets: [4, 8, 9, 10, 11, 12],
+                targets: [4, 8, 9, 10, 11, 12, 15],
                 render: function (data) {
 
                     const styleMap = {
