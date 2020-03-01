@@ -129,4 +129,22 @@ $(document).ready( function () {
         order: [[ 0, "asc" ]]
     };
     const table = $('#table').DataTable(options);
+
+
+    const options2 = {
+        ajax: {
+            url: './trackers2.json',
+            dataSrc: 'trackers'
+        },
+        columns: [
+            { data: 'name' },
+            { data: 'description' },
+            { data: 'type' },
+        ],
+        paging: false,
+        responsive: true,
+        fixedHeader: true,
+        order: [[ 0, "asc" ]]
+    };
+    const table2 = $('#table2').DataTable(options2);
 } );

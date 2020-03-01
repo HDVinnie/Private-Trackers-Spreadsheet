@@ -1,0 +1,23 @@
+{
+  "name": "private-trackers-spreadsheet",
+  "version": "1.0.0",
+  "description": "[Private Trackers Spreadsheet](https://hdvinnie.github.io/Private-Trackers-Spreadsheet/) - This comparative table of torrent trackers originates from discussions on [Reddit](https://www.reddit.com/r/trackers/comments/ehd7oy/new_private_trackers_spreadsheet/).",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "js-yaml": "^3.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/werrpy/Private-Trackers-Spreadsheet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/werrpy/Private-Trackers-Spreadsheet/issues"
+  },
+  "homepage": "https://github.com/werrpy/Private-Trackers-Spreadsheet#readme"
+}

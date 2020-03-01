@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/code,intellij+all
 # Edit at https://www.gitignore.io/?templates=code,intellij+all
 
@@ -96,3 +95,4 @@ modules.xml
 .idea/sonarlint
 
 # End of https://www.gitignore.io/api/code,intellij+all
+node_modules/
