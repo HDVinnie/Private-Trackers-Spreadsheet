@@ -85,12 +85,12 @@ fs.readdir(directoryPath, function (err, files) {
                     const lines = res[0].match(/[^\r\n]+/g);
 
                     for (const line of lines) {
-                        const name = line.match(/.*name\:\s\"([\w\s\.\-]+)\"/i)
+                        const name = line.match(/.*name\:\s\"([\w\s\.\-\()]+)\"/i)
                         if (name) {
                             tracker.name = name[1]
                         }
                         else {
-                            let name2 = line.match(/.*base\(\"([\w\s\.\-]+)\"/i)
+                            let name2 = line.match(/.*base\(\"([\w\s\.\-\()]+)\"/i)
                             if (name2) {
                                 tracker.name = name2[1]
                             }
