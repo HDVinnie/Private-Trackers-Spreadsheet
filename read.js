@@ -1,3 +1,61 @@
+// list of trackers to ignore from Jackett
+const jackettIgnoreList = [
+    'AlphaRatio',
+    'AnimeBytes',
+    'AnimeTorrents',
+    'Anthelion',
+    'AsianCinema',
+    'AvistaZ',
+    'Awesome-HD',
+    'BakaBT',
+    'Beyond-HD',
+    'Beyond-HD (OneURL)',
+    'Blutopia',
+    'BroadcastTheNet',
+    'BrokenStones',
+    'CGPeers',
+    'DesiTorrents',
+    'DXDHD',
+    'Empornium',
+    'ExoticaZ',
+    'Femdomcult',
+    'GazelleGames',
+    'HD-Space',
+    'HDBits',
+    'HDBits (API)',
+    'HDChina',
+    'IPTorrents',
+    'JPopsuki',
+    'LegacyHD',
+    'MoreThanTV',
+    'MyAnonamouse',
+    'MySpleen',
+    'Nebulance',
+    'notwhat.cd',
+    'Orpheus',
+    'PassThePopcorn',
+    'PirateTheNet',
+    'PixelCove',
+    'Pornbay',
+    'PrivateHD',
+    'Psytorrents',
+    'PTFiles',
+    'Racing4Everyone (R4E)',
+    'RacingForMe',
+    'Redacted',
+    'SceneTime',
+    'Secret Cinema',
+    'ShareUniversity',
+    'SportsCult',
+    'Superbits',
+    'The Geeks',
+    'The Place',
+    'TorrentBD',
+    'TorrentLeech',
+    'TV-Vault',
+    'XWtorrents'
+]
+
 const path = require('path');
 const fs = require('fs');
 const yaml = require('js-yaml');
@@ -123,6 +181,8 @@ fs.readdir(directoryPath, function (err, files) {
                 // 
             }
         });
+
+        trackers.trackers = trackers.trackers.filter((t) => !jackettIgnoreList.includes(t.name))
 
         //console.log(trackers_found)
         /*for (const t of trackers_found) {
