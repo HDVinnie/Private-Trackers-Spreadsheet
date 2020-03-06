@@ -67,6 +67,93 @@ const directoryPath = path.join(__dirname, 'Jackett/src/Jackett.Common/Definitio
 let trackers = {};
 trackers.trackers = []
 
+const categoriesPath = path.join(__dirname, 'Jackett/src/Jackett.Common/Models/TorznabCatType.generated.cs');
+
+try {
+    const fileContents = fs.readFileSync(path.join(categoriesPath, file), 'utf8');
+    // SubCategories
+} catch (err) {
+    // 
+}
+
+// clean up duplicate types
+// see Jackett/src/Jackett.Common/Models/TorznabCatType.generated.cs
+function cleanType(type) {
+    let types = new Map([
+        ['AudioAudiobook', 'Audiobooks'],
+        ['AudioForeign', 'Audio'],
+        ['AudioLossless', 'Audio'],
+        ['AudioMP3', 'Audio'],
+        ['AudioOther', 'Audio'],
+        ['AudioVideo', 'Audio'],
+        ['BooksComics', 'Comics'],
+        ['BooksEbook', 'eBooks'],
+        ['BooksForeign', 'Books']
+        ['BooksMagazines', 'Magazines'],
+        ['BooksOther', 'Books'],
+        ['BooksTechnical', 'Technical Books'],
+        ['Console3DS', 'Console'],
+        ['ConsoleNDS', 'Console'],
+        ['ConsoleOther', 'Console'],
+        ['ConsolePS3', 'Console'],
+        ['ConsolePS4', 'Console'],
+        ['ConsolePSP', 'Console'],
+        ['ConsolePSVita', 'Console'],
+        ['ConsoleWii', 'Console'],
+        ['ConsoleWiiU', 'Console'],
+        ['ConsoleWiiwareVC', 'Console'],
+        ['ConsoleXbox', 'Console'],
+        ['ConsoleXbox360', 'Console'],
+        ['ConsoleXBOX360DLC', 'Console'],
+        ['ConsoleXboxOne', 'Console'],
+        ['Movies3D', 'Movies'],
+        ['MoviesBluRay', 'Movies'],
+        ['MoviesDVD', 'Movies'],
+        ['MoviesForeign', 'Movies'],
+        ['MoviesHD', 'Movies'],
+        ['MoviesOther', 'Movies'],
+        ['MoviesSD', 'Movies'],
+        ['MoviesUHD', 'Movies'],
+        ['MoviesWEBDL', 'Movies'],
+        ['Other', 'General'],
+        ['OtherHashed', 'General'],
+        ['OtherMisc', 'General'],
+        ['PC0day', 'PC'],
+        ['PCGames', 'Games'],
+        ['PCISO', 'PC'],
+        ['PCMac', 'Mac Software'],
+        ['PCPhoneAndroid', 'Android'],
+        ['PCPhoneIOS', 'iOS'],
+        ['PCPhoneOther', 'Phone'],
+        ['TVAnime', 'Anime'],
+        ['TVDocumentary', 'TV'],
+        ['TVFOREIGN', 'TV'],
+        ['TVHD', 'TV'],
+        ['TVOTHER', 'TV'],
+        ['TVSD', 'TV'],
+        ['TVSport', 'Sports'],
+        ['TVUHD', 'TV'],
+        ['TVWEBDL', 'TV'],
+        ['XXXDVD', 'XXX'],
+        ['XXXImageset', 'XXX'],
+        ['XXXOther', 'XXX'],
+        ['XXXPacks', 'XXX'],
+        ['XXXWMV', 'XXX'],
+        ['XXXx264', 'XXX'],
+        ['XXXXviD', 'XXX'],
+    ])
+
+    return types.get(type) || type
+}
+
+function cleanTypeDefinition(type) {
+    let types = new Map([
+        ['Other', 'General'],
+    ])
+
+    return types.get(type) || type
+}
+
 fs.readdir(directoryPath, function (err, files) {
     // handling error
     if (err) {
@@ -91,21 +178,21 @@ fs.readdir(directoryPath, function (err, files) {
                 
                 if (data.caps && data.caps.categorymappings) {
                     data.caps.categorymappings.forEach(function(category) {
-                        type.push(category.cat.split("/")[0])
+                        type.push(cleanTypeDefinition(category.cat.split("/")[0]))
                     })
                     // remove duplicates
                     type = Array.from(new Set(type))
                     tracker.type = type.join(", ")
                 } else if (data.caps.categories) {
                     data.caps.categorymappings.forEach(function(category) {
-                        console.log(category)
-                        type.push(category.cat.split("/")[0])
+                        //console.log(category)
+                        type.push(cleanTypeDefinition(category.cat.split("/")[0]))
                     })
                     console.log(type)
                     // remove duplicates
                     type = Array.from(new Set(type))
                     tracker.type = type.join(", ")
-                    console.log(tracker.type)
+                    //console.log(tracker.type)
                 }
                 //console.log(tracker)
                 trackers.trackers.push(tracker)
@@ -164,7 +251,7 @@ fs.readdir(directoryPath, function (err, files) {
                         if (line.includes("AddCategoryMapping")) {
                             const category = line.match(/TorznabCatType\.([^,]+),/i)
                             if (category) {
-                                type.push(category[1])
+                                type.push(cleanType(category[1]))
                             }
                         }
                     }
