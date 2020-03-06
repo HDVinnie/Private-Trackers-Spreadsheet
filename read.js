@@ -5,7 +5,7 @@ const jackettIgnoreList = [
     'AnimeTorrents',
     'Anthelion',
     'AsianCinema',
-    'AvistaZ',
+    'Avistaz',
     'Awesome-HD',
     'BakaBT',
     'Beyond-HD',
