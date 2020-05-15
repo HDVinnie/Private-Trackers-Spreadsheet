@@ -29,7 +29,9 @@ Recommendations: [IntelliJ IDEA Community](https://www.jetbrains.com/idea/), [Vi
 `
 * Commit the changes and push
 
-`git commit -m "Add <name_tracker>"`
+`git commit -m "Add <name tracker>"`
+
+`git push`
 
 * Submit your changes for review
 
