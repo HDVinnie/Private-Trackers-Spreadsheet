@@ -61,6 +61,14 @@ Pushing these changes to your GitHub repository.
 
 Keep track of the project and make new issue, changes.
 
+### Update from Jackett
+
+This will read Jackett's tracker definitions from `Jackett/src/Jackett.Common/Definitions` and update `trackers2.json`
+
+```
+node read.js
+```
+
 ### Contacts
 
 Email `hdinnovations@protonmail.com` or Reddit `u/-HDVinnie-`

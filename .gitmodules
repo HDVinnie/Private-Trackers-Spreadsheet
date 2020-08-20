@@ -1,0 +1,3 @@
+[submodule "Jackett"]
+	path = Jackett
+	url = https://github.com/Jackett/Jackett.git
