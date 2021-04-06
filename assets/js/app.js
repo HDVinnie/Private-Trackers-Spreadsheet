@@ -143,6 +143,10 @@ $(document).ready( function () {
             {
                 targets: [1, 3, 4, 8, 9, 10, 11, 12, 13, 14, 15],
                 type: namesType
+            },
+            {
+                targets: [1, 3, 4, 8, 9, 10, 11, 12, 13, 15, 16],
+                className: 'dt-center'
             }
         ],
         paging: false,
