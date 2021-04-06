@@ -1,4 +1,13 @@
 $(document).ready( function () {
+    // Push empty '-' cells to bottom when sorting
+    const namesType = $.fn.dataTable.absoluteOrder( [
+        { value: '-', position: 'bottom' }
+    ] );
+
+    const numbersType = $.fn.dataTable.absoluteOrderNumber( [
+        { value: '-', position: 'bottom' }
+    ] );
+
     const options = {
         ajax: {
             url: './trackers.json',
@@ -116,11 +125,24 @@ $(document).ready( function () {
                     if (styles){
                         const labelType = styles.labelType || 'default';
                         const style = styles.style || '';
-                        return `<span class="label label-${labelType}" style="background-color: rgba(26, 26, 26, 1); ${style}"> ${data} </span>`; 
+                        return `<span class="label label-${labelType}" style="background-color: rgba(26, 26, 26, 1); ${style}"> ${data} </span>`;
                     }
 
                     return data;
                 }
+            },
+            {
+                // Sort by descending first for Users, Torrents, Peers and Updated
+                targets: [5, 6, 7, 16],
+                orderSequence: [ "desc", "asc" ]
+            },
+            {
+                targets: [5, 6, 7],
+                type: numbersType
+            },
+            {
+                targets: [1, 3, 4, 8, 9, 10, 11, 12, 13, 14, 15],
+                type: namesType
             }
         ],
         paging: false,
