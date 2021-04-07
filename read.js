@@ -19,11 +19,17 @@ mainJson.trackers.forEach(function(obj) {
 
 const customIgnore = [
     'beyond-hd (oneurl)',
+    'efecto doppler',
+    'empornium2fa',
     'hdbits (api)',
+    'insane tracker',
+    'm-team - tp',
+    'mteamtp2fa',
     'racing4everyone (r4e)',
     'the geeks',
     'the place',
-    'xwtorrents'
+    'totheglorycookie',
+    'xwtorrents',
 ]
 
 const jackettIgnoreList = mainIgnore.concat(customIgnore);

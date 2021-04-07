@@ -58,7 +58,7 @@
         {
             "name": "Across The Tasman",
             "description": "ATT is a torrent site for Rugby and other sports played in Australia",
-            "type": ""
+            "type": "Sports"
         },
         {
             "name": "Aftershock",
@@ -98,7 +98,7 @@
         {
             "name": "Aussierul.es",
             "description": "Aussierul.es is a torrent site for Aussie Rules Football played in Australia",
-            "type": ""
+            "type": "Sports"
         },
         {
             "name": "Back-ups",
@@ -106,9 +106,9 @@
             "type": "Console, TV, PC, Movies, Audio, Books"
         },
         {
-            "name": "bB",
-            "description": "bB is a Private Torrent Tracker for 0DAY / GENERAL",
-            "type": ""
+            "name": "BaconBits",
+            "description": "BaconBits (bB) is a Private Torrent Tracker for 0DAY / GENERAL",
+            "type": "Audio, PC, Books, Audiobooks, Movies, TV, Games, Console"
         },
         {
             "name": "BeiTai",
@@ -152,7 +152,7 @@
         },
         {
             "name": "BiTTuRK",
-            "description": "BiTTuRK is a Turkish Private Torrent Tracker for HD MOVIES / TV / GENERAL. This Indexer is for English only.",
+            "description": "BiTTuRK is a Turkish Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "type": "Movies, XXX, TV, Audio, Console, PC, General, Books"
         },
         {
@@ -178,7 +178,7 @@
         {
             "name": "BrasilTracker",
             "description": "BrasilTracker is a BRAZILIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-            "type": ""
+            "type": "Movies, TV, General"
         },
         {
             "name": "BroadCity",
@@ -248,7 +248,7 @@
         {
             "name": "CinemaZ",
             "description": "Part of the Avistaz network.",
-            "type": ""
+            "type": "Movies"
         },
         {
             "name": "Classix",
@@ -341,19 +341,9 @@
             "type": "Audio, Books"
         },
         {
-            "name": "Efecto Doppler",
-            "description": "Efecto Doppler is a SPANISH Private Torrent Tracker for MUSIC",
-            "type": ""
-        },
-        {
             "name": "Elite-Tracker",
             "description": "French Torrent Tracker",
             "type": "Anime, PC, Android, iOS, Mac Software, TV, Books, Movies, Console, Games, Audio, Sports, XXX"
-        },
-        {
-            "name": "Empornium2FA",
-            "description": "this indexer uses a cookie login for Empornium for those that want to use 2FA",
-            "type": "XXX"
         },
         {
             "name": "eStone",
@@ -506,11 +496,6 @@
             "type": "Movies, TV, Audio, XXX"
         },
         {
-            "name": "HD-Torrents",
-            "description": "HD-Torrents is a private torrent website with HD torrents and strict rules on their content.",
-            "type": "Movies, Audio, TV, XXX"
-        },
-        {
             "name": "HD4FANS",
             "description": "HD4FANS is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, General"
@@ -626,11 +611,6 @@
             "type": "Movies, TV, Audio, PC, XXX, Console, General"
         },
         {
-            "name": "Insane Tracker",
-            "description": "Insane Tracker is a HUNGARIAN Private Torrent Tracker for 0DAY / GENERAL",
-            "type": "TV, Movies, Books, Audio, XXX, PC, Console, General"
-        },
-        {
             "name": "Karagarga",
             "description": "Karagarga tracks non-hollywood, rare and obscure movies, music and literature.",
             "type": "Movies, Audio, Books"
@@ -678,12 +658,7 @@
         {
             "name": "LosslessClub",
             "description": "LosslessClub is a Romanian Private site for High Quality Music",
-            "type": ""
-        },
-        {
-            "name": "M-Team - TP",
-            "description": "M-Team TP (MTTP) is a CHINESE Private Torrent Tracker for HD MOVIES / TV / XXX",
-            "type": "Movies, TV, PC, Books, General, Audio, XXX"
+            "type": "Audio"
         },
         {
             "name": "MaDs Revolution",
@@ -723,12 +698,7 @@
         {
             "name": "Mononoké-BT",
             "description": "Mononoke-BT is a FRENCH Private Torrent Tracker for ANIME",
-            "type": ""
-        },
-        {
-            "name": "MTeamTP2FA",
-            "description": "this indexer uses a cookie login for MTeamTP for those that want to use 2FA",
-            "type": "Movies, TV, PC, Books, General, Audio, XXX"
+            "type": "Anime"
         },
         {
             "name": "MuziekFabriek",
@@ -754,6 +724,11 @@
             "name": "NetLab",
             "description": "NetLab is a RUSSIAN Private Torrent Tracker",
             "type": "Movies, Audio, PC, TV, Books, General"
+        },
+        {
+            "name": "New Real World",
+            "description": "A German general tracker.",
+            "type": "General"
         },
         {
             "name": "NorBits",
@@ -803,7 +778,7 @@
         {
             "name": "PiXELHD",
             "description": "PixelHD (PxHD) is a Private Torrent Tracker for HD .MP4 MOVIES / TV",
-            "type": ""
+            "type": "Movies, TV"
         },
         {
             "name": "PleasureDome",
@@ -813,7 +788,7 @@
         {
             "name": "Pornbits",
             "description": "Pornbits (PB) is a Private Torrent Tracker for 3X",
-            "type": ""
+            "type": "XXX"
         },
         {
             "name": "Portugas",
@@ -893,12 +868,12 @@
         {
             "name": "RevolutionTT",
             "description": "The Revolution has begun",
-            "type": ""
+            "type": "PC, Movies, TV, XXX, Audio, General, Console, Books"
         },
         {
             "name": "Romanian Metal Torrents",
-            "description": "Romanian Metal Torrents (RMT) is a Private site dedicated to METAL MUSIC. This definition is for the English site.",
-            "type": ""
+            "description": "Romanian Metal Torrents (RMT) is a Private site dedicated to METAL MUSIC",
+            "type": "Audio"
         },
         {
             "name": "RPTorrents",
@@ -937,13 +912,13 @@
         },
         {
             "name": "Shazbat",
-            "description": "Modern indexer",
-            "type": ""
+            "description": "One of the oldest TV trackers",
+            "type": "TV"
         },
         {
             "name": "Shellife",
             "description": "Shellife (SL) is a Private Torrent Tracker for NON MAINSTREAM MUSIC",
-            "type": ""
+            "type": "Audio"
         },
         {
             "name": "SiamBIT",
@@ -1034,11 +1009,6 @@
             "name": "The Falling Angels",
             "description": "The Falling Angels (TFA) is a German Private site for TV / MOVIES / GENERAL",
             "type": "PC, Console, Movies, TV, Audio, Books, General, XXX"
-        },
-        {
-            "name": "The Horror Charnel",
-            "description": "The Horror Charnel (THC) is a Private Torrent Tracker for HORROR / CULT / SLEAZE / SCI FI MOVIES",
-            "type": "PC, Books, Audio, General, Movies, TV"
         },
         {
             "name": "The New Retro",
@@ -1143,7 +1113,7 @@
         {
             "name": "Torrentech",
             "description": "Torrentech (TTH) is a Private Torrent Tracker for ELECTRONIC MUSIC",
-            "type": ""
+            "type": "Audio"
         },
         {
             "name": "TorrentFactory",
@@ -1181,11 +1151,6 @@
             "type": "TV, Movies, Audio, Books, PC"
         },
         {
-            "name": "ToTheGloryCookie",
-            "description": "this is an alternate to the ToTheGlory indexer using the cookie method for access",
-            "type": ""
-        },
-        {
             "name": "Trackeros",
             "description": "Trackeros is a Private SPANISH Tracker for HD MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, Console, PC, General"
@@ -1193,7 +1158,7 @@
         {
             "name": "TranceTraffic",
             "description": "TranceTraffic is a Private site for MUSIC",
-            "type": ""
+            "type": "Audio"
         },
         {
             "name": "Trezzor",
@@ -1218,7 +1183,7 @@
         {
             "name": "TV Store",
             "description": "TV Store is a HUNGARIAN Private Torrent Tracker for TV",
-            "type": ""
+            "type": "TV"
         },
         {
             "name": "TVChaosUK",
@@ -1269,6 +1234,11 @@
             "name": "World-In-HD",
             "description": "Your world in HD",
             "type": "Movies, TV, PC, Audio"
+        },
+        {
+            "name": "world-of-tomorrow",
+            "description": "world-of-tomorrow is a Private GERMAN tracker",
+            "type": "Movies, TV, PC, Console, Audio, XXX, Books, General"
         },
         {
             "name": "x-ite.me",
