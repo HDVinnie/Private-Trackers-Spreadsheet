@@ -926,11 +926,6 @@
             "type": "General, PC, TV, Audio, Movies, Books, XXX"
         },
         {
-            "name": "SnowPT",
-            "description": "SnowPT (SSPT) is a CHINESE Private Torrent Tracker for ANIME",
-            "type": "TV"
-        },
-        {
             "name": "SoulVoice",
             "description": "SoulVoice is a CHINESE Private Torrent Tracker for Movies, TV, and e-Learning",
             "type": "General, Movies, TV, Audio"

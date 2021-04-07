@@ -26,6 +26,7 @@ const customIgnore = [
     'm-team - tp',
     'mteamtp2fa',
     'racing4everyone (r4e)',
+    'snowpt',
     'the geeks',
     'the place',
     'totheglorycookie',
