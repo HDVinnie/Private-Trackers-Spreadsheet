@@ -23,6 +23,7 @@ const customIgnore = [
     'empornium2fa',
     'hdbits (api)',
     'insane tracker',
+    'jptv',
     'm-team - tp',
     'mteamtp2fa',
     'racing4everyone (r4e)',

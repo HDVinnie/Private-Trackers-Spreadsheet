@@ -25,7 +25,7 @@ Recommendations: [IntelliJ IDEA Community](https://www.jetbrains.com/idea/), [Vi
 * Make changes to the file `trackers.json`, for example:
 
 `
-{"Name": "32pages", "Abbreviation": "32P", "Type": "Comics", "Codebase": "Gazelle", "Observatory Grade": "B", "Users": "5,163", "Torrents": "45,544", "Peers": "280,094", "Ratio": "No", "Ratio Diff": "N/A", "Freeleech": "Yes", "Points": "Yes", "Hit & Run": "No", "Birthdate": "2010", "Join": "Application, Invite, Recruitment", "Join Diff": "-", "Updated": "01-30-2020"},
+{"Name": "32pages", "Abbreviation": "32P", "Type": "Comics", "Codebase": "Gazelle", "Observatory Grade": "B", "Users": "5,163", "Torrents": "45,544", "Peers": "280,094", "Ratio": "No", "Ratio Diff": "-", "Freeleech": "Yes", "Points": "Yes", "Hit & Run": "No", "Birthdate": "2010", "Join": "Application, Invite, Recruitment", "Join Diff": "-", "Updated": "2021-04-25"},
 `
 * Commit the changes and push
 
@@ -43,7 +43,7 @@ You will get a notification email once the changes have been merged.
 
 Add the url of my repository to the field `upstream <remote url>`:
 
-`git remote add upstream git@github.com:HDVinnie/Private-Trackers-Spreadsheet.git`
+`git remote add upstream https://github.com/HDVinnie/Private-Trackers-Spreadsheet.git`
 
 Download the latest changes from my repository.
 
