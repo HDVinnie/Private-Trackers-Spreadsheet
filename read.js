@@ -22,6 +22,7 @@ const customIgnore = [
     'efecto doppler',
     'empornium2fa',
     'hdbits (api)',
+    'hon3y hd',
     'insane tracker',
     'jptv',
     'm-team - tp',
@@ -30,6 +31,7 @@ const customIgnore = [
     'snowpt',
     'the geeks',
     'the place',
+    'the vault',
     'totheglorycookie',
     'xwtorrents',
 ]

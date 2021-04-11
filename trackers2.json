@@ -586,11 +586,6 @@
             "type": "Movies, TV, Audio, PC, Console, Books"
         },
         {
-            "name": "Hon3y HD",
-            "description": "Hon3yHD is an INDIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-            "type": "Movies, TV, Books, PC, Audio, General"
-        },
-        {
             "name": "HQSource",
             "description": "HQSource (HQS) is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, General, PC, XXX"
@@ -609,11 +604,6 @@
             "name": "Immortuos",
             "description": "Immortuos is a GERMAN Private Tracker for MOVIES / TV",
             "type": "Movies, TV, Audio, PC, XXX, Console, General"
-        },
-        {
-            "name": "Karagarga",
-            "description": "Karagarga tracks non-hollywood, rare and obscure movies, music and literature.",
-            "type": "Movies, Audio, Books"
         },
         {
             "name": "LastFiles",
@@ -966,11 +956,6 @@
             "type": "PC, Console, Movies, TV, Audio, Books, General"
         },
         {
-            "name": "Tasmanit",
-            "description": "Tasmanit.es is a AUSTRALIAN / NEW ZEALAND Private Torrent Tracker for AUS / NZ TV",
-            "type": "TV"
-        },
-        {
             "name": "TeamHD",
             "description": "TeamHD is a RUSSIAN Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
@@ -1023,11 +1008,6 @@
         {
             "name": "The Show",
             "description": "Entertainment E-Learning",
-            "type": "General"
-        },
-        {
-            "name": "The Vault",
-            "description": "Business/Marketing E-Learning",
             "type": "General"
         },
         {
@@ -1099,11 +1079,6 @@
             "name": "TorrentCCF",
             "description": "TorrentCCF (TCCF) is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, PC, Audio, General, Books"
-        },
-        {
-            "name": "TorrentDay",
-            "description": "TorrentDay (TD) is a Private site for TV / MOVIES / GENERAL",
-            "type": "Anime, PC, Audiobooks, Books, TV, General, Mac Software, Movies, Audio, Games, Console, XXX"
         },
         {
             "name": "Torrentech",
