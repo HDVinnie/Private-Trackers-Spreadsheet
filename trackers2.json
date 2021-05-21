@@ -476,11 +476,6 @@
             "type": "Audio, Movies, TV, PC, XXX"
         },
         {
-            "name": "HD-Forever",
-            "description": "HD-Forever (HD-F) is a FRENCH Private Torrent Tracker for HD MOVIES",
-            "type": "Movies, TV"
-        },
-        {
             "name": "HD-Olimpo",
             "description": "HD-Olimpo is a SPANISH site for HD content",
             "type": "Movies, TV, Audio"
