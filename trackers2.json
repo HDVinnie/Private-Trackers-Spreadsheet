@@ -506,11 +506,6 @@
             "type": "Movies, TV, PC, Audio, General"
         },
         {
-            "name": "HDC",
-            "description": "HDC (HDCiTY) is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
-            "type": "Movies, TV, Audio, XXX, General, PC"
-        },
-        {
             "name": "HDCenter",
             "description": "An German HD tracker",
             "type": "Movies, TV, XXX, Audio, PC"
