@@ -476,11 +476,6 @@
             "type": "Audio, Movies, TV, PC, XXX"
         },
         {
-            "name": "HD-Forever",
-            "description": "HD-Forever (HD-F) is a FRENCH Private Torrent Tracker for HD MOVIES",
-            "type": "Movies, TV"
-        },
-        {
             "name": "HD-Olimpo",
             "description": "HD-Olimpo is a SPANISH site for HD content",
             "type": "Movies, TV, Audio"
@@ -509,11 +504,6 @@
             "name": "HDAtmos",
             "description": "HDAtmos is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "type": "Movies, TV, PC, Audio, General"
-        },
-        {
-            "name": "HDC",
-            "description": "HDC (HDCiTY) is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
-            "type": "Movies, TV, Audio, XXX, General, PC"
         },
         {
             "name": "HDCenter",
@@ -1224,11 +1214,6 @@
             "name": "XSpeeds",
             "description": "XSpeeds (XS) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Anime, PC, Mac Software, Audiobooks, Books, Sports, Audio, Console, General, Games"
-        },
-        {
-            "name": "Xthor",
-            "description": "General French Private Tracker",
-            "type": "Movies, TV, Sports, Audio, Anime, XXX, Books, Audiobooks, Magazines, Comics, Games, Console, Mac Software, PC, Android"
         },
         {
             "name": "XWT-Classics",
