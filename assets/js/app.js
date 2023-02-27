@@ -46,15 +46,15 @@ $(document).ready( function () {
                             labelType: 'default',
                             style: 'color: #0FB492;'
                         },
-                        'Medium': {
+                        'Moderate': {
                             labelType: 'default',
                             style: 'color: #EE7E2A;'
                         },
-                        'Hard': {
+                        'Tough': {
                             labelType: 'default',
                             style: 'color: #E64141;'
                         },
-                        'Impossible': {
+                        'Unreasonable': {
                             labelType: 'default',
                             style: 'color: #720f0f;'
                         },
@@ -125,7 +125,7 @@ $(document).ready( function () {
                     if (styles){
                         const labelType = styles.labelType || 'default';
                         const style = styles.style || '';
-                        return `<span class="label label-${labelType}" style="background-color: rgba(26, 26, 26, 1); ${style}"> ${data} </span>`;
+                        return `<span style="display:none">${data}</span><span class="label label-${labelType}" style="background-color: rgba(26, 26, 26, 1); ${style}"> ${data} </span>`;
                     }
 
                     return data;
