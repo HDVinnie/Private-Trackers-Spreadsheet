@@ -46,15 +46,15 @@ $(document).ready( function () {
                             labelType: 'default',
                             style: 'color: #0FB492;'
                         },
-                        'Medium': {
+                        'Moderate': {
                             labelType: 'default',
                             style: 'color: #EE7E2A;'
                         },
-                        'Hard': {
+                        'Tough': {
                             labelType: 'default',
                             style: 'color: #E64141;'
                         },
-                        'Impossible': {
+                        'Unreasonable': {
                             labelType: 'default',
                             style: 'color: #720f0f;'
                         },
