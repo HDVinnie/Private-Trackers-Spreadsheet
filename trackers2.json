@@ -1,1128 +1,1128 @@
 {
     "trackers": [
         {
-            "description": "0day.kiev.ua is a RUSSIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "0day.kiev",
+            "description": "0day.kiev.ua is a RUSSIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, PC, Console, General"
         },
         {
-            "description": "2 Fast 4 You is a FRENCH Private site for TV / MOVIES / GENERAL",
             "name": "2 Fast 4 You",
+            "description": "2 Fast 4 You is a FRENCH Private site for TV / MOVIES / GENERAL",
             "type": "TV, PC, General, Audio, Books, Movies"
         },
         {
-            "description": "3D Torrents (3DT) is a Private Torrent Tracker for 3D HD / BLURAY MOVIES",
             "name": "3D Torrents",
+            "description": "3D Torrents (3DT) is a Private Torrent Tracker for 3D HD / BLURAY MOVIES",
             "type": "Movies, PC, Audio, XXX, General"
         },
         {
-            "description": "4th Dimension is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "4thD",
+            "description": "4th Dimension is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, PC, Audio, Books"
         },
         {
-            "description": "52PT is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "52PT",
+            "description": "52PT is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "720pier is a RUSSIAN Private Torrent Tracker for HD SPORTS",
             "name": "720pier",
+            "description": "720pier is a RUSSIAN Private Torrent Tracker for HD SPORTS",
             "type": "Sports"
         },
         {
-            "description": "General French Private Tracker",
             "name": "Abnormal",
+            "description": "General French Private Tracker",
             "type": ""
         },
         {
-            "description": "Acid Lounge (A-L) is a Private Torrent Tracker for 0DAY / GENERAL",
             "name": "Acid-Lounge",
+            "description": "Acid Lounge (A-L) is a Private Torrent Tracker for 0DAY / GENERAL",
             "type": "PC, TV, Audio, General, Books, Console, Movies, XXX"
         },
         {
-            "description": "Aftershock is a HUNGARIAN Private Torrent Tracker for MOVIES / GENERAL",
             "name": "Aftershock",
+            "description": "Aftershock is a HUNGARIAN Private Torrent Tracker for MOVIES / GENERAL",
             "type": "Movies, Books, Audio, XXX, PC, Console, General, TV"
         },
         {
-            "description": "Amigos Share Club is a Brazilian Private site for TV / MOVIES / GENERAL",
             "name": "Amigos Share Club",
+            "description": "Amigos Share Club is a Brazilian Private site for TV / MOVIES / GENERAL",
             "type": "XXX, TV, PC, Books, Audio, Movies, Console, General"
         },
         {
-            "description": "Araba Fenice (Phoenix) is an ITALIAN Private site for TV / MOVIES / GENERAL",
             "name": "ArabaFenice",
+            "description": "Araba Fenice (Phoenix) is an ITALIAN Private site for TV / MOVIES / GENERAL",
             "type": "Movies, TV, XXX, General, Audio, Books, Console, PC"
         },
         {
-            "description": "Asgaard (AG) is a NORDIC Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Asgaard",
+            "description": "Asgaard (AG) is a NORDIC Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, Movies, Audio, PC, Books, Console"
         },
         {
-            "description": "AST4u is a GERMAN Private site for TV / MOVIES / ANIME / HENTAI",
             "name": "AST4u",
+            "description": "AST4u is a GERMAN Private site for TV / MOVIES / ANIME / HENTAI",
             "type": "TV, Audio, Books, XXX, PC, Movies, General, Console"
         },
         {
-            "description": "Audiobook Torrents (ABT) is a Private Torrent Tracker for AUDIOBOOKS",
             "name": "Audiobook Torrents",
+            "description": "Audiobook Torrents (ABT) is a Private Torrent Tracker for AUDIOBOOKS",
             "type": "Audio"
         },
         {
-            "description": "An HD tracker",
             "name": "Awesome-HD",
+            "description": "An HD tracker",
             "type": "Movies, TV"
         },
         {
-            "description": "Back-Ups is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Back-ups",
+            "description": "Back-Ups is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Console, TV, PC, Movies, Audio, Books"
         },
         {
-            "description": "BaconBits (bB) is a Private Torrent Tracker for 0DAY / GENERAL",
             "name": "bB",
+            "description": "BaconBits (bB) is a Private Torrent Tracker for 0DAY / GENERAL",
             "type": ""
         },
         {
-            "description": "BeiTai is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "BeiTai",
+            "description": "BeiTai is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "BIGTorrent is a HUNGARIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "BIGTorrent",
+            "description": "BIGTorrent is a HUNGARIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, General, PC, Audio, Console, Books, TV, XXX"
         },
         {
-            "description": "Big Tower is an ITALIAN Private site for TV / MOVIES / GENERAL",
             "name": "BigTower",
+            "description": "Big Tower is an ITALIAN Private site for TV / MOVIES / GENERAL",
             "type": "Movies, TV, PC, Audio, General, Books"
         },
         {
-            "description": "A German general tracker.",
             "name": "Bit-City Reloaded",
+            "description": "A German general tracker.",
             "type": "MoviesOther); // Movie/XviD, TVOTHER); // Serie/XviD"
         },
         {
-            "description": "Home of high definition invites",
             "name": "BIT-HDTV",
+            "description": "Home of high definition invites",
             "type": ""
         },
         {
-            "description": "BiT-TiTAN is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "BiT-TiTAN",
+            "description": "BiT-TiTAN is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, XXX, PC, Console, Audio, Books, General"
         },
         {
-            "description": "Bithorlo (BHO) is a HUNGARIAN Private Torrent Tracker for MOVIES / GENERAL",
             "name": "Bithorlo",
+            "description": "Bithorlo (BHO) is a HUNGARIAN Private Torrent Tracker for MOVIES / GENERAL",
             "type": "Books, Console, PC, Movies, TV, Audio, General, XXX"
         },
         {
-            "description": "BitHUmen is a Hungarian Private site for TV / MOVIES / GENERAL",
             "name": "BitHUmen",
+            "description": "BitHUmen is a Hungarian Private site for TV / MOVIES / GENERAL",
             "type": "Movies, XXX, TV, Books, Audio, PC, Console, General"
         },
         {
-            "description": "Bittorrentfiles is a Private GERMAN tracker",
             "name": "Bittorrentfiles",
+            "description": "Bittorrentfiles is a Private GERMAN tracker",
             "type": "Movies, TV, PC, Console, Audio, Books, General, XXX"
         },
         {
-            "description": "BitTurk is a Turkish Private Torrent Tracker for HD MOVIES / TV / GENERAL. This Indexer is for English only.",
             "name": "BitTurk",
+            "description": "BitTurk is a Turkish Private Torrent Tracker for HD MOVIES / TV / GENERAL. This Indexer is for English only.",
             "type": "Movies, XXX, TV, Audio, Console, PC, General, Books"
         },
         {
-            "description": "A brazilian tracker.",
             "name": "BJ-Share",
+            "description": "A brazilian tracker.",
             "type": "Anime, PC, General, Audiobooks, TV, Books, Sports, Movies, Audio, Magazines, Games, XXX"
         },
         {
-            "description": "BlueBird is a RUSSIAN Private Torrent Tracker for HD MOVIES",
             "name": "BlueBird",
+            "description": "BlueBird is a RUSSIAN Private Torrent Tracker for HD MOVIES",
             "type": "Movies, TV, Audio, XXX, General"
         },
         {
-            "description": "Boxing Torrents is a Private Torrent Tracker for BOXING",
             "name": "Boxing Torrents",
+            "description": "Boxing Torrents is a Private Torrent Tracker for BOXING",
             "type": "TV"
         },
         {
-            "description": "BrasilTracker is a BRAZILIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "BrasilTracker",
+            "description": "BrasilTracker is a BRAZILIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "General"
         },
         {
-            "description": "Broadcasthe.net (BTN) is an invite-only torrent tracker focused on TV shows",
             "name": "BroadcastTheNet",
+            "description": "Broadcasthe.net (BTN) is an invite-only torrent tracker focused on TV shows",
             "type": "TV"
         },
         {
-            "description": "BroadCity is a TURKISH Private Torrent Tracker for MOVIES and TV",
             "name": "BroadCity",
+            "description": "BroadCity is a TURKISH Private Torrent Tracker for MOVIES and TV",
             "type": "Movies, TV"
         },
         {
-            "description": "BRObits is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "BRObits",
+            "description": "BRObits is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV"
         },
         {
-            "description": "BTGigs (TG) is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "BTGigs",
+            "description": "BTGigs (TG) is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Audio, TV, PC, Books, Movies, Console, General, XXX"
         },
         {
-            "description": "BTNext (BTNT) is a PORTUGUESE Private Torrent Tracker for 0DAY / GENERAL",
             "name": "BTNext",
+            "description": "BTNext (BTNT) is a PORTUGUESE Private Torrent Tracker for 0DAY / GENERAL",
             "type": "General, Movies, Console, TV, Audio, PC, Books, XXX"
         },
         {
-            "description": "BTSCHOOL is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "BTSCHOOL",
+            "description": "BTSCHOOL is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, PC, Audio, General"
         },
         {
-            "description": "Carpathians is a HUNGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "Carpathians",
+            "description": "Carpathians is a HUNGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Books, Movies, PC, Console, Audio, TV, XXX"
         },
         {
-            "description": "Casa-Torrent is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Casa-Torrent",
+            "description": "Casa-Torrent is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, Books, Audio, XXX, TV, Console, PC, General"
         },
         {
-            "description": "CCFBits is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "CCFBits",
+            "description": "CCFBits is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "ChannelX is a Private Torrent Tracker for High Quality Optimized HD MOVIES / TV",
             "name": "ChannelX",
+            "description": "ChannelX is a Private Torrent Tracker for High Quality Optimized HD MOVIES / TV",
             "type": "Movies, TV, Audio"
         },
         {
-            "description": "CHDBits is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "CHDBits",
+            "description": "CHDBits is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "B-movie tracker",
             "name": "Cinemageddon",
+            "description": "B-movie tracker",
             "type": "Movies"
         },
         {
-            "description": "CinemaMovies is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "CinemaMovies",
+            "description": "CinemaMovies is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, PC, General, Audio, Books"
         },
         {
-            "description": "Tracker for non-hollywood movies.",
             "name": "Cinematik",
+            "description": "Tracker for non-hollywood movies.",
             "type": "Movies"
         },
         {
-            "description": "Classic movie tracker",
             "name": "Classix",
+            "description": "Classic movie tracker",
             "type": "Movies"
         },
         {
-            "description": "Crazy's Corner is a Private Torrent Tracker for MUSIC",
             "name": "Crazy's Corner",
+            "description": "Crazy's Corner is a Private Torrent Tracker for MUSIC",
             "type": "Audio"
         },
         {
-            "description": "CrazyHD is a BANGLADESHI Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "CrazyHD",
+            "description": "CrazyHD is a BANGLADESHI Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, PC, Console, Audio, Books, General"
         },
         {
-            "description": "Crazy Spirits is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "CrazySpirits",
+            "description": "Crazy Spirits is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, Movies, XXX, PC, Console, Audio, Books"
         },
         {
-            "description": "Crna Berza is a BALKAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "CrnaBerza",
+            "description": "Crna Berza is a BALKAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, PC, Books, Audio, General, XXX"
         },
         {
-            "description": "A danish closed torrent tracker",
             "name": "DanishBits",
+            "description": "A danish closed torrent tracker",
             "type": ""
         },
         {
-            "description": "Das Unerwartete is a Private GERMAN tracker",
             "name": "Das Unerwartete",
+            "description": "Das Unerwartete is a Private GERMAN tracker",
             "type": "Audio, Movies, TV, Console, PC, Books, General, XXX"
         },
         {
-            "description": "DataScene (DS) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "DataScene",
+            "description": "DataScene (DS) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, PC, Books, Console, General, Movies, Audio, XXX"
         },
         {
-            "description": "DesiReleasers is an INDIAN Private Torrent Tracker for INDIAN MOVIES",
             "name": "DesiReleasers",
+            "description": "DesiReleasers is an INDIAN Private Torrent Tracker for INDIAN MOVIES",
             "type": "Movies, TV, Audio, Console"
         },
         {
-            "description": " Diablo Torrent is a Hungarian Private site for TV / MOVIES / GENERAL",
             "name": "Diablo Torrent",
+            "description": " Diablo Torrent is a Hungarian Private site for TV / MOVIES / GENERAL",
             "type": "Movies, TV, Audio, General, PC, Console, XXX, Books"
         },
         {
-            "description": "DigitalCore is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "DigitalCore",
+            "description": "DigitalCore is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, General, PC, Mac Software, Audio, Games, Console, Books, XXX"
         },
         {
-            "description": "DigitalHive is one of the oldest general trackers",
             "name": "DigitalHive",
+            "description": "DigitalHive is one of the oldest general trackers",
             "type": ""
         },
         {
-            "description": "DivTeam is a SPANISH Private Torrent Tracker for MOVIES / GENERAL",
             "name": "DivTeam",
+            "description": "DivTeam is a SPANISH Private Torrent Tracker for MOVIES / GENERAL",
             "type": "Movies, TV, Books, PC, Console, Audio"
         },
         {
-            "description": "Documentary Torrents (DT) is a Private Torrent Tracker for E-LEARNING MOVIES / TV",
             "name": "DocumentaryTorrents",
+            "description": "Documentary Torrents (DT) is a Private Torrent Tracker for E-LEARNING MOVIES / TV",
             "type": "TV, Books, Audio"
         },
         {
-            "description": "Downloadville is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Downloadville",
+            "description": "Downloadville is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, PC, Books, General"
         },
         {
-            "description": "Dragonworld Reloaded is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Dragonworld Reloaded",
+            "description": "Dragonworld Reloaded is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, PC, Console, Books, General, XXX"
         },
         {
-            "description": "DXDHD is a Private General Tracker",
             "name": "DXDHD",
+            "description": "DXDHD is a Private General Tracker",
             "type": "Movies, TV, Audio, PC, Books, General, XXX"
         },
         {
-            "description": "EbookParadijs is a DUTCH Private Tracker for EBOOKS",
             "name": "EbookParadijs",
+            "description": "EbookParadijs is a DUTCH Private Tracker for EBOOKS",
             "type": "Books"
         },
         {
-            "description": "Ebooks-Shares is a Private Torrent Tracker for EBOOKS / AUDIOBOOKS",
             "name": "Ebooks-Shares",
+            "description": "Ebooks-Shares is a Private Torrent Tracker for EBOOKS / AUDIOBOOKS",
             "type": "Audio, Books"
         },
         {
-            "description": "EggMeOn is a Private Torrent Tracker for nostalgic TV / CONSOLE / PODCASTS",
             "name": "EggMeOn",
+            "description": "EggMeOn is a Private Torrent Tracker for nostalgic TV / CONSOLE / PODCASTS",
             "type": "TV, Audio, Console, Movies, Books"
         },
         {
-            "description": "French Torrent Tracker",
             "name": "Elite-Tracker",
+            "description": "French Torrent Tracker",
             "type": "Anime, PC, Android, iOS, Mac Software, TV, Books, Movies, Console, Games, Audio, Sports, XXX"
         },
         {
-            "description": "eStone (XiDER, BeLoad) is a HUNGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "eStone",
+            "description": "eStone (XiDER, BeLoad) is a HUNGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Movies, TV, Audio, PC, Console, Books, General, XXX"
         },
         {
-            "description": "A French gerneral tracker",
             "name": "Ethor.net (Thor's Land)",
+            "description": "A French gerneral tracker",
             "type": "PC, Movies, Console, Audio, TV, Books, General, XXX"
         },
         {
-            "description": "ExtremeTorrents is a DUTCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "ExtremeTorrents",
+            "description": "ExtremeTorrents is a DUTCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, XXX, Audio, Books, TV, PC, General, Console"
         },
         {
-            "description": "Fano.in is a LATVIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "FANO.IN",
+            "description": "Fano.in is a LATVIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Movies, TV, PC, Audio, Books, Console, General, XXX"
         },
         {
-            "description": "FeedUrNeed (FuN) is a ratioless Private Torrent Tracker for MOVIES / TV",
             "name": "FeedUrNeed",
+            "description": "FeedUrNeed (FuN) is a ratioless Private Torrent Tracker for MOVIES / TV",
             "type": "Books, Audio, PC, TV, Movies, Console, XXX"
         },
         {
-            "description": "The best Romanian site.",
             "name": "FileList",
+            "description": "The best Romanian site.",
             "type": "Anime, Audio, TV, General, Books, Movies, Console, Games, PC, Phone, Sports, XXX"
         },
         {
-            "description": "Film-Paleis is a DUTCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Film-Paleis",
+            "description": "Film-Paleis is a DUTCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, Audio, XXX, PC, Console, General, TV, Books"
         },
         {
-            "description": "FinVip is a FINNISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "FinVip",
+            "description": "FinVip is a FINNISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, Books, Movies, Audio, PC, Console, XXX, General"
         },
         {
-            "description": "FreeTorrent is a Private Torrent Tracker for HD MOVIES / TV",
             "name": "FreeTorrent",
+            "description": "FreeTorrent is a Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, PC, Books"
         },
         {
-            "description": "FullMixMusic is a HUNGARIAN Private Torrent Tracker for MUSIC",
             "name": "FullMixMusic",
+            "description": "FullMixMusic is a HUNGARIAN Private Torrent Tracker for MUSIC",
             "type": ""
         },
         {
-            "description": "A general tracker",
             "name": "FunFile",
+            "description": "A general tracker",
             "type": ""
         },
         {
-            "description": "FunkyTorrents (FT) is a Private Torrent Tracker for MUSIC",
             "name": "FunkyTorrents",
+            "description": "FunkyTorrents (FT) is a Private Torrent Tracker for MUSIC",
             "type": ""
         },
         {
-            "description": "Fuzer is a private torrent website with israeli torrents.",
             "name": "Fuzer",
+            "description": "Fuzer is a private torrent website with israeli torrents.",
             "type": "Movies, TV, Audio, Games, Console, Phone, Android, PC, iOS, Mac Software, XXX, General, Books"
         },
         {
-            "description": "Galeriens is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Galeriens",
+            "description": "Galeriens is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Console, PC, Books, Audio"
         },
         {
-            "description": "Gay-Torrents.org is a Private Torrent Tracker for GAY XXX",
             "name": "gay-torrents.org",
+            "description": "Gay-Torrents.org is a Private Torrent Tracker for GAY XXX",
             "type": "XXX, Movies, TV, General, PC, Books"
         },
         {
-            "description": "GayTorrent.ru is a Private Torrent Tracker for GAY XXX",
             "name": "GAYtorrent.ru",
+            "description": "GayTorrent.ru is a Private Torrent Tracker for GAY XXX",
             "type": "XXX, Books, PC, Movies, TV"
         },
         {
-            "description": "Generation-Free is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Generation-Free",
+            "description": "Generation-Free is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, PC, Books, Audio, Movies, XXX"
         },
         {
-            "description": "GFXPeers is a ratio-based torrent tracker for all things graphic design and visual effects",
             "name": "GFXPeers",
+            "description": "GFXPeers is a ratio-based torrent tracker for all things graphic design and visual effects",
             "type": "PC, General"
         },
         {
-            "description": "Giga Torrents is a Hungarian Private site for TV / MOVIES / GENERAL",
             "name": "GigaTorrents",
+            "description": "Giga Torrents is a Hungarian Private site for TV / MOVIES / GENERAL",
             "type": "TV, Movies, PC, General, XXX, Books, Console, Audio"
         },
         {
-            "description": "Formerly ILT",
             "name": "GimmePeers",
+            "description": "Formerly ILT",
             "type": ""
         },
         {
-            "description": "Girotorrent is an ITALIAN Private site for TV / MOVIES / GENERAL",
             "name": "Girotorrent",
+            "description": "Girotorrent is an ITALIAN Private site for TV / MOVIES / GENERAL",
             "type": "Books, Audio, Movies, TV, PC, Console, General"
         },
         {
-            "description": "Greek Team is a GREEK Private site for TV / MOVIES / GENERAL",
             "name": "Greek Team",
+            "description": "Greek Team is a GREEK Private site for TV / MOVIES / GENERAL",
             "type": "TV, Books, Console, PC, General, Movies, Audio"
         },
         {
-            "description": "Greek Legends is a Private Torrent Tracker for High Quality Content",
             "name": "GreekLegends",
+            "description": "Greek Legends is a Private Torrent Tracker for High Quality Content",
             "type": "Movies, TV, Audio, PC, Books, Console, General"
         },
         {
-            "description": "HacheDe is a SPANISH site for HD content",
             "name": "HacheDe",
+            "description": "HacheDe is a SPANISH site for HD content",
             "type": "Movies, TV, General, XXX"
         },
         {
-            "description": "HD tracker",
             "name": "HD-Bits.com",
+            "description": "HD tracker",
             "type": "Audio, Movies, TV, PC, XXX"
         },
         {
-            "description": "HD-Olimpo is a SPANISH site for HD content",
             "name": "HD-Olimpo",
+            "description": "HD-Olimpo is a SPANISH site for HD content",
             "type": "Movies, TV, Anime, Sports, XXX, Audio"
         },
         {
-            "description": "HD-Only (HD-O) is a FRENCH Private Torrent Tracker for HD MOVIES / TV",
             "name": "HD-Only",
+            "description": "HD-Only (HD-O) is a FRENCH Private Torrent Tracker for HD MOVIES / TV",
             "type": "TV, Movies, Anime, Audio, General"
         },
         {
-            "description": "HD-Spain is a SPANISH site for HD content",
             "name": "HD-Spain",
+            "description": "HD-Spain is a SPANISH site for HD content",
             "type": "Movies, TV, Audio, XXX"
         },
         {
-            "description": "HD4FANS is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "name": "HD4FANS",
+            "description": "HD4FANS is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "HDArea is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "HDArea",
+            "description": "HDArea is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "An German HD tracker",
             "name": "HDCenter",
+            "description": "An German HD tracker",
             "type": "Movies, TV, XXX, Audio, PC"
         },
         {
-            "description": "HDCity is a SPANISH site for HD content",
             "name": "HDCity",
+            "description": "HDCity is a SPANISH site for HD content",
             "type": "Movies, TV, Audio, XXX"
         },
         {
-            "description": "HDDisk (HDD) is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "HDDisk",
+            "description": "HDDisk (HDD) is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Console, Audio, PC, General"
         },
         {
-            "description": "HD Dolby is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "name": "HDDolby",
+            "description": "HD Dolby is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, General, Console, Books"
         },
         {
-            "description": "HDHome (HDBiger) is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "HDHome",
+            "description": "HDHome (HDBiger) is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "HDME is a Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "name": "HDME",
+            "description": "HDME is a Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "type": "TV, PC, Movies, Audio, General, XXX"
         },
         {
-            "description": "HDRoute is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "HDRoute",
+            "description": "HDRoute is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "HDSky is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "HDSky",
+            "description": "HDSky is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "HDtime is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "name": "HDtime",
+            "description": "HDtime is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "type": "Movies, TV, PC, Audio, Books, General"
         },
         {
-            "description": "HDTorrents.it is an ITALIAN Private site for TV / MOVIES",
             "name": "HDTorrents.it",
+            "description": "HDTorrents.it is an ITALIAN Private site for TV / MOVIES",
             "type": "Movies, TV"
         },
         {
-            "description": "HDTurk is a TURKISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "HDTurk",
+            "description": "HDTurk is a TURKISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "General, Books, TV, Movies, Audio, Console, PC, XXX"
         },
         {
-            "description": "HDU is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "name": "HDU",
+            "description": "HDU is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, General, PC"
         },
         {
-            "description": "HDZone is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "HDZone",
+            "description": "HDZone is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "HQSource (HQS) is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "HQSource",
+            "description": "HQSource (HQS) is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, General, PC, XXX"
         },
         {
-            "description": "HuSh is a community-built Movie/TV/FANRES database.",
             "name": "HuSh",
+            "description": "HuSh is a community-built Movie/TV/FANRES database.",
             "type": "Movies, TV"
         },
         {
-            "description": "ICE Torrent is a ratioless ROMANIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "ICE Torrent",
+            "description": "ICE Torrent is a ratioless ROMANIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "PC, Audio, Books, General, TV, Movies, Console, XXX"
         },
         {
-            "description": "ImmortalSeed (iS) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "ImmortalSeed",
+            "description": "ImmortalSeed (iS) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "General, Anime, PC, Audiobooks, TV, Comics, Games, Console, Phone, Movies, Audio, Sports, Books, Magazines, iOS, Android"
         },
         {
-            "description": "Immortuos is a GERMAN Private Tracker for MOVIES / TV",
             "name": "Immortuos",
+            "description": "Immortuos is a GERMAN Private Tracker for MOVIES / TV",
             "type": "Movies, TV, Audio, PC, XXX, Console, General"
         },
         {
-            "description": "InPeril is a LATVIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "inPeril",
+            "description": "InPeril is a LATVIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "TV, PC, General, Movies, Audio, XXX"
         },
         {
-            "description": "Kapaki is a GREEK Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Kapaki",
+            "description": "Kapaki is a GREEK Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, Movies, Audio, Console, PC, Books, General"
         },
         {
-            "description": "LeagueHD is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "LeagueHD",
+            "description": "LeagueHD is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "LearnFlakes is a Private Torrent Tracker for CERTIFICATE / TRAINING E-LEARNING",
             "name": "LearnFlakes",
+            "description": "LearnFlakes is a Private Torrent Tracker for CERTIFICATE / TRAINING E-LEARNING",
             "type": "Books"
         },
         {
-            "description": "Le Saloon is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "LeSaloon",
+            "description": "Le Saloon is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, PC, Console, Books, General"
         },
         {
-            "description": "LibraNet (LN) is a HUNGARIAN Private Torrent Tracker for EBOOKS / LOSSLESS MUSIC",
             "name": "LibraNet",
+            "description": "LibraNet (LN) is a HUNGARIAN Private Torrent Tracker for EBOOKS / LOSSLESS MUSIC",
             "type": "Movies, Audio, Books"
         },
         {
-            "description": "LinkoManija is an LITHUANIAN Private site for TV / MOVIES / GENERAL",
             "name": "LinkoManija",
+            "description": "LinkoManija is an LITHUANIAN Private site for TV / MOVIES / GENERAL",
             "type": "Movies, TV, PC, Audio, Books, General, Console"
         },
         {
-            "description": "LosslessClub is a Romanian Private site for High Quality Music",
             "name": "LosslessClub",
+            "description": "LosslessClub is a Romanian Private site for High Quality Music",
             "type": ""
         },
         {
-            "description": "Magico (Trellas) is a GREEK Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Magico",
+            "description": "Magico (Trellas) is a GREEK Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, Books, PC, General"
         },
         {
-            "description": "Majomparádé (TurkDepo) is a HUNGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "Majomparádé",
+            "description": "Majomparádé (TurkDepo) is a HUNGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Movies, TV, Audio, Books, PC, Console, XXX"
         },
         {
-            "description": "MicroBit (µBit) is a HUNGARIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "MicroBit",
+            "description": "MicroBit (µBit) is a HUNGARIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, Books, Movies, Audio, PC, Console, General"
         },
         {
-            "description": "MoeCat is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "MoeCat",
+            "description": "MoeCat is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, PC, TV, Audio, Books, General"
         },
         {
-            "description": "Mononoke-BT is a FRENCH Private Torrent Tracker for ANIME",
             "name": "Mononoké-BT",
+            "description": "Mononoke-BT is a FRENCH Private Torrent Tracker for ANIME",
             "type": ""
         },
         {
-            "description": "A German general tracker.",
             "name": "myAmity",
+            "description": "A German general tracker.",
             "type": ""
         },
         {
-            "description": "A Hungarian private torrent site.",
             "name": "nCore",
+            "description": "A Hungarian private torrent site.",
             "type": "Movies, TV, Audio, XXX, Games, Console, PC, Phone, Books"
         },
         {
-            "description": "NetCosmo is an ITALIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "NetCosmo",
+            "description": "NetCosmo is an ITALIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, PC, Books, General"
         },
         {
-            "description": "NetLab is a RUSSIAN Private Torrent Tracker",
             "name": "NetLab",
+            "description": "NetLab is a RUSSIAN Private Torrent Tracker",
             "type": "Movies, Audio, PC, TV, Books, General"
         },
         {
-            "description": "A German general tracker.",
             "name": "New Real World",
+            "description": "A German general tracker.",
             "type": ""
         },
         {
-            "description": "Norbits is a Norwegian Private site for MOVIES / TV / GENERAL",
             "name": "Norbits",
+            "description": "Norbits is a Norwegian Private site for MOVIES / TV / GENERAL",
             "type": "Movies, TV, PC, Console, Audio, Books, Audiobooks"
         },
         {
-            "description": "Nordicbits is a Danish Private site for MOVIES / TV / GENERAL",
             "name": "Nordicbits",
+            "description": "Nordicbits is a Danish Private site for MOVIES / TV / GENERAL",
             "type": "Android, PC, Mac Software, iOS, Audiobooks, Books, Games, Console, Movies, XXX, Audio, TV, Sports"
         },
         {
-            "description": "Nostalgic Torrents (The Archive) is a Private Torrent Tracker for MOVIES / TV / GENERAL NOSTALGIA",
             "name": "Nostalgic",
+            "description": "Nostalgic Torrents (The Archive) is a Private Torrent Tracker for MOVIES / TV / GENERAL NOSTALGIA",
             "type": "TV, Movies, Audio, Books, PC, XXX"
         },
         {
-            "description": "A music tracker",
             "name": "notwhat.cd",
+            "description": "A music tracker",
             "type": "Audio, PC, Books, Audiobooks, Movies, TV"
         },
         {
-            "description": "OnlineSelfEducation is a Private Torrent Tracker for E-LEARNING",
             "name": "OnlineSelfEducation",
+            "description": "OnlineSelfEducation is a Private Torrent Tracker for E-LEARNING",
             "type": "General"
         },
         {
-            "description": "P2PBG is a BULGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "P2PBG",
+            "description": "P2PBG is a BULGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Movies, TV, PC, Console, Audio, General, Books, XXX"
         },
         {
-            "description": "Partis is a SLOVENIAN Private Torrent Tracker",
             "name": "Partis",
+            "description": "Partis is a SLOVENIAN Private Torrent Tracker",
             "type": "Movies, TV, Games, Audio, Audiobooks, Books"
         },
         {
-            "description": "Peers.FM is a RUSSIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Peers.FM",
+            "description": "Peers.FM is a RUSSIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, PC, Movies, General, XXX, Audio, Books"
         },
         {
-            "description": "PixelHD (PxHD) is a Private Torrent Tracker for HD .MP4 MOVIES / TV",
             "name": "PiXELHD",
+            "description": "PixelHD (PxHD) is a Private Torrent Tracker for HD .MP4 MOVIES / TV",
             "type": ""
         },
         {
-            "description": "PleasureDome is a private site for Arcade / Console / PC Games",
             "name": "PleasureDome",
+            "description": "PleasureDome is a private site for Arcade / Console / PC Games",
             "type": "Console"
         },
         {
-            "description": "Pornbits (PB) is a Private Torrent Tracker for 3X",
             "name": "Pornbits",
+            "description": "Pornbits (PB) is a Private Torrent Tracker for 3X",
             "type": ""
         },
         {
-            "description": "Portugas is a PORTUGUESE Private Torrent Tracker for MOVIES / TV / GENERAL that focuses on providing exclusive and HD content",
             "name": "Portugas",
+            "description": "Portugas is a PORTUGUESE Private Torrent Tracker for MOVIES / TV / GENERAL that focuses on providing exclusive and HD content",
             "type": ""
         },
         {
-            "description": "BitTorrent site for High Quality, High Definition (HD) movies and TV Shows",
             "name": "PreToMe",
+            "description": "BitTorrent site for High Quality, High Definition (HD) movies and TV Shows",
             "type": ""
         },
         {
-            "description": "ProAudioTorrents (PAT) is a Private Torrent Tracker for AUDIO SOFTWARE / SAMPLES / TUTORIALS / ETC",
             "name": "ProAudioTorrents",
+            "description": "ProAudioTorrents (PAT) is a Private Torrent Tracker for AUDIO SOFTWARE / SAMPLES / TUTORIALS / ETC",
             "type": "PC, Books, General, TV, Audio"
         },
         {
-            "description": "Psytorrents (PSY) is a Private Torrent Tracker for ELECTRONIC MUSIC",
             "name": "Psytorrents",
+            "description": "Psytorrents (PSY) is a Private Torrent Tracker for ELECTRONIC MUSIC",
             "type": "Audio, Movies, PC"
         },
         {
-            "description": "PT99 is a CHINESE Private Torrent Tracker for 0DAY / GENERAL",
             "name": "PT99",
+            "description": "PT99 is a CHINESE Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Movies, TV, Audio, PC, Books, Console, General"
         },
         {
-            "description": "PThome is a CHINESE Private Torrent Tracker for 0DAY / GENERAL",
             "name": "PThome",
+            "description": "PThome is a CHINESE Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Movies, TV, Audio, Console, PC, Books, General"
         },
         {
-            "description": "PuntoTorrent is a SPANISH site for General content",
             "name": "PuntoTorrent",
+            "description": "PuntoTorrent is a SPANISH site for General content",
             "type": "Movies, TV, XXX, Audio, PC, Console, Books, General"
         },
         {
-            "description": "PWTorrents (PWT) is a Private Torrent Tracker for PROFESSIONAL WRESTLING",
             "name": "PWTorrents",
+            "description": "PWTorrents (PWT) is a Private Torrent Tracker for PROFESSIONAL WRESTLING",
             "type": "TV"
         },
         {
-            "description": "R3V WTF! is a Private site for MOVIES / TV / GENERAL",
             "name": "R3V WTF!",
+            "description": "R3V WTF! is a Private site for MOVIES / TV / GENERAL",
             "type": "PC, General, Movies, Audio, Books, TV, XXX"
         },
         {
-            "description": "Red Star Torrent (RST) is a POLISH Private Torrent Tracker for TV",
             "name": "RedStarTorrent",
+            "description": "Red Star Torrent (RST) is a POLISH Private Torrent Tracker for TV",
             "type": "PC, Movies, TV, Books, General, Audio, XXX"
         },
         {
-            "description": "Private Torrent Tracker for Classic Movies / TV / General Releases.",
             "name": "RetroFlix",
+            "description": "Private Torrent Tracker for Classic Movies / TV / General Releases.",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "The Revolution has begun",
             "name": "RevolutionTT",
+            "description": "The Revolution has begun",
             "type": ""
         },
         {
-            "description": "RainbowNation Sharing (RNS) is a Private Torrent Tracker for EBOOKS / AUDIOBOOKS",
             "name": "RNS",
+            "description": "RainbowNation Sharing (RNS) is a Private Torrent Tracker for EBOOKS / AUDIOBOOKS",
             "type": "PC, Books"
         },
         {
-            "description": "RoDVD (Cinefiles) is a ROMANIAN Private Torrent Tracker for DVD-R / HD MOVIES",
             "name": "RoDVD",
+            "description": "RoDVD (Cinefiles) is a ROMANIAN Private Torrent Tracker for DVD-R / HD MOVIES",
             "type": "Movies, PC, General, TV, Books, Console, Audio, XXX"
         },
         {
-            "description": "Romanian Metal Torrent (RMT) is a Private site dedicated to METAL MUSIC. This definition is for the English site.",
             "name": "Romanian Metal Torrent",
+            "description": "Romanian Metal Torrent (RMT) is a Private site dedicated to METAL MUSIC. This definition is for the English site.",
             "type": ""
         },
         {
-            "description": "RPTorrents is a Private tracker for MOVIES / TV / GENERAL",
             "name": "RPTorrents",
+            "description": "RPTorrents is a Private tracker for MOVIES / TV / GENERAL",
             "type": "PC, TV, Movies, Audio, XXX, Books"
         },
         {
-            "description": "SceneFZ is a ratioless ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "SceneFZ / u-torrents",
+            "description": "SceneFZ is a ratioless ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, General, Books, Console, PC, Movies, XXX, Audio"
         },
         {
-            "description": "SceneHD is Private site for HD TV / MOVIES",
             "name": "SceneHD",
+            "description": "SceneHD is Private site for HD TV / MOVIES",
             "type": "Movies, TV, XXX, Audio, General"
         },
         {
-            "description": "SceneRush is a PORTUGUESE Private Torrent Tracker for 0DAY / GENERAL",
             "name": "SceneRush",
+            "description": "SceneRush is a PORTUGUESE Private Torrent Tracker for 0DAY / GENERAL",
             "type": "PC, Movies, TV, XXX, Audio, General, Console, Books"
         },
         {
-            "description": "SDBits is a small tracker that focuses on SD movies and tv.",
             "name": "SDBits",
+            "description": "SDBits is a small tracker that focuses on SD movies and tv.",
             "type": "Audio, TV, Movies"
         },
         {
-            "description": "SeedFile (SF) is a ROMANIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "SeedFile",
+            "description": "SeedFile (SF) is a ROMANIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Books, General, Movies, Console, PC, Audio, TV, XXX"
         },
         {
-            "description": "A general italian tracker",
             "name": "Shareisland",
+            "description": "A general italian tracker",
             "type": "Movies, TV, Books, XXX, Audio, PC, Console"
         },
         {
-            "description": "A French gerneral tracker",
             "name": "ShareSpaceDB",
+            "description": "A French gerneral tracker",
             "type": "TV, PC, Books, Movies, Console, Audio, XXX"
         },
         {
-            "description": "ShareUniversity is a Private Torrent Tracker for High Quality Nordic Content",
             "name": "ShareUniversity",
+            "description": "ShareUniversity is a Private Torrent Tracker for High Quality Nordic Content",
             "type": "Movies, TV, PC, Audio, Books, General, Console, XXX"
         },
         {
-            "description": "Modern indexer",
             "name": "Shazbat",
+            "description": "Modern indexer",
             "type": ""
         },
         {
-            "description": "Shellife (SL) is a Private Torrent Tracker for NON MAINSTREAM MUSIC",
             "name": "Shellife",
+            "description": "Shellife (SL) is a Private Torrent Tracker for NON MAINSTREAM MUSIC",
             "type": ""
         },
         {
-            "description": "SiamBIT is a THAI Private Torrent Tracker for GENERAL",
             "name": "SiamBIT",
+            "description": "SiamBIT is a THAI Private Torrent Tracker for GENERAL",
             "type": "General, PC, TV, Audio, Movies, Books, XXX"
         },
         {
-            "description": "SpaceTorrent is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "SpaceTorrent",
+            "description": "SpaceTorrent is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Audio, Movies, TV, Console, Books, PC, XXX"
         },
         {
-            "description": "Your home now!",
             "name": "Speed.cd",
+            "description": "Your home now!",
             "type": "Movies, Sports, TV, Anime, PC, Console, Phone, Mac Software, Books, Audio"
         },
         {
-            "description": "SpeedTorrent Reloaded is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "SpeedTorrent Reloaded",
+            "description": "SpeedTorrent Reloaded is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Console, PC, Audio, Books, XXX"
         },
         {
-            "description": "SportHD is a Private Torrent Tracker for HD SPORTS",
             "name": "SportHD",
+            "description": "SportHD is a Private Torrent Tracker for HD SPORTS",
             "type": "Movies"
         },
         {
-            "description": "TakeaByte is a NORDIC Private Torrent Tracker for 0DAY / GENERAL",
             "name": "TakeaByte",
+            "description": "TakeaByte is a NORDIC Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Movies, Audio, Books, PC, Console, General, TV, XXX"
         },
         {
-            "description": "Tapochek is a RUSSIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "Tapochek",
+            "description": "Tapochek is a RUSSIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "PC, Console, Movies, TV, Audio, Books, General"
         },
         {
-            "description": "TeamHD is a RUSSIAN Private Torrent Tracker for HD MOVIES / TV",
             "name": "TeamHD",
+            "description": "TeamHD is a RUSSIAN Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Audio, General"
         },
         {
-            "description": "Team OS is a Private Torrent Tracker for SOFTWARE",
             "name": "TeamOS",
+            "description": "Team OS is a Private Torrent Tracker for SOFTWARE",
             "type": "PC, Books, General"
         },
         {
-            "description": "TEKNO3D is a Private Torrent Tracker for MOVIES / TV",
             "name": "TEKNO3D",
+            "description": "TEKNO3D is a Private Torrent Tracker for MOVIES / TV",
             "type": "TV, PC, Audio, Movies, General"
         },
         {
-            "description": "TellyTorrent is an INDIAN Private Tracker for MOVIES / TV",
             "name": "TellyTorrent",
+            "description": "TellyTorrent is an INDIAN Private Tracker for MOVIES / TV",
             "type": "Movies, TV, Audio, PC, General"
         },
         {
-            "description": "TenYardTorrents (TYT) is a Private Torrent Tracker for AMERICAN FOOTBALL",
             "name": "TenYardTracker",
+            "description": "TenYardTorrents (TYT) is a Private Torrent Tracker for AMERICAN FOOTBALL",
             "type": ""
         },
         {
-            "description": "TheEmpire (TE) is a Private Torrent Tracker for COMMONWEALTH TV / RADIO",
             "name": "The Empire",
+            "description": "TheEmpire (TE) is a Private Torrent Tracker for COMMONWEALTH TV / RADIO",
             "type": "TV"
         },
         {
-            "description": "The Falling Angels (TFA) is a German Private site for TV / MOVIES / GENERAL",
             "name": "The Falling Angels",
+            "description": "The Falling Angels (TFA) is a German Private site for TV / MOVIES / GENERAL",
             "type": "PC, Console, Movies, TV, Audio, Books, General, XXX"
         },
         {
-            "description": "The New Retro is a GERMAN Private Torrent Tracker for MOVIES / GENERAL",
             "name": "The New Retro",
+            "description": "The New Retro is a GERMAN Private Torrent Tracker for MOVIES / GENERAL",
             "type": "TV, Movies, XXX, Audio, PC, General, Books, Console"
         },
         {
-            "description": "Cult E-Learning",
             "name": "The Occult",
+            "description": "Cult E-Learning",
             "type": "General"
         },
         {
-            "description": "The Shinning (TsH) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "The Shinning",
+            "description": "The Shinning (TsH) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, Console, PC, General, XXX, Tv"
         },
         {
-            "description": "Entertainment E-Learning",
             "name": "The Show",
+            "description": "Entertainment E-Learning",
             "type": "General"
         },
         {
-            "description": "The-Madhouse is a Private Torrent Tracker",
             "name": "The-Madhouse",
+            "description": "The-Madhouse is a Private Torrent Tracker",
             "type": "PC, Books, Console, Movies, Audio, TV"
         },
         {
-            "description": "TheAudioScene is a Private Torrent Tracker for AUDIO SOFTWARE / SAMPLES / ETC",
             "name": "TheAudioScene",
+            "description": "TheAudioScene is a Private Torrent Tracker for AUDIO SOFTWARE / SAMPLES / ETC",
             "type": "PC, General, Audio"
         },
         {
-            "description": "TLFBits is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "TLFBits",
+            "description": "TLFBits is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, PC, Console, Audio, General"
         },
         {
-            "description": "Torrent Network (TN) is a GERMAN Private site for TV / MOVIES / GENERAL",
             "name": "Torrent Network",
+            "description": "Torrent Network (TN) is a GERMAN Private site for TV / MOVIES / GENERAL",
             "type": "Movies, Anime, TV, Sports, Games, Console, Mac Software, PC, Audiobooks, Books, General, Audio, XXX"
         },
         {
-            "description": "Torrent Sector Crew (TSC) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Torrent Sector Crew",
+            "description": "Torrent Sector Crew (TSC) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "PC, Audio, TV, Movies, General, Books, XXX, Console"
         },
         {
-            "description": "Torrent-Explosiv is a German Private site for TV / MOVIES / GENERAL",
             "name": "Torrent-Explosiv",
+            "description": "Torrent-Explosiv is a German Private site for TV / MOVIES / GENERAL",
             "type": "PC, TV, Console, Movies, Audio, Books, XXX"
         },
         {
-            "description": "A German general tracker",
             "name": "Torrent-Syndikat",
+            "description": "A German general tracker",
             "type": "PC, Mac Software, Games, Console, Movies, TV, Sports, Audio, Audiobooks, Books, Phone, General"
         },
         {
-            "description": "TOrrent-tuRK (TORK) is a Turkish Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "name": "TOrrent-tuRK",
+            "description": "TOrrent-tuRK (TORK) is a Turkish Private Torrent Tracker for HD MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, PC, General, Books, Console"
         },
         {
-            "description": "Torrent.LT is Private site for TV / MOVIES / GENERAL",
             "name": "Torrent.LT",
+            "description": "Torrent.LT is Private site for TV / MOVIES / GENERAL",
             "type": "TV, Movies, PC, Console, Audio, XXX, General, Books"
         },
         {
-            "description": "A decade of torrentbytes",
             "name": "TorrentBytes",
+            "description": "A decade of torrentbytes",
             "type": "Anime, Mac Software, PC, TV, Console, Games, General, Movies, Audio, XXX"
         },
         {
-            "description": "TorrentCCF (TCCF) is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "name": "TorrentCCF",
+            "description": "TorrentCCF (TCCF) is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
             "type": "Movies, TV, Books, Audio, PC, Console, General"
         },
         {
-            "description": "TorrenTech (TTH) is a Private Torrent Tracker for ELECTRONIC MUSIC",
             "name": "Torrentech",
+            "description": "TorrenTech (TTH) is a Private Torrent Tracker for ELECTRONIC MUSIC",
             "type": ""
         },
         {
-            "description": "TorrentFactory is a SPANISH site for General content",
             "name": "TorrentFactory",
+            "description": "TorrentFactory is a SPANISH site for General content",
             "type": "Movies, TV, Audio, PC, Console, XXX, Books"
         },
         {
-            "description": "A German general tracker.",
             "name": "TorrentHeaven",
+            "description": "A German general tracker.",
             "type": "Games, Console, Phone, Movies, Audio, Audiobooks, TV, Sports, Books, General, Anime, PC, Mac Software"
         },
         {
-            "description": "TorrentHR is a ratioless CROATIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "TorrentHR",
+            "description": "TorrentHR is a ratioless CROATIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "TV, Movies, PC, Console, Books, Audio, XXX, General"
         },
         {
-            "description": "Torrenting (TT) is a Private site for MOVIES / TV / GENERAL",
             "name": "Torrenting",
+            "description": "Torrenting (TT) is a Private site for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Console, Audio, Books, PC, XXX"
         },
         {
-            "description": "Torrentland is a SPANISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Torrentland",
+            "description": "Torrentland is a SPANISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, XXX, Books"
         },
         {
-            "description": "TotallyKids (TK) is a Private Torrent Tracker for CHILDRENS MOVIES / TV / GENERAL",
             "name": "TotallyKids",
+            "description": "TotallyKids (TK) is a Private Torrent Tracker for CHILDRENS MOVIES / TV / GENERAL",
             "type": "Audio, Books, Movies, PC, TV"
         },
         {
-            "description": "TranceTraffic is a Private site for MUSIC",
             "name": "TranceTraffic",
+            "description": "TranceTraffic is a Private site for MUSIC",
             "type": ""
         },
         {
-            "description": "Trezzor is a CZECH Private site for TV / MOVIES / GENERAL",
             "name": "Trezzor",
+            "description": "Trezzor is a CZECH Private site for TV / MOVIES / GENERAL",
             "type": "Movies, Audio, PC, Books, General, Console, TV, XXX"
         },
         {
-            "description": "TurkTorrent (TT) is a TURKISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "TurkTorrent",
+            "description": "TurkTorrent (TT) is a TURKISH Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Audio, Console, PC, General, Books"
         },
         {
-            "description": "TV Chaos UK (TVCUK) is a Private Torrent Tracker for UK TV",
             "name": "TVChaosUK",
+            "description": "TV Chaos UK (TVCUK) is a Private Torrent Tracker for UK TV",
             "type": "TV, Movies, Audio"
         },
         {
-            "description": "TV Store is a HUNGARIAN Private Torrent Tracker for TV",
             "name": "TVstore",
+            "description": "TV Store is a HUNGARIAN Private Torrent Tracker for TV",
             "type": ""
         },
         {
-            "description": "Twilight Torrents is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Twilight Torrents",
+            "description": "Twilight Torrents is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, PC, General, TV, Audio, Books, Console"
         },
         {
-            "description": "UnionGang is a RUSSIAN Private Torrent Tracker for MOVIES / GENERAL",
             "name": "UnionGang",
+            "description": "UnionGang is a RUSSIAN Private Torrent Tracker for MOVIES / GENERAL",
             "type": "Movies, TV, XXX, PC, Audio"
         },
         {
-            "description": "Unlimitz is a THAI Private Torrent Tracker for GENERAL",
             "name": "Unlimitz",
+            "description": "Unlimitz is a THAI Private Torrent Tracker for GENERAL",
             "type": "Audio, TV, General, Movies, Console, PC, Books, XXX"
         },
         {
-            "description": "Vizuk is a SPANISH private site for HD content",
             "name": "Vizuk",
+            "description": "Vizuk is a SPANISH private site for HD content",
             "type": "Movies, TV, General, Audio, XXX"
         },
         {
-            "description": "Wrestling Desires Torrents (Ultimate Wrestling Torrents) is a Private Torrent Tracker for PROFESSIONAL WRESTLING / MMA",
             "name": "WDT",
+            "description": "Wrestling Desires Torrents (Ultimate Wrestling Torrents) is a Private Torrent Tracker for PROFESSIONAL WRESTLING / MMA",
             "type": "Audio, Books, TV, PC, Movies"
         },
         {
-            "description": "Your world in HD",
             "name": "World-In-HD",
+            "description": "Your world in HD",
             "type": "Movies, TV, PC, Audio"
         },
         {
-            "description": "world-of-tomorrow is a Private GERMAN tracker",
             "name": "world-of-tomorrow",
+            "description": "world-of-tomorrow is a Private GERMAN tracker",
             "type": "Movies, TV, PC, Console, Audio, XXX, Books, General"
         },
         {
-            "description": "Tracker for LGBTQ movies, TV, books, magazines, anime, PC and XXX.",
             "name": "x-ite.me",
+            "description": "Tracker for LGBTQ movies, TV, books, magazines, anime, PC and XXX.",
             "type": "TV, Books, XXX, Movies, PC, General, Audio"
         },
         {
-            "description": "xbytesV2 is a SPANISH site for HD content",
             "name": "XbytesV2",
+            "description": "xbytesV2 is a SPANISH site for HD content",
             "type": "Movies, TV, Audio"
         },
         {
-            "description": "XSpeeds (XS) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "XSpeeds",
+            "description": "XSpeeds (XS) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "Movies, TV, Anime, PC, Mac Software, Audiobooks, Books, Sports, Audio, Console, General, Games"
         },
         {
-            "description": "XtreMeZone (MYXZ) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "Xtreme Zone",
+            "description": "XtreMeZone (MYXZ) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, PC, Books, Console, General, Movies, Audio, XXX"
         },
         {
-            "description": "XtremeFile is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "name": "XtremeFile",
+            "description": "XtremeFile is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
             "type": "TV, Movies, PC, XXX, Console, Audio, General, Books"
         },
         {
-            "description": "XWT-Classics is a Private Torrent Tracker for CLASSIC PROFESSIONAL WRESTLING",
             "name": "XWT-Classics",
+            "description": "XWT-Classics is a Private Torrent Tracker for CLASSIC PROFESSIONAL WRESTLING",
             "type": "TV"
         },
         {
-            "description": "Zumunda is a BULGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "Zamunda.net",
+            "description": "Zumunda is a BULGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Movies, TV, PC, Console, Audio, General, Books, XXX"
         },
         {
-            "description": "Zelka (Zamunda) is a BULGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "name": "Zelka.org",
+            "description": "Zelka (Zamunda) is a BULGARIAN Private Torrent Tracker for 0DAY / GENERAL",
             "type": "Movies, TV, PC, Console, Audio, General, Books, XXX"
         }
     ]
