@@ -207,23 +207,24 @@ fs.readdir(directoryPath, function (err, files) {
                     }
 
                     const res = fileContents.match(/:\s+base\([^{]*"/s)
-                    const lines = res[0].match(/[^\r\n]+/g);
-
-                    for (const line of lines) {
-                        const name = line.match(/.*name:\s+"([\w\s.\-()]+)"/i)
-                        if (name) {
-                            tracker.name = name[1]
-                        }
-                        else {
-                            let name2 = line.match(/.*base\("([\w\s.\-()]+)"/i)
-                            if (name2) {
-                                tracker.name = name2[1]
+                    if (res !== null) {
+                        const lines = res[0].match(/[^\r\n]+/g);
+                        for (const line of lines) {
+                            const name = line.match(/.*name:\s+"([\w\s.\-()]+)"/i)
+                            if (name) {
+                                tracker.name = name[1]
                             }
-                        }
+                            else {
+                                let name2 = line.match(/.*base\("([\w\s.\-()]+)"/i)
+                                if (name2) {
+                                    tracker.name = name2[1]
+                                }
+                            }
 
-                        const description = line.match(/.*(?:desc|description):\s+"([^"]+)"/i)
-                        if (description) {
-                            tracker.description = description[1]
+                            const description = line.match(/.*(?:desc|description):\s+"([^"]+)"/i)
+                            if (description) {
+                                tracker.description = description[1]
+                            }
                         }
                     }
 
