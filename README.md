@@ -1,74 +1,83 @@
-### Information
+<div align="center">
+<h1>🏴‍☠️ Private Trackers Spreadsheet</h1>
 
-[Private Trackers Spreadsheet](https://hdvinnie.github.io/Private-Trackers-Spreadsheet/) - This comparative table of torrent trackers originates from discussions on [Reddit](https://www.reddit.com/r/trackers/comments/ehd7oy/new_private_trackers_spreadsheet/). 
+[![Live Site](https://img.shields.io/badge/🌐_Live_Site-hdvinnie.github.io-e74c3c?style=for-the-badge)](https://hdvinnie.github.io/Private-Trackers-Spreadsheet/)
+[![GitHub Stars](https://img.shields.io/github/stars/hdvinnie/Private-Trackers-Spreadsheet?style=for-the-badge&color=ffd700)](https://github.com/hdvinnie/Private-Trackers-Spreadsheet/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/hdvinnie/Private-Trackers-Spreadsheet?style=for-the-badge&color=3498db)](https://github.com/hdvinnie/Private-Trackers-Spreadsheet/network)
 
-It is based on [GitHub Page](https://pages.github.com) and has the ability to sort and filter data through the use of [jQuery](https://jquery.com) and [DataTables](https://datatables.net).
+*A interactive database of private BitTorrent tracker statistics with sorting and filtering capabilities. Built using AlpineJS, HTML5 and CSS3*
 
-If you own a tracker and want to exclude it from this list, please contact us.
+</div>
 
-### Contributions
+---
 
-* Fork this repository
+## 📖 Overview
 
-Clicking on the `Fork` button on the top of this page. This will create a copy of this repository in your account.
+This project provides a user-friendly interface to explore and manage private BitTorrent tracker statistics. It allows users to sort, filter, and search through a wide range of trackers, making it easier to find the right one for their needs.
+The UI is built with AlpineJS, ensuring a lightweight and responsive experience. There is a dark and light mode toggle as well as a accent color switcher, allowing users to customize their viewing experience.
+The data is stored in a JSON format, making it easy to update and maintain.
+The data is sourced from user contributions and regularly updated using Jackett, ensuring that the information remains current and relevant.
 
-* Clone the repository
+---
 
-Go to your GitHub account, open the forked repository, click on the `Clone or download` button and then click the copy to clipboard icon. Open a terminal and run the following git command:
+## 🏃‍♂️ Quick Start
 
-`git clone <url_repository>`
+### 🌐 **View Online**
+Simply visit the [live site](https://hdvinnie.github.io/Private-Trackers-Spreadsheet/) to start exploring tracker data immediately.
 
-* Open a project in IDE or text editor
+### 💻 **Local Development**
 
-Recommendations: [IntelliJ IDEA Community](https://www.jetbrains.com/idea/), [Visual Studio Code](https://code.visualstudio.com) or [Sublime Text](https://www.sublimetext.com)
+```bash
+# Clone the repository
+git clone https://github.com/hdvinnie/Private-Trackers-Spreadsheet.git
 
-* Make changes to the file `trackers.json`, for example:
+# Navigate to project directory
+cd Private-Trackers-Spreadsheet
 
-`
-{"Name": "32pages", "Abbreviation": "32P", "Type": "Comics", "Codebase": "Gazelle", "Observatory Grade": "B", "Users": "5,163", "Torrents": "45,544", "Peers": "280,094", "Ratio": "No", "Ratio Diff": "-", "Freeleech": "Yes", "Points": "Yes", "Hit & Run": "No", "Birthdate": "2010", "Join": "Application, Invite, Recruitment", "Join Diff": "-", "Updated": "2021-04-25"},
-`
-* Commit the changes and push
+# Install dependencies (for Jackett updates)
+npm install
 
-`git commit -m "Add <name tracker>"`
-
-`git push`
-
-* Submit your changes for review
-
-If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
-
-You will get a notification email once the changes have been merged.
-
-* Synchronize your branch with this repository
-
-Add the url of my repository to the field `upstream <remote url>`:
-
-`git remote add upstream https://github.com/HDVinnie/Private-Trackers-Spreadsheet.git`
-
-Download the latest changes from my repository.
-
-`git fetch upstream`
-
-We are merging a new version of my repository with your master branch.
-
-`git rebase upstream/master`
-
-Pushing these changes to your GitHub repository.
-
-`git push origin master`
-
-* Profit
-
-Keep track of the project and make new issue, changes.
-
-### Update from Jackett
-
-This will read Jackett's tracker definitions from `Jackett/src/Jackett.Common/Definitions` and update `trackers2.json`
-
-```
+# Update Jackett tracker data (optional)
 node read.js
+
+# Serve locally (any static server)
+npx serve .
 ```
 
-### Contacts
+---
 
-Email `hdinnovations@protonmail.com` or Reddit `u/-HDVinnie-`
+### 📝 **How to Contribute**
+
+1. **🍴 Fork the Repository**
+   ```bash
+   # Click the "Fork" button on GitHub or use:
+   gh repo fork hdvinnie/Private-Trackers-Spreadsheet
+   ```
+
+2. **🌿 Create a Feature Branch**
+   ```bash
+   git checkout -b feature/your-amazing-feature
+   ```
+
+3. **✨ Make Your Changes**
+   - Add new tracker data to `trackers.json`
+   - Improve the UI/UX
+   - Fix bugs or enhance features
+   - Update documentation
+
+
+4. **🚀 Submit a Pull Request**
+   ```bash
+   git commit -m "add: amazing new feature"
+   git push origin feature/your-amazing-feature
+   ```
+
+---
+
+<div align="center">
+
+**Made with ❤️ by the private tracker community**
+
+*If you find this project useful, please consider giving it a ⭐ star on GitHub!*
+
+</div>
