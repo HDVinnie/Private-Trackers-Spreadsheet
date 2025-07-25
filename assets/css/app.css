@@ -379,16 +379,28 @@ body {
 .tracker-table__main th, .tracker-jackett__table th {
   background: var(--gradient-header);
   color: var(--text-primary);
-  padding: 1.25rem 1rem;
+  padding: 1rem 0.8rem;
   text-align: left;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   border-bottom: 2px solid var(--accent-primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  border-right: 1px solid var(--border-tertiary);
   position: sticky;
   top: 0;
   z-index: 10;
+}
+
+.tracker-table__main th:last-child, .tracker-jackett__table th:last-child {
+  border-right: none;
 }
 
 .tracker-table__sortable, .tracker-jackett__sortable {
@@ -403,13 +415,13 @@ body {
   filter: brightness(1.5);
 }
 
-.tracker-table__sortable i, .tracker-jackett__sortable i {
-  margin-left: 0.5rem;
+.tracker-table__sortable .icon, .tracker-jackett__sortable .icon {
+  margin-left: 0.3rem;
   opacity: 0.6;
   transition: all 0.3s ease;
 }
 
-.tracker-table__sortable:hover i, .tracker-jackett__sortable:hover i {
+.tracker-table__sortable:hover .icon, .tracker-jackett__sortable:hover .icon {
   opacity: 1;
   color: var(--accent-primary);
 }
@@ -609,6 +621,83 @@ body {
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath d='M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z'/%3E%3C/svg%3E") no-repeat center;
   mask-size: contain;
   background-color: currentColor;
+}
+
+/* Sticky Header */
+.tracker-table__sticky-header {
+  position: fixed;
+  top: 85px; /* Just below the navbar */
+  z-index: 50;
+  background: var(--bg-secondary);
+  backdrop-filter: blur(15px);
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.tracker-table__sticky-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+  table-layout: fixed; /* Force column widths to be respected */
+}
+
+.tracker-table__sticky-table th {
+  background: var(--gradient-header);
+  color: var(--text-primary);
+  padding: 1rem 0.8rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--accent-primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  /* Ensure consistent sizing */
+  border-right: 1px solid var(--border-tertiary);
+}
+
+.tracker-table__sticky-table th:last-child {
+  border-right: none;
+}
+
+.tracker-table__sticky-table th:hover {
+  background: var(--hover-bg);
+  color: var(--accent-primary);
+  filter: brightness(1.5);
+}
+
+.tracker-table__sticky-table .icon {
+  margin-left: 0.3rem;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.tracker-table__sticky-table th:hover .icon {
+  opacity: 1;
+  color: var(--accent-primary);
+}
+
+/* Responsive adjustments for sticky header */
+@media (max-width: 768px) {
+  .tracker-table__sticky-header {
+    top: 140px; /* Account for taller mobile navbar */
+    left: 1rem !important;
+    right: 1rem;
+    width: calc(100vw - 2rem) !important;
+  }
+
+  .tracker-table__sticky-table th {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.8rem;
+  }
 }
 
 /* Responsive Design */

@@ -76,11 +76,98 @@ function trackerTable() {
         search: '',
         sortColumn: '',
         sortDirection: 'asc',
+        showStickyHeader: false,
+        stickyHeaderLeft: 0,
+        stickyHeaderWidth: 0,
         tooltip: {
             show: false,
             text: '',
             x: 0,
             y: 0
+        },
+        init() {
+            this.loadTrackers();
+            // Set up scroll listener for sticky header
+            this.setupStickyHeader();
+        },
+        setupStickyHeader() {
+            const handleScroll = () => {
+                const tableContainer = document.querySelector('.tracker-table__container');
+                const originalHeader = document.querySelector('.tracker-table__main thead');
+                const tableSection = document.querySelector('.tracker-table');
+                
+                if (!tableContainer || !originalHeader || !tableSection) return;
+                
+                const containerRect = tableContainer.getBoundingClientRect();
+                const headerRect = originalHeader.getBoundingClientRect();
+                const tableSectionRect = tableSection.getBoundingClientRect();
+                const navbar = document.querySelector('.tracker-navbar');
+                const navbarHeight = navbar ? navbar.offsetHeight : 85;
+                
+                // Show sticky header when:
+                // 1. Original header is above viewport
+                // 2. We haven't scrolled past the entire table section
+                const headerOutOfView = headerRect.bottom < navbarHeight + 20;
+                const stillInTableSection = tableSectionRect.bottom > navbarHeight + 60;
+                const shouldShow = headerOutOfView && stillInTableSection;
+                
+                this.showStickyHeader = shouldShow;
+                
+                if (shouldShow) {
+                    // Position sticky header to match the table container
+                    this.stickyHeaderLeft = Math.max(0, containerRect.left);
+                    this.stickyHeaderWidth = Math.min(containerRect.width, window.innerWidth - this.stickyHeaderLeft - 20);
+                    
+                    // Match column widths after a brief delay to ensure DOM is ready
+                    this.$nextTick(() => {
+                        this.matchColumnWidths();
+                    });
+                }
+            };
+            
+            // Throttle scroll events for better performance
+            let ticking = false;
+            const throttledScroll = () => {
+                if (!ticking) {
+                    requestAnimationFrame(() => {
+                        handleScroll();
+                        ticking = false;
+                    });
+                    ticking = true;
+                }
+            };
+            
+            window.addEventListener('scroll', throttledScroll);
+            window.addEventListener('resize', throttledScroll);
+            
+            // Initial call
+            handleScroll();
+        },
+        matchColumnWidths() {
+            // Get the original table header cells
+            const originalCells = document.querySelectorAll('.tracker-table__main thead th');
+            const stickyCells = document.querySelectorAll('.tracker-table__sticky-table thead th');
+            
+            if (originalCells.length !== stickyCells.length) return;
+            
+            // Copy widths from original to sticky header
+            originalCells.forEach((originalCell, index) => {
+                if (stickyCells[index]) {
+                    const width = originalCell.getBoundingClientRect().width;
+                    stickyCells[index].style.width = `${width}px`;
+                    stickyCells[index].style.minWidth = `${width}px`;
+                    stickyCells[index].style.maxWidth = `${width}px`;
+                }
+            });
+        },
+        async loadTrackers() {
+            try {
+                const res = await fetch('./trackers.json');
+                const data = await res.json();
+                this.trackers = data.trackers || [];
+            } catch (error) {
+                console.error('Error loading trackers:', error);
+            }
         },
         get filteredTrackers() {
             let filtered = this.trackers;
@@ -135,7 +222,7 @@ function trackerTable() {
             const rect = event.target.getBoundingClientRect();
             this.tooltip.text = text;
             this.tooltip.x = rect.left + rect.width / 2;
-            this.tooltip.y = rect.top - 10;
+            this.tooltip.y = rect.top - 70;
             this.tooltip.show = true;
         },
         hideTooltip() {
@@ -178,15 +265,6 @@ function trackerTable() {
             } else {
                 this.sortColumn = column;
                 this.sortDirection = 'asc';
-            }
-        },
-        async init() {
-            try {
-                const res = await fetch('./trackers.json');
-                const data = await res.json();
-                this.trackers = data.trackers || [];
-            } catch (error) {
-                console.error('Error loading trackers:', error);
             }
         }
     }

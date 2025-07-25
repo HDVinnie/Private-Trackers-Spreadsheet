@@ -81,6 +81,75 @@
                  x-text="tooltip.text">
             </div>
 
+            <!-- Floating Sticky Header -->
+            <div x-show="showStickyHeader"
+                 x-transition:enter="transition ease-out duration-200"
+                 x-transition:enter-start="opacity-0 transform -translate-y-2"
+                 x-transition:enter-end="opacity-100 transform translate-y-0"
+                 x-transition:leave="transition ease-in duration-150"
+                 x-transition:leave-start="opacity-100 transform translate-y-0"
+                 x-transition:leave-end="opacity-0 transform -translate-y-2"
+                 class="tracker-table__sticky-header"
+                 :style="`left: ${stickyHeaderLeft}px; width: ${stickyHeaderWidth}px;`">
+                <table class="tracker-table__sticky-table">
+                    <thead>
+                    <tr>
+                        <th @click="sortBy('Name')" class="tracker-table__sortable">
+                            Name <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Abbreviation')" class="tracker-table__sortable">
+                            Abbr <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Type')" class="tracker-table__sortable">
+                            Type <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Codebase')" class="tracker-table__sortable">
+                            Codebase <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Observatory Grade')" class="tracker-table__sortable">
+                            Moz Grade <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Users')" class="tracker-table__sortable">
+                            Users <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Torrents')" class="tracker-table__sortable">
+                            Torrents <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Peers')" class="tracker-table__sortable">
+                            Peers <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Ratio')" class="tracker-table__sortable">
+                            Ratio <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Ratio Diff')" class="tracker-table__sortable">
+                            Ratio Diff <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Freeleech')" class="tracker-table__sortable">
+                            Freeleech <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Points')" class="tracker-table__sortable">
+                            Points <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Hit & Run')" class="tracker-table__sortable">
+                            H&R <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Birthdate')" class="tracker-table__sortable">
+                            B-Day <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Join')" class="tracker-table__sortable">
+                            Join <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Join Diff')" class="tracker-table__sortable">
+                            Join Diff <span class="icon icon-sort"></span>
+                        </th>
+                        <th @click="sortBy('Updated')" class="tracker-table__sortable">
+                            Updated <span class="icon icon-sort"></span>
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+
             <div class="tracker-table__controls">
                 <input class="tracker-table__search" type="text" placeholder="Search trackers..." x-model="search">
                 <div class="tracker-table__info">
