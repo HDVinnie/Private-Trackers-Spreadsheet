@@ -22,6 +22,7 @@
   --gradient-header: linear-gradient(135deg, rgba(231, 76, 60, 0.1) 0%, rgba(231, 76, 60, 0.05) 100%);
   --scrollbar-track: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb: rgba(231, 76, 60, 0.3);
+  --text-glow: 0 0 10px rgba(231, 76, 60, 0.5);
 }
 
 :root[data-theme="light"] {
@@ -47,6 +48,7 @@
   --gradient-header: linear-gradient(135deg, rgba(220, 53, 69, 0.1) 0%, rgba(220, 53, 69, 0.05) 100%);
   --scrollbar-track: rgba(0, 0, 0, 0.05);
   --scrollbar-thumb: rgba(220, 53, 69, 0.3);
+  --text-glow: 0 0 10px rgba(220, 53, 69, 0.5);
 }
 
 * {
@@ -448,11 +450,337 @@ body {
   color: var(--text-primary);
 }
 
-.tracker-jackett__cell--description {
-  max-width: 300px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+/* Yes/No value styling */
+.tracker-table__cell--yes {
+  position: relative;
+}
+
+.tracker-table__cell--yes::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  background-color: rgba(46, 204, 113, 0.1);
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--no {
+  position: relative;
+}
+
+.tracker-table__cell--no::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  background-color: rgba(231, 76, 60, 0.1);
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+/* Difficulty level styling */
+.tracker-table__cell--easy {
+  position: relative;
+}
+
+.tracker-table__cell--easy::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  background-color: rgba(46, 204, 113, 0.1);
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 50px;
+}
+
+.tracker-table__cell--moderate {
+  position: relative;
+}
+
+.tracker-table__cell--moderate::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  background-color: rgba(255, 193, 7, 0.1);
+  color: #ffc107;
+  border: 1px solid #ffc107;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 50px;
+}
+
+.tracker-table__cell--tough {
+  position: relative;
+}
+
+.tracker-table__cell--tough::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  background-color: rgba(231, 76, 60, 0.1);
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 50px;
+}
+
+/* Mozilla Observatory Grade styling */
+.tracker-table__cell--grade-a-plus {
+  position: relative;
+}
+
+.tracker-table__cell--grade-a-plus::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #22c55e;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-a {
+  position: relative;
+}
+
+.tracker-table__cell--grade-a::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #2ecc71;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-a-minus {
+  position: relative;
+}
+
+.tracker-table__cell--grade-a-minus::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #65a30d;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-b-plus {
+  position: relative;
+}
+
+.tracker-table__cell--grade-b-plus::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #84cc16;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-b {
+  position: relative;
+}
+
+.tracker-table__cell--grade-b::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #a3e635;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-b-minus {
+  position: relative;
+}
+
+.tracker-table__cell--grade-b-minus::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #ffc107;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-c-plus {
+  position: relative;
+}
+
+.tracker-table__cell--grade-c-plus::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #fb923c;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-c {
+  position: relative;
+}
+
+.tracker-table__cell--grade-c::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #f97316;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-c-minus {
+  position: relative;
+}
+
+.tracker-table__cell--grade-c-minus::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #ea580c;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-d-plus {
+  position: relative;
+}
+
+.tracker-table__cell--grade-d-plus::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #ef4444;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-d {
+  position: relative;
+}
+
+.tracker-table__cell--grade-d::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #dc2626;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-d-minus {
+  position: relative;
+}
+
+.tracker-table__cell--grade-d-minus::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #b91c1c;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tracker-table__cell--grade-f {
+  position: relative;
+}
+
+.tracker-table__cell--grade-f::after {
+  content: attr(data-value);
+  display: inline-block;
+  padding: 1px;
+  color: #991b1b;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+/* Light theme adjustments for yes/no values */
+:root[data-theme="light"] .tracker-table__cell--yes::after {
+  background-color: rgba(39, 174, 96, 0.08);
+  color: #27ae60;
+  border-color: #27ae60;
+}
+
+:root[data-theme="light"] .tracker-table__cell--no::after {
+  background-color: rgba(220, 53, 69, 0.08);
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* Light theme adjustments for difficulty levels */
+:root[data-theme="light"] .tracker-table__cell--easy::after {
+  background-color: rgba(39, 174, 96, 0.08);
+  color: #27ae60;
+  border-color: #27ae60;
+}
+
+:root[data-theme="light"] .tracker-table__cell--moderate::after {
+  background-color: rgba(255, 193, 7, 0.1);
+  color: #e6ac00;
+  border-color: #e6ac00;
+}
+
+:root[data-theme="light"] .tracker-table__cell--tough::after {
+  background-color: rgba(220, 53, 69, 0.08);
+  color: #dc3545;
+  border-color: #dc3545;
 }
 
 /* Jackett Section */

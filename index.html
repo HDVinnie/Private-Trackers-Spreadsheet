@@ -232,34 +232,19 @@
                             class="tracker-table__sortable">
                             Points <span class="icon icon-sort"></span>
                         </th>
-                        <th @click="sortBy('Hit & Run')"
-                            @mouseenter="showTooltip($event, 'Whether the tracker enforces hit and run rules (must seed for minimum time/ratio)')"
-                            @mouseleave="hideTooltip()"
-                            class="tracker-table__sortable">
+                        <th @click="sortBy('Hit & Run')" class="tracker-table__sortable">
                             H&R <span class="icon icon-sort"></span>
                         </th>
-                        <th @click="sortBy('Birthdate')"
-                            @mouseenter="showTooltip($event, 'Year the tracker was founded or launched')"
-                            @mouseleave="hideTooltip()"
-                            class="tracker-table__sortable">
+                        <th @click="sortBy('Birthdate')" class="tracker-table__sortable">
                             B-Day <span class="icon icon-sort"></span>
                         </th>
-                        <th @click="sortBy('Join')"
-                            @mouseenter="showTooltip($event, 'How users can join the tracker (Invite, Application, Open, etc.)')"
-                            @mouseleave="hideTooltip()"
-                            class="tracker-table__sortable">
+                        <th @click="sortBy('Join')" class="tracker-table__sortable">
                             Join <span class="icon icon-sort"></span>
                         </th>
-                        <th @click="sortBy('Join Diff')"
-                            @mouseenter="showTooltip($event, 'How difficult it is to join the tracker (Easy, Moderate, Tough)')"
-                            @mouseleave="hideTooltip()"
-                            class="tracker-table__sortable">
+                        <th @click="sortBy('Join Diff')" class="tracker-table__sortable">
                             Join Diff <span class="icon icon-sort"></span>
                         </th>
-                        <th @click="sortBy('Updated')"
-                            @mouseenter="showTooltip($event, 'Date when the tracker\'s information was last updated in this database')"
-                            @mouseleave="hideTooltip()"
-                            class="tracker-table__sortable">
+                        <th @click="sortBy('Updated')" class="tracker-table__sortable">
                             Updated <span class="icon icon-sort"></span>
                         </th>
                     </tr>
@@ -271,18 +256,65 @@
                             <td class="tracker-table__cell" x-text="tracker.Abbreviation"></td>
                             <td class="tracker-table__cell" x-text="tracker.Type"></td>
                             <td class="tracker-table__cell" x-text="tracker.Codebase"></td>
-                            <td class="tracker-table__cell" x-text="tracker['Observatory Grade']"></td>
+                            <td class="tracker-table__cell"
+                                :class="tracker['Observatory Grade'] === 'A+' || tracker['Observatory Grade'] === 'A +' ? 'tracker-table__cell--grade-a-plus' :
+                                        tracker['Observatory Grade'] === 'A' ? 'tracker-table__cell--grade-a' :
+                                        tracker['Observatory Grade'] === 'A-' || tracker['Observatory Grade'] === 'A -' ? 'tracker-table__cell--grade-a-minus' :
+                                        tracker['Observatory Grade'] === 'B+' || tracker['Observatory Grade'] === 'B +' ? 'tracker-table__cell--grade-b-plus' :
+                                        tracker['Observatory Grade'] === 'B' ? 'tracker-table__cell--grade-b' :
+                                        tracker['Observatory Grade'] === 'B-' || tracker['Observatory Grade'] === 'B -' ? 'tracker-table__cell--grade-b-minus' :
+                                        tracker['Observatory Grade'] === 'C+' || tracker['Observatory Grade'] === 'C +' ? 'tracker-table__cell--grade-c-plus' :
+                                        tracker['Observatory Grade'] === 'C' ? 'tracker-table__cell--grade-c' :
+                                        tracker['Observatory Grade'] === 'C-' || tracker['Observatory Grade'] === 'C -' ? 'tracker-table__cell--grade-c-minus' :
+                                        tracker['Observatory Grade'] === 'D+' || tracker['Observatory Grade'] === 'D +' ? 'tracker-table__cell--grade-d-plus' :
+                                        tracker['Observatory Grade'] === 'D' ? 'tracker-table__cell--grade-d' :
+                                        tracker['Observatory Grade'] === 'D-' || tracker['Observatory Grade'] === 'D -' ? 'tracker-table__cell--grade-d-minus' :
+                                        tracker['Observatory Grade'] === 'F' ? 'tracker-table__cell--grade-f' : ''"
+                                :data-value="tracker['Observatory Grade']"
+                                :style="(tracker['Observatory Grade'] && tracker['Observatory Grade'] !== '-' && tracker['Observatory Grade'].trim() !== '') ? 'color: transparent;' : ''">
+                                <span x-show="!tracker['Observatory Grade'] || tracker['Observatory Grade'] === '-' || tracker['Observatory Grade'].trim() === ''" x-text="tracker['Observatory Grade']"></span>
+                            </td>
                             <td class="tracker-table__cell" x-text="tracker.Users"></td>
                             <td class="tracker-table__cell" x-text="tracker.Torrents"></td>
                             <td class="tracker-table__cell" x-text="tracker.Peers"></td>
-                            <td class="tracker-table__cell" x-text="tracker.Ratio"></td>
-                            <td class="tracker-table__cell" x-text="tracker['Ratio Diff']"></td>
-                            <td class="tracker-table__cell" x-text="tracker.Freeleech"></td>
-                            <td class="tracker-table__cell" x-text="tracker.Points"></td>
-                            <td class="tracker-table__cell" x-text="tracker['Hit & Run']"></td>
+                            <td class="tracker-table__cell"
+                                :class="tracker.Ratio === 'Yes' ? 'tracker-table__cell--yes' : tracker.Ratio === 'No' ? 'tracker-table__cell--no' : ''"
+                                :data-value="tracker.Ratio"
+                                :style="(tracker.Ratio === 'Yes' || tracker.Ratio === 'No') ? 'color: transparent;' : ''">
+                                <span x-show="tracker.Ratio !== 'Yes' && tracker.Ratio !== 'No'" x-text="tracker.Ratio"></span>
+                            </td>
+                            <td class="tracker-table__cell"
+                                :class="tracker['Ratio Diff'] === 'Easy' ? 'tracker-table__cell--easy' : tracker['Ratio Diff'] === 'Moderate' ? 'tracker-table__cell--moderate' : tracker['Ratio Diff'] === 'Tough' ? 'tracker-table__cell--tough' : ''"
+                                :data-value="tracker['Ratio Diff']"
+                                :style="(tracker['Ratio Diff'] === 'Easy' || tracker['Ratio Diff'] === 'Moderate' || tracker['Ratio Diff'] === 'Tough') ? 'color: transparent;' : ''">
+                                <span x-show="tracker['Ratio Diff'] !== 'Easy' && tracker['Ratio Diff'] !== 'Moderate' && tracker['Ratio Diff'] !== 'Tough'" x-text="tracker['Ratio Diff']"></span>
+                            </td>
+                            <td class="tracker-table__cell"
+                                :class="tracker.Freeleech === 'Yes' ? 'tracker-table__cell--yes' : tracker.Freeleech === 'No' ? 'tracker-table__cell--no' : ''"
+                                :data-value="tracker.Freeleech"
+                                :style="(tracker.Freeleech === 'Yes' || tracker.Freeleech === 'No') ? 'color: transparent;' : ''">
+                                <span x-show="tracker.Freeleech !== 'Yes' && tracker.Freeleech !== 'No'" x-text="tracker.Freeleech"></span>
+                            </td>
+                            <td class="tracker-table__cell"
+                                :class="tracker.Points === 'Yes' ? 'tracker-table__cell--yes' : tracker.Points === 'No' ? 'tracker-table__cell--no' : ''"
+                                :data-value="tracker.Points"
+                                :style="(tracker.Points === 'Yes' || tracker.Points === 'No') ? 'color: transparent;' : ''">
+                                <span x-show="tracker.Points !== 'Yes' && tracker.Points !== 'No'" x-text="tracker.Points"></span>
+                            </td>
+                            <td class="tracker-table__cell"
+                                :class="tracker['Hit & Run'] === 'Yes' ? 'tracker-table__cell--yes' : tracker['Hit & Run'] === 'No' ? 'tracker-table__cell--no' : ''"
+                                :data-value="tracker['Hit & Run']"
+                                :style="(tracker['Hit & Run'] === 'Yes' || tracker['Hit & Run'] === 'No') ? 'color: transparent;' : ''">
+                                <span x-show="tracker['Hit & Run'] !== 'Yes' && tracker['Hit & Run'] !== 'No'" x-text="tracker['Hit & Run']"></span>
+                            </td>
                             <td class="tracker-table__cell" x-text="tracker.Birthdate"></td>
                             <td class="tracker-table__cell" x-text="tracker.Join"></td>
-                            <td class="tracker-table__cell" x-text="tracker['Join Diff']"></td>
+                            <td class="tracker-table__cell"
+                                :class="tracker['Join Diff'] === 'Easy' ? 'tracker-table__cell--easy' : tracker['Join Diff'] === 'Moderate' ? 'tracker-table__cell--moderate' : tracker['Join Diff'] === 'Tough' ? 'tracker-table__cell--tough' : ''"
+                                :data-value="tracker['Join Diff']"
+                                :style="(tracker['Join Diff'] === 'Easy' || tracker['Join Diff'] === 'Moderate' || tracker['Join Diff'] === 'Tough') ? 'color: transparent;' : ''">
+                                <span x-show="tracker['Join Diff'] !== 'Easy' && tracker['Join Diff'] !== 'Moderate' && tracker['Join Diff'] !== 'Tough'" x-text="tracker['Join Diff']"></span>
+                            </td>
                             <td class="tracker-table__cell" x-text="tracker.Updated"></td>
                         </tr>
                     </template>
