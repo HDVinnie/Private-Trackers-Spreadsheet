@@ -67,11 +67,6 @@
         </div>
     </nav>
     <main class="tracker-main">
-        <section class="tracker-contribute">
-            <div class="tracker-contribute__message">
-                <strong>Hey There!</strong> Like what you see? Feel free to contribute <a class="tracker-contribute__link" href="https://github.com/HDVinnie/Private-Trackers-Spreadsheet">HERE!</a>
-            </div>
-        </section>
         <section class="tracker-table" x-data="trackerTable()">
             <!-- Tooltip container -->
             <div x-show="tooltip.show"
@@ -153,7 +148,7 @@
             <div class="tracker-table__controls">
                 <input class="tracker-table__search" type="text" placeholder="Search trackers..." x-model="search">
                 <div class="tracker-table__info">
-                    <span x-text="`${filteredTrackers.length} of ${trackers.length} trackers`"></span>
+                    <span style="font-size: 1.2rem;" x-text="`${filteredTrackers.length} of ${trackers.length} trackers`"></span>
                 </div>
             </div>
             <div class="tracker-table__container">
@@ -361,9 +356,10 @@
         </section>
         <section class="tracker-privacy">
             <div class="tracker-privacy__panel">
-                <h3 class="tracker-privacy__title">Privacy Notice</h3>
                 <div class="tracker-privacy__body">
-                    If your site is listed here and you dont want it to be, please email <a href="mailto:hdinnovations@protonmail.com">hdinnovations@protonmail.com</a> instead of using the issue tracker.
+                    <p><strong>Hey There!</strong> Like what you see? Feel free to contribute <a class="tracker-contribute__link" href="https://github.com/HDVinnie/Private-Trackers-Spreadsheet">HERE!</a></p>
+
+                    <p>If your site is listed here and you dont want it to be, please email <a href="mailto:hdinnovations@protonmail.com">hdinnovations@protonmail.com</a> instead of using the issue tracker.</p>
                 </div>
             </div>
         </section>
