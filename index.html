@@ -75,6 +75,151 @@
                  :style="`left: ${tooltip.x}px; top: ${tooltip.y}px; transform: translateX(-50%)`"
                  x-text="tooltip.text">
             </div>
+            
+            <!-- Comparison Modal -->
+            <div x-show="showCompareModal" 
+                 x-transition
+                 class="tracker-compare-modal">
+                <div class="tracker-compare-modal__backdrop" @click="closeCompareModal()"></div>
+                <div class="tracker-compare-modal__content">
+                    <div class="tracker-compare-modal__header">
+                        <h3 class="tracker-compare-modal__title">Compare Trackers</h3>
+                        <button class="tracker-compare-modal__close" @click="closeCompareModal()">
+                            <span class="icon icon-close"></span>
+                        </button>
+                    </div>
+                    <div class="tracker-compare-modal__body">
+                        <template x-if="selectedTrackers.length < 2">
+                            <div class="tracker-compare-modal__empty">
+                                <p>Please select at least 2 trackers to compare (maximum 4).</p>
+                            </div>
+                        </template>
+                        <template x-if="selectedTrackers.length >= 2">
+                            <div class="tracker-compare-table-container">
+                                <table class="tracker-compare-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="tracker-compare-table__property">Property</th>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <th class="tracker-compare-table__tracker">
+                                                    <div class="tracker-compare-table__tracker-name" x-text="tracker.Name"></div>
+                                                    <button class="tracker-compare-table__remove-btn" @click="removeFromComparison(tracker)">
+                                                        <span class="icon icon-close"></span>
+                                                    </button>
+                                                </th>
+                                            </template>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Name</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Name"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Abbreviation</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Abbreviation"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Type</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Type"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Codebase</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Codebase"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Observatory Grade</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker['Observatory Grade']"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Users</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Users"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Torrents</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Torrents"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Peers</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Peers"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Ratio</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Ratio"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Ratio Difficulty</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker['Ratio Diff']"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Freeleech</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Freeleech"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Points</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Points"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Hit & Run</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker['Hit & Run']"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Birthdate</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Birthdate"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Join</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Join"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Join Difficulty</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker['Join Diff']"></td>
+                                            </template>
+                                        </tr>
+                                        <tr>
+                                            <td>Updated</td>
+                                            <template x-for="tracker in selectedTrackers" :key="tracker.Name">
+                                                <td x-text="tracker.Updated"></td>
+                                            </template>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
 
             <!-- Floating Sticky Header -->
             <div x-show="showStickyHeader"
@@ -146,10 +291,20 @@
             </div>
 
             <div class="tracker-table__controls">
-                <input class="tracker-table__search" type="text" placeholder="Search trackers..." x-model="search">
-                <div class="tracker-table__info">
-                    <span style="font-size: 1.2rem;" x-text="`${filteredTrackers.length} of ${trackers.length} trackers`"></span>
+                <div class="tracker-table__search-container">
+                    <input class="tracker-table__search" type="text" placeholder="Search trackers..." x-model="search">
+                    <div class="tracker-table__info">
+                        <span style="font-size: 1rem;" x-text="`${filteredTrackers.length} of ${trackers.length} trackers`"></span>
+                    </div>
                 </div>
+                <button class="tracker-table__compare-btn" 
+                        @click="openCompareModal()" 
+                        :disabled="selectedTrackers.length < 2"
+                        @mouseenter="selectedTrackers.length < 2 ? showTooltip($event, 'Select at least two trackers to compare') : null"
+                        @mouseleave="hideTooltip()">
+                    Compare Trackers
+                    <span x-show="selectedTrackers.length > 0" class="tracker-table__compare-count" x-text="selectedTrackers.length"></span>
+                </button>
             </div>
             <div class="tracker-table__container">
                 <table class="tracker-table__main">
@@ -247,7 +402,17 @@
                     <tbody>
                     <template x-for="tracker in filteredTrackers" :key="tracker.Name">
                         <tr class="tracker-table__row">
-                            <td class="tracker-table__cell tracker-table__cell--name" x-text="tracker.Name"></td>
+                            <td class="tracker-table__cell tracker-table__cell--name">
+                                <label class="tracker-table__checkbox-label" style="margin-right: 8px;">
+                                    <input type="checkbox" 
+                                           class="tracker-table__checkbox" 
+                                           :disabled="!isInSelectedTrackers(tracker) && selectedTrackers.length >= 4"
+                                           :checked="isInSelectedTrackers(tracker)"
+                                           @click="toggleTrackerSelection(tracker)">
+                                    <span class="tracker-table__checkbox-custom"></span>
+                                </label>
+                                <span x-text="tracker.Name"></span>
+                            </td>
                             <td class="tracker-table__cell" x-text="tracker.Abbreviation"></td>
                             <td class="tracker-table__cell" x-text="tracker.Type"></td>
                             <td class="tracker-table__cell" x-text="tracker.Codebase"></td>

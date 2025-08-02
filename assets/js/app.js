@@ -65,6 +65,10 @@ function themeSwitcher() {
             // Update text shadow effects
             document.documentElement.style.setProperty('--text-glow',
                 `0 0 10px rgba(${r}, ${g}, ${b}, 0.5)`);
+                
+            // Update scrollbar styling to match accent color
+            document.documentElement.style.setProperty('--scrollbar-thumb', 
+                `rgba(${r}, ${g}, ${b}, 0.3)`);
         }
     }
 }
@@ -79,6 +83,8 @@ function trackerTable() {
         showStickyHeader: false,
         stickyHeaderLeft: 0,
         stickyHeaderWidth: 0,
+        selectedTrackers: [],
+        showCompareModal: false,
         tooltip: {
             show: false,
             text: '',
@@ -265,6 +271,40 @@ function trackerTable() {
             } else {
                 this.sortColumn = column;
                 this.sortDirection = 'asc';
+            }
+        },
+        
+        // Tracker comparison functions
+        isInSelectedTrackers(tracker) {
+            return this.selectedTrackers.some(t => t.Name === tracker.Name);
+        },
+        
+        toggleTrackerSelection(tracker) {
+            if (this.isInSelectedTrackers(tracker)) {
+                this.selectedTrackers = this.selectedTrackers.filter(t => t.Name !== tracker.Name);
+            } else {
+                if (this.selectedTrackers.length < 4) {
+                    this.selectedTrackers.push(tracker);
+                }
+            }
+        },
+        
+        openCompareModal() {
+            if (this.selectedTrackers.length >= 2) {
+                this.showCompareModal = true;
+                document.body.classList.add('modal-open');
+            }
+        },
+        
+        closeCompareModal() {
+            this.showCompareModal = false;
+            document.body.classList.remove('modal-open');
+        },
+        
+        removeFromComparison(tracker) {
+            this.selectedTrackers = this.selectedTrackers.filter(t => t.Name !== tracker.Name);
+            if (this.selectedTrackers.length < 2) {
+                this.closeCompareModal();
             }
         }
     }
