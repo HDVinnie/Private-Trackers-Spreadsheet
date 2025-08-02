@@ -945,7 +945,7 @@ body {
 /* Sticky Header */
 .tracker-table__sticky-header {
   position: fixed;
-  top: 85px; /* Just below the navbar */
+  top: 74px; /* Just below the navbar */
   z-index: 50;
   background: var(--bg-secondary);
   backdrop-filter: blur(15px);
