@@ -28,22 +28,27 @@ Simply visit the [live site](https://hdvinnie.github.io/Private-Trackers-Spreads
 ### 💻 **Local Development**
 
 ```bash
+# Install Bun
+curl -fsSL https://bun.sh/install | bash
+
 # Clone the repository
 git clone https://github.com/hdvinnie/Private-Trackers-Spreadsheet.git
 
 # Navigate to project directory
 cd Private-Trackers-Spreadsheet
 
-# Install dependencies (for Jackett updates)
-npm install
-
-# Update Jackett tracker data (optional)
-node read.js
-# or via npm script
-npm run update:jackett
+# Install deps and start dev server
+bun install
+bun run dev
 ```
 
-> Optional: to increase GitHub API rate limits, set an access token:
+### 💻 **Update trackers2.json from Jackett**
+
+```bash
+bun run update:jackett
+```
+
+> Recommended: Increase GitHub API rate limits when running `npm run update:jackett`, set an access token:
 >
 > macOS/Linux
 > ```bash
@@ -53,6 +58,11 @@ npm run update:jackett
 > ```powershell
 > $Env:GITHUB_TOKEN = "ghp_yourtoken"
 > ```
+
+---
+
+## 🤖 Automation
+- A weekly GitHub Action is used to update trackers2.json from Jackett and commit changes when a diff is present.
 
 ---
 

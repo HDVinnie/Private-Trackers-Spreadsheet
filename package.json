@@ -9,6 +9,8 @@
     "js-yaml": "^3.13.1"
   },
   "scripts": {
-    "update:jackett": "node read.js"
+    "update:jackett": "bun run read.js",
+    "dev": "bun run bun.server.ts",
+    "start": "bun run bun.server.ts"
   }
 }
