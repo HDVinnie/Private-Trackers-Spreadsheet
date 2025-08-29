@@ -5,7 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/hdvinnie/Private-Trackers-Spreadsheet?style=for-the-badge&color=ffd700)](https://github.com/hdvinnie/Private-Trackers-Spreadsheet/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/hdvinnie/Private-Trackers-Spreadsheet?style=for-the-badge&color=3498db)](https://github.com/hdvinnie/Private-Trackers-Spreadsheet/network)
 
-*A interactive database of private BitTorrent tracker statistics with sorting and filtering capabilities. Built using AlpineJS, HTML5 and CSS3*
+*"A interactive database of private BitTorrent tracker statistics with sorting and filtering capabilities. Built using AlpineJS, HTML5 and CSS3"*
 
 </div>
 
@@ -39,10 +39,20 @@ npm install
 
 # Update Jackett tracker data (optional)
 node read.js
-
-# Serve locally (any static server)
-npx serve .
+# or via npm script
+npm run update:jackett
 ```
+
+> Optional: to increase GitHub API rate limits, set an access token:
+>
+> macOS/Linux
+> ```bash
+> export GITHUB_TOKEN=ghp_yourtoken
+> ```
+> Windows (PowerShell)
+> ```powershell
+> $Env:GITHUB_TOKEN = "ghp_yourtoken"
+> ```
 
 ---
 

@@ -2,9 +2,13 @@
   "name": "private-trackers-spreadsheet",
   "version": "1.0.0",
   "description": "[Private Trackers Spreadsheet](https://hdvinnie.github.io/Private-Trackers-Spreadsheet/) - This comparative table of torrent trackers originates from discussions on [Reddit](https://www.reddit.com/r/trackers/comments/ehd7oy/new_private_trackers_spreadsheet/).",
-  "dependencies": {},
+  "dependencies": {
+    "undici": "^6.19.8"
+  },
   "devDependencies": {
     "js-yaml": "^3.13.1"
   },
-  "scripts": {}
+  "scripts": {
+    "update:jackett": "node read.js"
+  }
 }
