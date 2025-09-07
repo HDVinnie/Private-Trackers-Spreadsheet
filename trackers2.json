@@ -683,7 +683,7 @@
     {
       "name": "LastFiles",
       "description": "LastFiles (LF) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "TV, Movies, General, PC, XXX, Audio, Books"
+      "type": "TV, Movies, General, PC, Audio, Books, XXX"
     },
     {
       "name": "Lat-Team (API)",
@@ -729,6 +729,11 @@
       "name": "LosslessClub",
       "description": "LosslessClub is a RUSSIAN Private Torrent Tracker for High Quality Music",
       "type": ""
+    },
+    {
+      "name": "LuckPT",
+      "description": "LuckPT is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
     },
     {
       "name": "Majomparádé",
