@@ -123,7 +123,7 @@
     {
       "name": "Back-ups",
       "description": "Back-Ups is a Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "PC, TV, Audio, Console, Movies, Books, XXX"
+      "type": "Console, PC, TV, Audio, Movies, Books, XXX"
     },
     {
       "name": "Beload",
@@ -1059,6 +1059,11 @@
       "name": "SewerPT",
       "description": "SewerPT (下水道) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General"
+    },
+    {
+      "name": "SexTorrent",
+      "description": "SexTorrent is a Private Torrent Tracker for 3X",
+      "type": "XXX"
     },
     {
       "name": "SFP",
