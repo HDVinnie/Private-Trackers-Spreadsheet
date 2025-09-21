@@ -888,7 +888,7 @@
     {
       "name": "Polish Torrent (API)",
       "description": "Polish Torrent (PTT) is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, PC, Audio, Books, Console, General, XXX"
+      "type": "Movies, TV, PC, Audio, Books, Console, General"
     },
     {
       "name": "PolishTracker (API)",
