@@ -328,7 +328,7 @@
     {
       "name": "Darkpeers (API)",
       "description": "Darkpeers is a NORDIC Private Torrent Tracker for MOVIES / TV",
-      "type": "Movies, TV, Audio, Console, PC, XXX"
+      "type": "Movies, TV, Console, Audio, PC, XXX, General"
     },
     {
       "name": "Das Unerwartete",
