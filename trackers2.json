@@ -811,6 +811,11 @@
       "type": "XXX"
     },
     {
+      "name": "Nirvana (API)",
+      "description": "Nirvana is a Private RUSSIAN Tracker for MOVIES / TV",
+      "type": "Movies, TV, General"
+    },
+    {
       "name": "NordicQuality (API)",
       "description": "NordicQuality is a NORDIC Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Audio, Books, Console, Movies, PC, TV, XXX"
@@ -1017,7 +1022,7 @@
     },
     {
       "name": "ReelFLiX (API)",
-      "description": "ReelFLiX (HD4Free,LegacyHD) is a Private Torrent Tracker for HD MOVIES",
+      "description": "ReelFLiX (HD4Free, LegacyHD) is a Private Torrent Tracker for HD MOVIES",
       "type": "Movies"
     },
     {
@@ -1182,8 +1187,8 @@
     },
     {
       "name": "Toca Share (API)",
-      "description": "Toca Share is a PORTUGUESE Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, Console, PC, Books, General, XXX"
+      "description": "Toca Share is a PORTUGUESE Private Torrent Tracker for EBOOKS / AUDIOBOOKS / COURSES",
+      "type": "Books, General, Audio"
     },
     {
       "name": "Tormac",
