@@ -61,6 +61,11 @@
       "type": "Movies, TV"
     },
     {
+      "name": "alingPT",
+      "description": "alingPT is a CHINESE Private Torrent Tracker for MOVIES / TV",
+      "type": "TV, Movies"
+    },
+    {
       "name": "Amigos Share Club",
       "description": "Amigos Share Club (ASC) is a BRAZILIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "XXX, TV, PC, General, Books, Audio, Movies, Console"
@@ -226,6 +231,11 @@
       "type": "Audio, General, TV, Movies"
     },
     {
+      "name": "cangbaoge (CBG)",
+      "description": "cangbaoge (CBG) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, Books"
+    },
+    {
       "name": "CapybaraBR (API)",
       "description": "CapybaraBR is a BRAZILIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Console, PC, Books, General"
@@ -242,7 +252,7 @@
     },
     {
       "name": "CarPT",
-      "description": "CarPT is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
+      "description": "CarPT is a CHINESE Private Torrent Tracker for HD MOVIES / TV / MUSIC",
       "type": "Movies, TV, Audio, General"
     },
     {
@@ -407,7 +417,7 @@
     },
     {
       "name": "F1GP",
-      "description": "F1GP is a Private Torrent Tracker for F1 Racing",
+      "description": "F1GP is a Private Torrent Tracker for F1, F2, F3, FE, F1 Academy Racing",
       "type": "TV"
     },
     {
@@ -418,7 +428,7 @@
     {
       "name": "Fappaizuri",
       "description": "Fappaizuri is a Private Torrent Tracker for HENTAI / JAV",
-      "type": "TV, Console, XXX, Books"
+      "type": "XXX, Books, Console, TV"
     },
     {
       "name": "FinElite",
@@ -679,6 +689,11 @@
       "name": "Kufirc2FA",
       "description": "Kufirc is a HUNGARIAN Private tracker for 3X. This indexer uses cookie login for 2FA.",
       "type": "XXX, Books, PC"
+    },
+    {
+      "name": "lajidui",
+      "description": "lajidui is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General, Books, PC"
     },
     {
       "name": "LastFiles",
@@ -1046,6 +1061,11 @@
       "type": "Movies, TV, General, Console, Books, Audio, PC"
     },
     {
+      "name": "SBPT",
+      "description": "SBPT is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, Audio, General, TV"
+    },
+    {
       "name": "SceneRush",
       "description": "SceneRush is a PORTUGUESE Private Torrent Tracker for 0DAY / GENERAL",
       "type": "Console, PC, Movies, Audio, TV, XXX, Books, General"
@@ -1104,6 +1124,11 @@
       "name": "Swarmazon (API)",
       "description": "Swarmazon is a Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, General, Audio, PC, Books"
+    },
+    {
+      "name": "Tangmen (唐门)",
+      "description": "Tangmen (唐门) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "TV, Audio, Movies"
     },
     {
       "name": "Tapochek",
