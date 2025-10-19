@@ -161,11 +161,6 @@
       "type": "XXX, PC, Books, Movies, Audio, Console"
     },
     {
-      "name": "Bithorlo",
-      "description": "Bithorlo (BHO) is a HUNGARIAN Private Torrent Tracker for MOVIES / GENERAL",
-      "type": "Books, Console, PC, Movies, TV, Audio, General, XXX"
-    },
-    {
       "name": "BitHUmen",
       "description": "BitHUmen is a HUNGARIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, XXX, TV, Books, Audio, PC, Console, General"
@@ -1096,6 +1091,11 @@
       "type": "TV, PC, XXX, Movies, Audio, General, Books, Console"
     },
     {
+      "name": "ShaKaw",
+      "description": "ShaKaw is a BRAZILIAN Private Torrent Tracker for ANIME",
+      "type": "TV, Movies, Books"
+    },
+    {
       "name": "Shareisland (API)",
       "description": "Shareisland is a ITALIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Books, XXX, Audio, PC, General"
@@ -1302,7 +1302,7 @@
     },
     {
       "name": "TurkTorrent",
-      "description": "TurkTorrent (TT) is a TURKISH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "description": "TurkTorrent (TT) is a TURKISH Private PAY2DL Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, General, TV, Books, PC, Audio, Console"
     },
     {
