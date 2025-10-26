@@ -301,6 +301,11 @@
       "type": ""
     },
     {
+      "name": "Concertos (API)",
+      "description": "Concertos is a Private Torrent Tracker for Live Concerts with Strict Quality Control",
+      "type": "TV, Audio"
+    },
+    {
       "name": "CrabPT (蟹黄堡)",
       "description": "CrabPT (蟹黄堡) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General, Books, Console"
@@ -1023,7 +1028,7 @@
     {
       "name": "Rastastugan (API)",
       "description": "Rastastugan is a NORDIC Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, PC, Console, Books, XXX"
+      "type": "Movies, TV, Audio, PC, Console, Books, General, XXX"
     },
     {
       "name": "Red Star Torrent",
@@ -1081,11 +1086,6 @@
       "type": "Movies, TV, Audio, General"
     },
     {
-      "name": "SexTorrent",
-      "description": "SexTorrent is a Private Torrent Tracker for 3X",
-      "type": "XXX"
-    },
-    {
       "name": "SFP",
       "description": "SFP (Share Friends Projekt) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, PC, XXX, Movies, Audio, General, Books, Console"
@@ -1102,7 +1102,7 @@
     },
     {
       "name": "SiamBIT",
-      "description": "SiamBIT is a THAI Private Torrent Tracker for GENERAL",
+      "description": "SiamBIT is a THAI PAY2DL Private Torrent Tracker for GENERAL",
       "type": "General, PC, TV, Audio, Movies, Books, XXX"
     },
     {
