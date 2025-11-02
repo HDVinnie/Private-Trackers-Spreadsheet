@@ -611,6 +611,11 @@
       "type": "TV, PC, Books, Audio, Movies, Console, General"
     },
     {
+      "name": "HELLENIC-HD (API)",
+      "description": "HELLENIC-HD is a GREEK Private Torrent Tracker for MOVIES / TV",
+      "type": "Movies, TV"
+    },
+    {
       "name": "HHanClub",
       "description": "HHanClub is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
       "type": "General, TV, Movies, Audio"
@@ -1086,6 +1091,11 @@
       "type": "Movies, TV, Audio, General"
     },
     {
+      "name": "SexTorrent (API)",
+      "description": "SexTorrent is a Private Torrent Tracker for 3X",
+      "type": "XXX, Movies, TV"
+    },
+    {
       "name": "SFP",
       "description": "SFP (Share Friends Projekt) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, PC, XXX, Movies, Audio, General, Books, Console"
@@ -1098,7 +1108,7 @@
     {
       "name": "Shareisland (API)",
       "description": "Shareisland is a ITALIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Books, XXX, Audio, PC, General"
+      "type": "Movies, TV, Books, Audio, PC, General"
     },
     {
       "name": "SiamBIT",
