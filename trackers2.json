@@ -426,11 +426,6 @@
       "type": "Movies, TV, PC, Audio, Books, Console, General, XXX"
     },
     {
-      "name": "Fappaizuri",
-      "description": "Fappaizuri is a Private Torrent Tracker for HENTAI / JAV",
-      "type": "XXX, Books, Console, TV"
-    },
-    {
       "name": "FinElite",
       "description": "FinElite (FE) is a FINNISH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Audio, TV, Books, Console, PC, Movies"
@@ -611,6 +606,11 @@
       "type": "TV, PC, Books, Audio, Movies, Console, General"
     },
     {
+      "name": "HELLENIC-HD (API)",
+      "description": "HELLENIC-HD is a GREEK Private Torrent Tracker for MOVIES / TV",
+      "type": "Movies, TV"
+    },
+    {
       "name": "HHanClub",
       "description": "HHanClub is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
       "type": "General, TV, Movies, Audio"
@@ -694,6 +694,11 @@
       "name": "lajidui",
       "description": "lajidui is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General, Books, PC"
+    },
+    {
+      "name": "Last Digital Underground",
+      "description": "Last Digital Underground (LDU) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, General, Books, Audio, XXX"
     },
     {
       "name": "LastFiles",
@@ -1086,6 +1091,11 @@
       "type": "Movies, TV, Audio, General"
     },
     {
+      "name": "SexTorrent (API)",
+      "description": "SexTorrent is a Private Torrent Tracker for 3X",
+      "type": "XXX, Movies, TV"
+    },
+    {
       "name": "SFP",
       "description": "SFP (Share Friends Projekt) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, PC, XXX, Movies, Audio, General, Books, Console"
@@ -1098,7 +1108,7 @@
     {
       "name": "Shareisland (API)",
       "description": "Shareisland is a ITALIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Books, XXX, Audio, PC, General"
+      "type": "Movies, TV, Books, Audio, PC, General"
     },
     {
       "name": "SiamBIT",
