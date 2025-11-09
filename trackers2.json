@@ -346,6 +346,11 @@
       "type": "Movies, TV, Audio, PC, Console, Books, XXX, General"
     },
     {
+      "name": "Das Unerwartete (API)",
+      "description": "Das Unerwartete (D-U) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL. This is the API version.",
+      "type": "Movies, TV, Audio, PC, Console, Books, XXX, General"
+    },
+    {
       "name": "DataScene (API)",
       "description": "DataScene (DS) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Audio, Books, XXX"
@@ -634,11 +639,6 @@
       "name": "HUDBT (蝴蝶)",
       "description": "HUDBT (蝴蝶) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, PC, TV, Audio, General, Books, Console"
-    },
-    {
-      "name": "ilolicon PT",
-      "description": "ilolicon PT is a CHINESE Private Torrent Tracker for LOLICON / MOVIES / 3X",
-      "type": "Movies, TV, Audio, Console, PC, General, XXX"
     },
     {
       "name": "INFINITY (API)",
@@ -1199,11 +1199,6 @@
       "name": "TheLeachZone (API)",
       "description": "The Leach Zone (TLZ) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, Movies, Audio, Books, Console, PC, General"
-    },
-    {
-      "name": "ThePiratedShip",
-      "description": "ThePiratedShip is a Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, PC, Console, Books, General"
     },
     {
       "name": "TJUPT (北洋园PT)",
