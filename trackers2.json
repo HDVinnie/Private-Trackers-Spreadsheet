@@ -646,6 +646,11 @@
       "type": "Movies, TV"
     },
     {
+      "name": "InfinityHD (API)",
+      "description": "InfinityHD is a Private Torrent Tracker for MOVIES / TV / ANIME",
+      "type": "Movies, TV"
+    },
+    {
       "name": "Infire",
       "description": "Infire is a SLOVENIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Console, Audio, XXX, Books, General"
