@@ -246,11 +246,6 @@
       "type": "Books, Movies, Console, PC, Audio, TV, XXX"
     },
     {
-      "name": "CarPT",
-      "description": "CarPT is a CHINESE Private Torrent Tracker for HD MOVIES / TV / MUSIC",
-      "type": "Movies, TV, Audio, General"
-    },
-    {
       "name": "CD File",
       "description": "CD File is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, Audio, TV, General"
@@ -429,11 +424,6 @@
       "name": "FANO.IN",
       "description": "Fano.in is a LATVIAN Private Torrent Tracker for 0DAY / GENERAL",
       "type": "Movies, TV, PC, Audio, Books, Console, General, XXX"
-    },
-    {
-      "name": "Fappaizuri",
-      "description": "Fappaizuri is a Private Torrent Tracker for HENTAI / JAV",
-      "type": "XXX, Books, Console, TV"
     },
     {
       "name": "FinElite",
