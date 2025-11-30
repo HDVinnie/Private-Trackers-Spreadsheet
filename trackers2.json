@@ -768,7 +768,7 @@
     {
       "name": "Matrix",
       "description": "M.A.T.R.I.X is a HUNGARIAN Private Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, Books, PC, Audio, TV, XXX"
+      "type": "Movies, Books, PC, General, Audio, TV, XXX"
     },
     {
       "name": "MDAN",
