@@ -71,11 +71,6 @@
       "type": "XXX, TV, PC, General, Books, Audio, Movies, Console"
     },
     {
-      "name": "AnimeLovers (API)",
-      "description": "AnimeLovers is a Private tracker for ANIME / MANGA / DOUNGUA / MANHWA",
-      "type": "Movies, TV, XXX, Books, Audio"
-    },
-    {
       "name": "AnimeTorrents.ro",
       "description": "AnimeTorrents.ro (Anime Torrents Romania) is a ROMANIAN Private Torrent Tracker for ANIME / MANGA",
       "type": "TV, Movies, Books"
@@ -174,11 +169,6 @@
       "name": "BitPorn (API)",
       "description": "BitPorn (Malacka) is a HUNGARIAN Private Torrent Tracker for 3X",
       "type": "XXX"
-    },
-    {
-      "name": "BitSexy (API)",
-      "description": "BitSexy is a Private Torrent Tracker for 3X",
-      "type": "XXX, Console, Books"
     },
     {
       "name": "BiTTuRK",
@@ -621,11 +611,6 @@
       "type": "Movies, TV, Audio, Console, PC, Books, XXX"
     },
     {
-      "name": "HomePornTorrents",
-      "description": "HomePornTorrents (HPT) is a Private Torrent Tracker for Amateur 3X",
-      "type": "XXX"
-    },
-    {
       "name": "HUDBT (蝴蝶)",
       "description": "HUDBT (蝴蝶) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, PC, TV, Audio, General, Books, Console"
@@ -836,11 +821,6 @@
       "type": "Audio, Books, Console, Movies, PC, TV, XXX"
     },
     {
-      "name": "Nusanta(RA.RE)",
-      "description": "Nusanta(RA.RE) is a MALAYSIAN Private Torrent Tracker for MOVIES / TV",
-      "type": "Movies, TV, Audio, Books, PC"
-    },
-    {
       "name": "OKPT",
       "description": "OKPT is a CHINESE Private Torrent Tracker for MOVIES / TV / MUSIC / GENERAL",
       "type": "Movies, TV, Books, Audio, Console, PC, General, XXX"
@@ -936,11 +916,6 @@
       "type": "Movies, TV, Audio, General"
     },
     {
-      "name": "PTChina (铂金学院)",
-      "description": "PTChina (铂金学院) is a CHINESE Private Torrent Tracker for MOVIES / TV",
-      "type": "Movies, TV"
-    },
-    {
       "name": "PTerClub (PT之友俱乐部)",
       "description": "PTerClub (PT之友俱乐部) is a CHINESE Private Torrent Tracker for HD MUSIC VIDEOS / MOVIES / TV  / ANIME",
       "type": "Movies, TV, Audio, Books, Console, PC, General"
@@ -969,11 +944,6 @@
       "name": "PTTime",
       "description": "PTTime is a ratioless CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Audio, General, XXX"
-    },
-    {
-      "name": "PTVicomo",
-      "description": "PTVicomo is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio"
     },
     {
       "name": "PT分享站 (itzmx)",
