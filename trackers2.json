@@ -91,6 +91,11 @@
       "type": "Movies, TV, XXX, General, Audio, Books, Console, PC"
     },
     {
+      "name": "ArabicSource (API)",
+      "description": "ArabicSource is an ARABIC Private Torrent Tracker for MOVIES / TV",
+      "type": "Movies, TV, General, Audio"
+    },
+    {
       "name": "ArabP2P",
       "description": "ArabP2P is an ARABIC Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, Books, General"
@@ -124,6 +129,11 @@
       "name": "Back-ups",
       "description": "Back-Ups is a Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Console, PC, TV, Audio, Movies, Books, XXX"
+    },
+    {
+      "name": "baoziPT",
+      "description": "baoziPT is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
     },
     {
       "name": "Beload",
@@ -416,6 +426,11 @@
       "type": "Movies, TV, PC, Audio, Books, Console, General, XXX"
     },
     {
+      "name": "Fappaizuri2FA",
+      "description": "Fappaizuri is a Private Torrent Tracker for HENTAI / JAV. This indexer uses cookie login for 2FA.",
+      "type": "XXX, Books, Console, TV"
+    },
+    {
       "name": "FinElite",
       "description": "FinElite (FE) is a FINNISH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Audio, TV, Books, Console, PC, Movies"
@@ -701,6 +716,11 @@
       "type": "Movies, Audio, TV"
     },
     {
+      "name": "LemonHD.net",
+      "description": "LemonHD.net is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
+      "type": "Movies, Audio, TV, General"
+    },
+    {
       "name": "LeSaloon",
       "description": "Le Saloon is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, Console, Books, General"
@@ -748,7 +768,7 @@
     {
       "name": "Malayabits (API)",
       "description": "Malayabits is a MALAYSIAN Private Torrent Tracker for MOVIES / TV / MUSIC",
-      "type": "Movies, TV, Audio"
+      "type": "Movies, TV, Audio, Books"
     },
     {
       "name": "Matrix",
@@ -828,7 +848,7 @@
     {
       "name": "Old Greek Tracker (OGT)",
       "description": "Old Greek Tracker (OGT) is a GREEK Private Torrent Tracker for PRE-2020 MOVIES / TV / GENERAL",
-      "type": "PC, Books, Audio, Console, Movies, TV"
+      "type": "PC, Audio, Movies, Books, TV"
     },
     {
       "name": "OldToonsWorld (API)",
@@ -859,6 +879,11 @@
       "name": "Panda",
       "description": "Panda is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Console, Books, Audio, General"
+    },
+    {
+      "name": "ParabellumHD (API)",
+      "description": "ParabellumHD is a SPANISH Private Torrent Tracker for HEVC & AV1-encoded MOVIES / TV",
+      "type": "Movies, TV, General"
     },
     {
       "name": "Party-Tracker",
@@ -1361,8 +1386,8 @@
       "type": "TV"
     },
     {
-      "name": "YGG cookie",
-      "description": "YggTorrent (YGG) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL. This indexer uses cookie login.",
+      "name": "YggTorrent (Turbo)",
+      "description": "YggTorrent (YGG) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL. This indexer is only for users with Turbo Mode access (Uploaders and donors).",
       "type": "TV, Movies, Audio, PC, Console, Books, General, XXX"
     },
     {
