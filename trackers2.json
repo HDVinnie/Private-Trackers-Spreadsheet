@@ -146,6 +146,11 @@
       "type": "Movies, Books, Audio, PC, General, Console, TV, XXX"
     },
     {
+      "name": "BigBBS",
+      "description": "BigBBS is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, XXX, TV, Books, PC, Audio, Console, General"
+    },
+    {
       "name": "BigCore",
       "description": "BigCore is a HUNGARIAN Private Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Audio, Books, XXX"
@@ -219,6 +224,11 @@
       "name": "BYRBT",
       "description": "BYRBT is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General, Console, PC"
+    },
+    {
+      "name": "C411",
+      "description": "C411 (Community 411) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Console, Movies, Audio, PC, TV, XXX, Books, General"
     },
     {
       "name": "Caishen (财神)",
@@ -781,11 +791,6 @@
       "type": "TV, Movies, Books, Audio"
     },
     {
-      "name": "MegamixTracker",
-      "description": "MegamixTracker is a HUNGARIAN Private Tracker for MOVIES / TV",
-      "type": "TV, Books, Movies, Console, PC, General, XXX, Audio"
-    },
-    {
       "name": "MeseVilág",
       "description": "MeseVilág (Fairytale World) is a HUNGARIAN Private Torrent Tracker for ANIMATED MOVIES / TV",
       "type": "TV, Movies, Audio, PC, Console, Books"
@@ -834,6 +839,11 @@
       "name": "Nirvana (API)",
       "description": "Nirvana is a Private RUSSIAN Tracker for MOVIES / TV",
       "type": "Movies, TV, General"
+    },
+    {
+      "name": "NORDiCHD",
+      "description": "NORDiCHD is a Mixed NORDIC Private Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio"
     },
     {
       "name": "NordicQuality (API)",
@@ -1384,6 +1394,11 @@
       "name": "XWT-Classics",
       "description": "XWT-Classics is a Private Torrent Tracker for CLASSIC PROFESSIONAL WRESTLING",
       "type": "TV"
+    },
+    {
+      "name": "YGG cookie (Turbo)",
+      "description": "YggTorrent (YGG) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL. This indexer uses cookie login. This indexer is only for users with Turbo Mode access (Uploaders and donors).",
+      "type": "TV, Movies, Audio, PC, Console, Books, General, XXX"
     },
     {
       "name": "YggTorrent (Turbo)",
