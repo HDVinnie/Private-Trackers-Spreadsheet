@@ -116,6 +116,11 @@
       "type": "Movies, TV, Audio, Books, PC, General"
     },
     {
+      "name": "AURA4K (API)",
+      "description": "AURA4K is a Private Torrent Tracker for MOVIES / TV",
+      "type": "Movies, TV"
+    },
+    {
       "name": "Aussierul.es",
       "description": "AussieRul.es is a Private Torrent Tracker for AUSTRALIAN RULES FOOTBALL",
       "type": ""
@@ -396,6 +401,11 @@
       "type": "TV, PC, Movies, Console, Books, Audio, General, XXX"
     },
     {
+      "name": "dubhe (天枢)",
+      "description": "dubhe (天枢) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General, Books"
+    },
+    {
       "name": "Ebooks-Shares",
       "description": "Ebooks-Shares is a Private Torrent Tracker for EBOOKS / AUDIOBOOKS",
       "type": "Audio, Books"
@@ -641,6 +651,11 @@
       "type": "Movies, PC, TV, Audio, General, Books, Console"
     },
     {
+      "name": "HxPT (好学)",
+      "description": "HxPT (好学) is a CHINESE Private Torrent Tracker for E-LEARNING",
+      "type": "General"
+    },
+    {
       "name": "INFINITY (API)",
       "description": "INFINITY is a Private PAY2DL Torrent Tracker for MOVIES / TV",
       "type": "Movies, TV"
@@ -664,6 +679,11 @@
       "name": "JoyHD",
       "description": "JoyHD (JHD) is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, General"
+    },
+    {
+      "name": "JPTV4us (API)",
+      "description": "JPTV4us is a JAPANESE Private Torrent Tracker for MOVIES / TV / MUSIC / GENERAL",
+      "type": "TV, Movies, Audio, General"
     },
     {
       "name": "KamePT",
@@ -699,6 +719,16 @@
       "name": "Kufirc2FA",
       "description": "Kufirc is a HUNGARIAN Private tracker for 3X. This indexer uses cookie login for 2FA.",
       "type": "XXX, Books, PC"
+    },
+    {
+      "name": "Kunlun (昆仑)",
+      "description": "Kunlun (昆仑) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
+      "name": "La Cale (API)",
+      "description": "La Cale is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "PC, Audio, General, Books, Console, Movies, TV, XXX"
     },
     {
       "name": "lajidui",
@@ -756,6 +786,11 @@
       "type": "Movies, TV, Audio"
     },
     {
+      "name": "LongPT",
+      "description": "LongPT is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Audio, General, TV, Movies"
+    },
+    {
       "name": "LosslessClub",
       "description": "LosslessClub is a RUSSIAN Private Torrent Tracker for High Quality Music",
       "type": ""
@@ -779,6 +814,11 @@
       "name": "Malayabits (API)",
       "description": "Malayabits is a MALAYSIAN Private Torrent Tracker for MOVIES / TV / MUSIC",
       "type": "Movies, TV, Audio, Books"
+    },
+    {
+      "name": "March",
+      "description": "March is a CHINESE Private Torrent Tracker for MOVIES / TV",
+      "type": "Movies, TV, Audio, General"
     },
     {
       "name": "Matrix",
@@ -849,6 +889,11 @@
       "name": "NordicQuality (API)",
       "description": "NordicQuality is a NORDIC Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Audio, Books, Console, Movies, PC, TV, XXX"
+    },
+    {
+      "name": "NovaHD",
+      "description": "NovaHD is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "TV, Movies, Audio, General"
     },
     {
       "name": "OKPT",
@@ -949,6 +994,11 @@
       "name": "PTCafe (咖啡)",
       "description": "PTCafe (咖啡) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General"
+    },
+    {
+      "name": "PTerClub (PT之友俱乐部)",
+      "description": "PTerClub (PT之友俱乐部) is a CHINESE Private Torrent Tracker for HD MUSIC VIDEOS / MOVIES / TV  / ANIME",
+      "type": "Movies, TV, Audio, Books, Console, PC, General"
     },
     {
       "name": "PTFans",
@@ -1136,6 +1186,11 @@
       "type": "TV, Audio, Movies"
     },
     {
+      "name": "TangPT (躺平)",
+      "description": "TangPT (躺平) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
       "name": "Tapochek",
       "description": "Tapochek is a RUSSIAN Private Torrent Tracker for 0DAY / GENERAL",
       "type": "PC, Console, Movies, TV, Audio, Books, General"
@@ -1213,7 +1268,7 @@
     {
       "name": "Toca Share (API)",
       "description": "Toca Share is a PORTUGUESE Private Torrent Tracker for EBOOKS / AUDIOBOOKS / COURSES",
-      "type": "Books, General, Audio"
+      "type": "Books, TV, Audio, Console, PC, General, XXX"
     },
     {
       "name": "Tormac",
@@ -1346,11 +1401,6 @@
       "type": "PC, Audio, Books, General, Movies, TV, Console"
     },
     {
-      "name": "WDT",
-      "description": "Wrestling Desires Torrents (Ultimate Wrestling Torrents) is a Private Torrent Tracker for PROFESSIONAL WRESTLING / MMA",
-      "type": "Audio, Books, TV, PC, Movies"
-    },
-    {
       "name": "White Angel",
       "description": "White Angel is a HUNGARIAN Private Tracker for MOVIES / TV",
       "type": "Books, XXX, TV, Movies, Audio, PC, Console, General"
@@ -1393,11 +1443,6 @@
     {
       "name": "YGG cookie (Turbo)",
       "description": "YggTorrent (YGG) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL. This indexer uses cookie login. This indexer is only for users with Turbo Mode access (Uploaders and donors).",
-      "type": "TV, Movies, Audio, PC, Console, Books, General, XXX"
-    },
-    {
-      "name": "YggTorrent (Turbo)",
-      "description": "YggTorrent (YGG) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL. This indexer is only for users with Turbo Mode access (Uploaders and donors).",
       "type": "TV, Movies, Audio, PC, Console, Books, General, XXX"
     },
     {
