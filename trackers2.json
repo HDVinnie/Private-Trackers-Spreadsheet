@@ -101,6 +101,11 @@
       "type": "Movies, TV, Audio, PC, Books, General"
     },
     {
+      "name": "ArabScene",
+      "description": "ArabScene is an ARABIC Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "General, TV, PC, Movies, Audio"
+    },
+    {
       "name": "ArabTorrents",
       "description": "ArabTorrents is an ARABIC Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, General, Audio, PC"
@@ -728,7 +733,7 @@
     {
       "name": "La Cale (API)",
       "description": "La Cale is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "PC, Audio, General, Books, Console, Movies, TV, XXX"
+      "type": "General, Movies, TV, PC, Console, Books, Audio, XXX"
     },
     {
       "name": "lajidui",
@@ -799,6 +804,11 @@
       "name": "LuckPT",
       "description": "LuckPT is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General"
+    },
+    {
+      "name": "Magico",
+      "description": "Magico (Trellas) is a GREEK Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, Books, PC, General"
     },
     {
       "name": "Majomparádé",
@@ -1281,6 +1291,11 @@
       "type": "Movies, TV, Audio, PC, Console, Books, XXX, General"
     },
     {
+      "name": "Torr9",
+      "description": "Torr9 is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Console, Movies, Audio, PC, TV, XXX, Books, General"
+    },
+    {
       "name": "Torrent Heaven",
       "description": "Torrent Heaven is a DUTCH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Books, Audio, PC, General, XXX"
@@ -1334,11 +1349,6 @@
       "name": "TranceTraffic",
       "description": "TranceTraffic is a Private Torrent Tracker for MUSIC",
       "type": ""
-    },
-    {
-      "name": "Trellas",
-      "description": "Trellas (Magico) is a GREEK Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, Books, PC, General"
     },
     {
       "name": "TreZzoR",
