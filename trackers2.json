@@ -806,6 +806,11 @@
       "type": "Movies, TV, Audio, General"
     },
     {
+      "name": "Luminarr (API)",
+      "description": "Luminarr is a Private Torrent Tracker for MOVIES / TV",
+      "type": "Movies, TV"
+    },
+    {
       "name": "Magico",
       "description": "Magico (Trellas) is a GREEK Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, Books, PC, General"
@@ -1111,9 +1116,19 @@
       "type": "Audio"
     },
     {
+      "name": "RoTorrent (API)",
+      "description": "RoTorrent (ROT) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, PC, XXX, General"
+    },
+    {
       "name": "Rousi",
       "description": "Rousi is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Console, Audio, General, Books, PC, XXX"
+    },
+    {
+      "name": "Rousi.pro",
+      "description": "Rousi.pro is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, PC, Books, XXX, General"
     },
     {
       "name": "SAMARITANO (API)",
@@ -1431,6 +1446,11 @@
       "type": "TV, PC, Audio, Books, XXX, Movies, General"
     },
     {
+      "name": "xloli",
+      "description": "xloli (ilolicon PT) is a CHINESE Private Torrent Tracker for LOLICON / MOVIES / 3X",
+      "type": "Movies, TV, Audio, Console, PC, General, XXX"
+    },
+    {
       "name": "Xthor (API)",
       "description": "Xthor is a FRENCH Private Torrent Tracker for MOVIES / GENERAL",
       "type": "Movies, TV, Audio, XXX, Books, PC, Console"
@@ -1454,11 +1474,6 @@
       "name": "YGG cookie (Turbo)",
       "description": "YggTorrent (YGG) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL. This indexer uses cookie login. This indexer is only for users with Turbo Mode access (Uploaders and donors).",
       "type": "TV, Movies, Audio, PC, Console, Books, General, XXX"
-    },
-    {
-      "name": "YOiNKED (API)",
-      "description": "YOiNKED is a Private Torrent Tracker for MOVIES / TV / MUSIC",
-      "type": "Movies, TV, Audio, Books, Console"
     },
     {
       "name": "YUSCENE (API)",
