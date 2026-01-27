@@ -301,11 +301,6 @@
       "type": "Movies, TV"
     },
     {
-      "name": "ClearJAV (API)",
-      "description": "ClearJAV is a Private Torrent Tracker for Japanese Adult Video (JAV) content from official JAV studios only.",
-      "type": "XXX"
-    },
-    {
       "name": "Coastal-Music-Crew",
       "description": "Coastal-Music-Crew (C-M-C) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Console, Audio, General, Books, XXX"
@@ -438,11 +433,6 @@
     {
       "name": "F1Carreras (API)",
       "description": "F1Carreras is a SPANISH Private Torrent Tracker for Motor Racing TV Releases",
-      "type": "TV"
-    },
-    {
-      "name": "F1GP",
-      "description": "F1GP is a Private Torrent Tracker for F1, F2, F3, FE, F1 Academy Racing",
       "type": "TV"
     },
     {
@@ -901,11 +891,6 @@
       "type": "Movies, TV, Audio"
     },
     {
-      "name": "NordicQuality (API)",
-      "description": "NordicQuality is a NORDIC Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Audio, Books, Console, Movies, PC, TV, XXX"
-    },
-    {
       "name": "NovaHD",
       "description": "NovaHD is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, Movies, Audio, General"
@@ -1014,11 +999,6 @@
       "name": "PTerClub (PT之友俱乐部)",
       "description": "PTerClub (PT之友俱乐部) is a CHINESE Private Torrent Tracker for HD MUSIC VIDEOS / MOVIES / TV  / ANIME",
       "type": "Movies, TV, Audio, Books, Console, PC, General"
-    },
-    {
-      "name": "PTFans",
-      "description": "PTFans is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, PC, Audio, General, Books, XXX"
     },
     {
       "name": "PThome",
@@ -1144,11 +1124,6 @@
       "name": "SceneRush",
       "description": "SceneRush is a PORTUGUESE Private Torrent Tracker for 0DAY / GENERAL",
       "type": "Console, PC, Movies, Audio, TV, XXX, Books, General"
-    },
-    {
-      "name": "SeedFile",
-      "description": "SeedFile (SF) is a ROMANIAN Private Torrent Tracker for 0DAY / GENERAL",
-      "type": "Books, General, Movies, Console, PC, Audio, TV, XXX"
     },
     {
       "name": "seedpool (API)",
