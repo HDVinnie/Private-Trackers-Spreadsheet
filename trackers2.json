@@ -71,6 +71,11 @@
       "type": "XXX, TV, PC, General, Books, Audio, Movies, Console"
     },
     {
+      "name": "Anime No Sekai",
+      "description": "Anime No Sekai (ANSK) is a BRAZILIAN Private Torrent Tracker for ANIME",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
       "name": "AnimeTorrents.ro",
       "description": "AnimeTorrents.ro (Anime Torrents Romania) is a ROMANIAN Private Torrent Tracker for ANIME / MANGA",
       "type": "TV, Movies, Books"
@@ -303,7 +308,7 @@
     {
       "name": "Coastal-Music-Crew",
       "description": "Coastal-Music-Crew (C-M-C) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, PC, Console, Audio, General, Books, XXX"
+      "type": "Movies, TV, General, Audio, Books, PC, Console, XXX"
     },
     {
       "name": "ConCen",
@@ -479,6 +484,11 @@
       "name": "Fuzer",
       "description": "Fuzer (FZ) is an ISRAELI Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, XXX, Console, Audio, Books, General"
+    },
+    {
+      "name": "G3MINI TR4CK3R (API)",
+      "description": "G3MINI TR4CK3R is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, PC, Console, Audio, Books"
     },
     {
       "name": "gay-torrents.org",
