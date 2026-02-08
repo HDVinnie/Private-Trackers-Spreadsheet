@@ -143,7 +143,7 @@
     {
       "name": "Back-ups",
       "description": "Back-Ups is a Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Console, PC, TV, Audio, Movies, Books, XXX"
+      "type": "PC, Console, TV, Audio, Movies, Books, XXX"
     },
     {
       "name": "baoziPT",
@@ -352,8 +352,8 @@
     },
     {
       "name": "Darkpeers (API)",
-      "description": "Darkpeers is a NORDIC Private Torrent Tracker for MOVIES / TV",
-      "type": "Movies, TV, Console, Audio, PC, XXX, General"
+      "description": "Darkpeers is a Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Console, Audio, PC, XXX, General, Books"
     },
     {
       "name": "Das Unerwartete",
@@ -733,7 +733,7 @@
     {
       "name": "La Cale (API)",
       "description": "La Cale is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "General, Movies, TV, PC, Console, Books, Audio, XXX"
+      "type": "XXX, Movies, TV, Audio, Books, PC, General, Console"
     },
     {
       "name": "lajidui",
@@ -799,6 +799,11 @@
       "name": "LosslessClub",
       "description": "LosslessClub is a RUSSIAN Private Torrent Tracker for High Quality Music",
       "type": ""
+    },
+    {
+      "name": "LP-Bits 2.0",
+      "description": "LP-Bits 2.0 is a Private Torrent Tracker for Linkin Park Music Releases.\"",
+      "type": "Audio"
     },
     {
       "name": "LuckPT",
@@ -898,7 +903,7 @@
     {
       "name": "NORDiCHD",
       "description": "NORDiCHD is a Mixed NORDIC Private Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio"
+      "type": "PC, Console, Movies, TV, Audio"
     },
     {
       "name": "NovaHD",
@@ -1004,6 +1009,11 @@
       "name": "PTCafe (咖啡)",
       "description": "PTCafe (咖啡) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General"
+    },
+    {
+      "name": "PTCC (我的PT)",
+      "description": "PTCC (我的PT) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio"
     },
     {
       "name": "PTerClub (PT之友俱乐部)",
@@ -1224,6 +1234,11 @@
       "name": "TEKNO3D",
       "description": "TEKNO3D is a Private Torrent Tracker for UHD MOVIES / TV",
       "type": "Audio, Movies, TV, General"
+    },
+    {
+      "name": "The Brothers",
+      "description": "The Brothers is a Private GERMAN tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, PC, Console, Audio, Books, General, XXX"
     },
     {
       "name": "The Crazy Ones",
