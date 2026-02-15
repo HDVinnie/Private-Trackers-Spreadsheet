@@ -211,6 +211,11 @@
       "type": "Movies, TV, Audio, XXX, General"
     },
     {
+      "name": "BlueTorrents",
+      "description": "BlueTorrents is a Private Torrent Tracker for MOVIES / TV / MUSIC / GENERAL",
+      "type": "Movies, TV, Console, Audio, PC, XXX, General, Books"
+    },
+    {
       "name": "BlurayTracker",
       "description": "BlurayTracker is a CZECH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Audio, Console, Books, General"
@@ -621,6 +626,11 @@
       "type": "Movies, TV, Audio, General, PC"
     },
     {
+      "name": "HDVideo",
+      "description": "HDVideo is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Audio, TV, Movies"
+    },
+    {
       "name": "HDZero (API)",
       "description": "HD Zero is a SPANISH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, General"
@@ -733,7 +743,7 @@
     {
       "name": "La Cale (API)",
       "description": "La Cale is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "XXX, Movies, TV, Audio, Books, PC, General, Console"
+      "type": "General, Books, Audio, PC, Console, Movies, TV, XXX"
     },
     {
       "name": "lajidui",
@@ -876,6 +886,11 @@
       "type": "Movies, Audio, Books, PC, Console, General, TV, XXX"
     },
     {
+      "name": "MomentPT",
+      "description": "MomentPT is a CHINESE Private Torrent Tracker for Photography",
+      "type": "General"
+    },
+    {
       "name": "MonikaDesign (API)",
       "description": "MonikaDesign is a CHINESE Private Torrent Tracker for MOVIES / TV / ANIME",
       "type": "TV, Movies, Audio, PC"
@@ -884,6 +899,11 @@
       "name": "MouseBits",
       "description": "MouseBits is a Private Torrent Tracker for all things Disney",
       "type": "TV, Audio, General"
+    },
+    {
+      "name": "Muxuege",
+      "description": "Muxuege is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, PC, General, Books, Console"
     },
     {
       "name": "New Heaven",
@@ -981,6 +1001,11 @@
       "type": "PC, Console, Books, Audio, General"
     },
     {
+      "name": "PlayletPT",
+      "description": "PlayletPT is a CHINESE Private Torrent Tracker for Short Drama",
+      "type": "TV"
+    },
+    {
       "name": "Polish Torrent (API)",
       "description": "Polish Torrent (PTT) is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Audio, Books, Console, General"
@@ -1026,6 +1051,16 @@
       "type": "Movies, TV, Audio, Console, PC, Books, General"
     },
     {
+      "name": "PTLAO",
+      "description": "PTLAO is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
+      "name": "PTLGS",
+      "description": "PTLGS is a CHINESE Private Torrent Tracker for MOVIES / TV",
+      "type": "General, TV, Audio, Movies"
+    },
+    {
       "name": "PTSBAO (烧包)",
       "description": "PTSBAO (烧包) is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
       "type": "Movies, TV, Audio, General"
@@ -1039,6 +1074,11 @@
       "name": "PTTime",
       "description": "PTTime is a ratioless CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Audio, General, XXX"
+    },
+    {
+      "name": "PTzone",
+      "description": "PTzone is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General, PC"
     },
     {
       "name": "PT分享站 (itzmx)",
@@ -1158,7 +1198,7 @@
     {
       "name": "SexTorrent (API)",
       "description": "SexTorrent is a Private Torrent Tracker for 3X",
-      "type": "XXX, Movies, TV"
+      "type": "XXX, Movies, TV, Audio"
     },
     {
       "name": "SFP",
@@ -1179,6 +1219,11 @@
       "name": "SiamBIT",
       "description": "SiamBIT is a THAI PAY2DL Private Torrent Tracker for GENERAL",
       "type": "General, PC, TV, Audio, Movies, Books, XXX"
+    },
+    {
+      "name": "Siqi",
+      "description": "Siqi is a CHINESE Private Tracker for HD image BOOKS and E-BOOKS",
+      "type": "Books, General"
     },
     {
       "name": "SkipTheCommercials (API)",
@@ -1294,6 +1339,11 @@
       "name": "Toca Share (API)",
       "description": "Toca Share is a PORTUGUESE Private Torrent Tracker for EBOOKS / AUDIOBOOKS / COURSES",
       "type": "Books, TV, Audio, Console, PC, General, XXX"
+    },
+    {
+      "name": "TokyoPT",
+      "description": "TokyoPT is a CHINESE Private Torrent Tracker for MOVIES / TV",
+      "type": "General, TV, Movies"
     },
     {
       "name": "Tormac",
@@ -1446,14 +1496,14 @@
       "type": "TV, PC, Audio, Books, XXX, Movies, General"
     },
     {
+      "name": "Xingyung (星陨阁)",
+      "description": "Xingyung (星陨阁) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "General, Audio, TV, Movies"
+    },
+    {
       "name": "xloli",
       "description": "xloli (ilolicon PT) is a CHINESE Private Torrent Tracker for LOLICON / MOVIES / 3X",
       "type": "Movies, TV, Audio, Console, PC, General, XXX"
-    },
-    {
-      "name": "Xthor (API)",
-      "description": "Xthor is a FRENCH Private Torrent Tracker for MOVIES / GENERAL",
-      "type": "Movies, TV, Audio, XXX, Books, PC, Console"
     },
     {
       "name": "xTorrenty",
@@ -1481,19 +1531,9 @@
       "type": "Movies, TV, Console, Audio, PC, Books"
     },
     {
-      "name": "Zamunda.net",
-      "description": "Zamunda is a BULGARIAN Private Torrent Tracker for 0DAY / GENERAL",
-      "type": "Movies, TV, Audio, PC, Console, General, Books, XXX"
-    },
-    {
       "name": "Zappateers",
       "description": "Zappateers is a Private Torrent Tracker for Frank Zappa MUSIC",
       "type": "Audio, General"
-    },
-    {
-      "name": "Zelka.org",
-      "description": "Zelka (Zamunda) is a BULGARIAN Private Torrent Tracker for 0DAY / GENERAL",
-      "type": "Movies, PC, TV, XXX, General, Console, Audio, Books"
     },
     {
       "name": "ZmPT (织梦)",
