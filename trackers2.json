@@ -306,11 +306,6 @@
       "type": "Movies, TV, PC, General, Audio, Books"
     },
     {
-      "name": "Cinematik (API)",
-      "description": "Cinematik is a Private tracker for full BD and DVD discs of non-mainstream movies, niche cinema and arthouse.",
-      "type": "Movies, TV"
-    },
-    {
       "name": "Coastal-Music-Crew",
       "description": "Coastal-Music-Crew (C-M-C) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, General, Audio, Books, PC, Console, XXX"
