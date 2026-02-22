@@ -103,7 +103,7 @@
     {
       "name": "ArabP2P",
       "description": "ArabP2P is an ARABIC Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, PC, Books, General"
+      "type": "TV, Movies, Audio, PC, Books, General"
     },
     {
       "name": "ArabScene",
@@ -681,11 +681,6 @@
       "type": "Movies, TV"
     },
     {
-      "name": "Infire",
-      "description": "Infire is a SLOVENIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, PC, Console, Audio, XXX, Books, General"
-    },
-    {
       "name": "JME-REUNIT3D (API)",
       "description": "JME-REUNIT3D is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, XXX, Audio, PC, Console, Books"
@@ -881,11 +876,6 @@
       "type": "TV, PC, Books, Audio, Movies, General, XXX"
     },
     {
-      "name": "MOJBLiNK",
-      "description": "MOJBLiNK is a SLOVENIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, Audio, Books, PC, Console, General, TV, XXX"
-    },
-    {
       "name": "MomentPT",
       "description": "MomentPT is a CHINESE Private Torrent Tracker for Photography",
       "type": "General"
@@ -906,6 +896,11 @@
       "type": "Movies, TV, Audio, PC, General, Books, Console"
     },
     {
+      "name": "NanyangPT (南洋)",
+      "description": "NanyangPT (南洋) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General, PC, Console"
+    },
+    {
       "name": "New Heaven",
       "description": "New Heaven is a GERMAN Private tracker for MOVIES / AUDIO / TV / GENERAL",
       "type": "PC, Console, Movies, Audio, TV, Books, General"
@@ -919,6 +914,11 @@
       "name": "Nirvana (API)",
       "description": "Nirvana is a Private RUSSIAN Tracker for MOVIES / TV",
       "type": "Movies, TV, General"
+    },
+    {
+      "name": "njtupt (浦园)",
+      "description": "njtupt (浦园) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, PC, General"
     },
     {
       "name": "NORDiCHD",
@@ -1071,9 +1071,19 @@
       "type": "TV, Movies, Audio, General, XXX"
     },
     {
+      "name": "PTTey",
+      "description": "PTTey is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
       "name": "PTTime",
       "description": "PTTime is a ratioless CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Audio, General, XXX"
+    },
+    {
+      "name": "PTYING (樱花)",
+      "description": "PTYING (樱花) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "General, Audio, TV, Movies"
     },
     {
       "name": "PTzone",
@@ -1356,11 +1366,6 @@
       "type": "Movies, TV, Audio, PC, Console, Books, XXX, General"
     },
     {
-      "name": "Torr9",
-      "description": "Torr9 is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Console, Movies, Audio, PC, TV, XXX, Books, General"
-    },
-    {
       "name": "Torrent Heaven",
       "description": "Torrent Heaven is a DUTCH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Books, Audio, PC, General, XXX"
@@ -1409,6 +1414,11 @@
       "name": "TrackerMK",
       "description": "TrackerMK is a MACEDONIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, PC, Audio, TV, Books, Console, General, XXX"
+    },
+    {
+      "name": "TrackerZero",
+      "description": "TrackerZero is an ITALIAN Private Torrent Tracker for MOVIES / TV / MUSIC / SOFTWARE",
+      "type": "Movies, TV, Audio, PC, Console, Books, General"
     },
     {
       "name": "TranceTraffic",
@@ -1496,6 +1506,11 @@
       "type": "TV, PC, Audio, Books, XXX, Movies, General"
     },
     {
+      "name": "Xingwan (星湾)",
+      "description": "Xingwan (星湾) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Books, Audio, Console, PC, General"
+    },
+    {
       "name": "Xingyung (星陨阁)",
       "description": "Xingyung (星陨阁) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "General, Audio, TV, Movies"
@@ -1539,6 +1554,11 @@
       "name": "ZmPT (织梦)",
       "description": "ZmPT (织梦) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "General, TV, Audio, Movies, PC, Console"
+    },
+    {
+      "name": "ZRPT (自然)",
+      "description": "ZRPT (自然) is a CHINESE Private Torrent Tracker for Documentaries",
+      "type": "TV"
     }
   ]
 }
