@@ -306,6 +306,11 @@
       "type": "Movies, TV, PC, General, Audio, Books"
     },
     {
+      "name": "Cinematik (API)",
+      "description": "Cinematik is a Private tracker for full BD and DVD discs of non-mainstream movies, niche cinema and arthouse.",
+      "type": "Movies, TV"
+    },
+    {
       "name": "Coastal-Music-Crew",
       "description": "Coastal-Music-Crew (C-M-C) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, General, Audio, Books, PC, Console, XXX"
@@ -958,7 +963,7 @@
     {
       "name": "P2PBG",
       "description": "P2PBG is a BULGARIAN Private Torrent Tracker for 0DAY / GENERAL",
-      "type": "Movies, TV, Audio, PC, Console, Books, General, XXX"
+      "type": "Movies, TV, Audio, PC, Console, General, Books, XXX"
     },
     {
       "name": "Panda",
@@ -968,7 +973,7 @@
     {
       "name": "ParabellumHD (API)",
       "description": "ParabellumHD is a SPANISH Private Torrent Tracker for HEVC & AV1-encoded MOVIES / TV",
-      "type": "Movies, TV, General"
+      "type": "Movies, TV, General, Console"
     },
     {
       "name": "Party-Tracker",
@@ -1412,8 +1417,8 @@
     },
     {
       "name": "TrackerZero",
-      "description": "TrackerZero is an ITALIAN Private Torrent Tracker for MOVIES / TV / MUSIC / SOFTWARE",
-      "type": "Movies, TV, Audio, PC, Console, Books, General"
+      "description": "TrackerZero is an ITALIAN Private PAY2DL Torrent Tracker for MOVIES / TV / MUSIC / SOFTWARE",
+      "type": "Movies, TV, PC, Audio, Console, Books, General"
     },
     {
       "name": "TranceTraffic",
@@ -1479,6 +1484,11 @@
       "name": "Vault network",
       "description": "Vault network is a Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "PC, Audio, Books, General, Movies, TV, Console"
+    },
+    {
+      "name": "VietMediaF",
+      "description": "VietMediaF is a VIETNAMESE Private Torrent Tracker for MOVIES & TV",
+      "type": "Movies, TV"
     },
     {
       "name": "White Angel",
