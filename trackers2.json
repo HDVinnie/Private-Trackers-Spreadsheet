@@ -36,6 +36,11 @@
       "type": "TV"
     },
     {
+      "name": "Abnormal (API)",
+      "description": "ABNormal (ABN) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "TV, Movies, PC, Books"
+    },
+    {
       "name": "Across The Tasman",
       "description": "ATT is a Private torrent site for Rugby and other sports played in Australia",
       "type": ""
@@ -422,7 +427,7 @@
     },
     {
       "name": "eMuwarez (API)",
-      "description": "eMuwarez is a SPANISH Private Torrent Tracker for MOVIES / TV",
+      "description": "eMuwarez is a SPANISH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, Console, PC"
     },
     {
@@ -823,7 +828,7 @@
     {
       "name": "Majomparádé",
       "description": "Majomparádé (TurkDepo) is a HUNGARIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, Books, PC, Console, XXX"
+      "type": "Movies, Audio, PC, Console, Books, TV, XXX"
     },
     {
       "name": "Making Off",
@@ -916,6 +921,11 @@
       "type": "Movies, TV, Audio, PC, General"
     },
     {
+      "name": "NOBS",
+      "description": "NOBS (NUCLEAR ORDER BIT SYNDICATE) is a SPANISH Private Torrent Tracker for MOVIES / TV",
+      "type": "Movies, TV"
+    },
+    {
       "name": "NORDiCHD",
       "description": "NORDiCHD is a Mixed NORDIC Private Tracker for MOVIES / TV / GENERAL",
       "type": "PC, Console, Movies, TV, Audio"
@@ -963,7 +973,7 @@
     {
       "name": "Panda",
       "description": "Panda is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, PC, Console, Books, Audio, General"
+      "type": "Movies, TV, PC, Console, Audio, General, Books"
     },
     {
       "name": "ParabellumHD (API)",
@@ -1164,11 +1174,6 @@
       "name": "RoTorrent (API)",
       "description": "RoTorrent (ROT) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, XXX, General"
-    },
-    {
-      "name": "Rousi",
-      "description": "Rousi is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Console, Audio, General, Books, PC, XXX"
     },
     {
       "name": "Rousi.pro",
@@ -1482,7 +1487,7 @@
     },
     {
       "name": "VietMediaF",
-      "description": "VietMediaF is a VIETNAMESE Private Torrent Tracker for MOVIES & TV",
+      "description": "VietMediaF is a VIETNAMESE Private Torrent Tracker for MOVIES / TV",
       "type": "Movies, TV"
     },
     {
@@ -1534,11 +1539,6 @@
       "name": "XWT-Classics",
       "description": "XWT-Classics is a Private Torrent Tracker for CLASSIC PROFESSIONAL WRESTLING",
       "type": "TV"
-    },
-    {
-      "name": "YGG cookie (Turbo)",
-      "description": "YggTorrent (YGG) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL. This indexer uses cookie login. This indexer is only for users with Turbo Mode access (Uploaders and donors).",
-      "type": "TV, Movies, Audio, PC, Console, Books, General, XXX"
     },
     {
       "name": "YUSCENE (API)",
