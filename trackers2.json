@@ -498,7 +498,7 @@
     {
       "name": "G3MINI TR4CK3R (API)",
       "description": "G3MINI TR4CK3R is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, PC, Console, Audio, Books"
+      "type": "Movies, TV, PC, Books, Audio"
     },
     {
       "name": "gay-torrents.org",
@@ -1211,11 +1211,6 @@
       "type": "XXX, Movies, TV, Audio"
     },
     {
-      "name": "SFP",
-      "description": "SFP (Share Friends Projekt) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "TV, PC, XXX, Movies, Audio, General, Books, Console"
-    },
-    {
       "name": "ShaKaw",
       "description": "ShaKaw is a BRAZILIAN Private Torrent Tracker for ANIME",
       "type": "TV, Movies, Books"
@@ -1504,11 +1499,6 @@
       "name": "World-In-HD",
       "description": "World-In-HD is a Private Torrent Tracker. Your world in HD",
       "type": "Movies, TV, PC, Audio"
-    },
-    {
-      "name": "x-ite.me",
-      "description": "X-ite.me (XM) is a Private Torrent Tracker for LGBTQ MOVIES / GENERAL / 3X",
-      "type": "TV, PC, Audio, Books, XXX, Movies, General"
     },
     {
       "name": "Xingwan (星湾)",
