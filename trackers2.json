@@ -356,11 +356,6 @@
       "type": "General, Audio, TV, Movies"
     },
     {
-      "name": "DanishBytes (API)",
-      "description": "DanishBytes is a Private Danish Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, PC, Audio, Books"
-    },
-    {
       "name": "Darkpeers (API)",
       "description": "Darkpeers is a Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Console, Audio, PC, XXX, General, Books"
@@ -469,11 +464,6 @@
       "name": "Flood",
       "description": "Flood (FLD) is a Private Torrent Tracker for MOVIES / TV",
       "type": "Movies, TV"
-    },
-    {
-      "name": "Flux-Zone",
-      "description": "Flux-Zone is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "PC, TV, Movies, Console, Audio, XXX"
     },
     {
       "name": "Free Farm (自由农场)",
@@ -761,11 +751,6 @@
       "type": "TV, PC, Console, Movies, Audio, Books, General"
     },
     {
-      "name": "LemonHD",
-      "description": "LemonHD is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
-      "type": "Movies, Audio, TV"
-    },
-    {
       "name": "LemonHD.net",
       "description": "LemonHD.net is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
       "type": "Movies, Audio, TV, General"
@@ -926,9 +911,19 @@
       "type": "Movies, TV"
     },
     {
+      "name": "NordicBytes",
+      "description": "NordicBytes is a Mixed NORDIC Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, PC, Audio, Books, XXX"
+    },
+    {
       "name": "NORDiCHD",
       "description": "NORDiCHD is a Mixed NORDIC Private Tracker for MOVIES / TV / GENERAL",
-      "type": "PC, Console, Movies, TV, Audio"
+      "type": "Movies, TV"
+    },
+    {
+      "name": "Nostradamus",
+      "description": "Nostradamus is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, Books, Console, PC"
     },
     {
       "name": "NovaHD",
@@ -1236,6 +1231,11 @@
       "type": "Movies, TV"
     },
     {
+      "name": "Slobit Media (API)",
+      "description": "Slobit Media is a SLOVENIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Console, Audio, General, PC"
+    },
+    {
       "name": "SoulVoice (聆音Club)",
       "description": "SoulVoice (聆音Club) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "General, Movies, TV, Audio"
@@ -1269,6 +1269,11 @@
       "name": "Team CT Game",
       "description": "Team CT Game (TCTG) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Books, Audio, Movies, TV, Console, PC, General, XXX"
+    },
+    {
+      "name": "TeamFlix",
+      "description": "TeamFlix is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, Books, Console, PC"
     },
     {
       "name": "TeamHD",
