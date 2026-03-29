@@ -251,11 +251,6 @@
       "type": "Movies, TV, Audio, General, Console, PC"
     },
     {
-      "name": "C411",
-      "description": "C411 (Community 411) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Console, Movies, Audio, PC, TV, XXX, Books, General"
-    },
-    {
       "name": "Caishen (财神)",
       "description": "Caishen (财神) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Audio, General, TV, Movies"
@@ -411,6 +406,11 @@
       "type": "TV, PC, Movies, Console, Books, Audio, General, XXX"
     },
     {
+      "name": "DS-Reloaded",
+      "description": "DS-Reloaded (DS.R) is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, PC, Console, Books, XXX"
+    },
+    {
       "name": "dubhe (天枢)",
       "description": "dubhe (天枢) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General, Books"
@@ -443,7 +443,7 @@
     {
       "name": "F1Carreras (API)",
       "description": "F1Carreras is a SPANISH Private Torrent Tracker for Motor Racing TV Releases",
-      "type": "TV"
+      "type": "Movies, TV"
     },
     {
       "name": "FANO.IN",
@@ -962,7 +962,7 @@
     },
     {
       "name": "P2PBG",
-      "description": "P2PBG is a BULGARIAN Private Torrent Tracker for 0DAY / GENERAL",
+      "description": "P2PBG is a BULGARIAN Private PAY2DL Torrent Tracker for 0DAY / GENERAL",
       "type": "Movies, TV, Audio, PC, Console, General, Books, XXX"
     },
     {
@@ -1004,6 +1004,11 @@
       "name": "PlayletPT",
       "description": "PlayletPT is a CHINESE Private Torrent Tracker for Short Drama",
       "type": "TV"
+    },
+    {
+      "name": "Podzemlje",
+      "description": "Podzemlje is an EX-YU Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, PC, Audio, Books"
     },
     {
       "name": "Polish Torrent (API)",
@@ -1203,7 +1208,7 @@
     {
       "name": "SexTorrent (API)",
       "description": "SexTorrent is a Private Torrent Tracker for 3X",
-      "type": "XXX, Movies, TV, Audio"
+      "type": "XXX, TV, Audio"
     },
     {
       "name": "ShaKaw",
