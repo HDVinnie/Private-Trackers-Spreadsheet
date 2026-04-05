@@ -336,9 +336,19 @@
       "type": "Movies, XXX, TV, PC, Console, Audio, Books"
     },
     {
+      "name": "CrazySpirits (API)",
+      "description": "Crazy Spirits is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, PC, General"
+    },
+    {
       "name": "CrnaBerza",
-      "description": "Crna Berza is a BALKAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, PC, TV, Books, Audio, General, XXX"
+      "description": "CrnaBerza is a BALKAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, PC, TV, Books, Audio, XXX"
+    },
+    {
+      "name": "CrnaBerza2FA",
+      "description": "CrnaBerza is a BALKAN Private Torrent Tracker for MOVIES / TV / GENERAL. This indexer uses cookie login for 2FA.",
+      "type": "Movies, PC, TV, Books, Audio, XXX"
     },
     {
       "name": "CRT2FA",
@@ -637,8 +647,8 @@
     },
     {
       "name": "HELLENIC-HD (API)",
-      "description": "HELLENIC-HD is a GREEK Private Torrent Tracker for MOVIES / TV",
-      "type": "Movies, TV"
+      "description": "HELLENIC-HD is a GREEK Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, PC, Books"
     },
     {
       "name": "HHanClub",
@@ -759,11 +769,6 @@
       "name": "LeSaloon",
       "description": "Le Saloon is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, Console, Books, General"
-    },
-    {
-      "name": "Lesbians4u",
-      "description": "Lesbians4u is a Private Torrent Tracker for 3X",
-      "type": "XXX"
     },
     {
       "name": "LetSeed",
@@ -889,6 +894,11 @@
       "name": "New Heaven",
       "description": "New Heaven is a GERMAN Private tracker for MOVIES / AUDIO / TV / GENERAL",
       "type": "PC, Console, Movies, Audio, TV, Books, General"
+    },
+    {
+      "name": "Nexum (API)",
+      "description": "Nexum is a FRENCH Private Torrent Tracker for MOVIES / TV",
+      "type": "Movies, TV"
     },
     {
       "name": "NicePT",
@@ -1158,6 +1168,11 @@
     {
       "name": "ReelFLiX (API)",
       "description": "ReelFLiX (HD4Free, LegacyHD) is a Private Torrent Tracker for HD MOVIES",
+      "type": "Movies"
+    },
+    {
+      "name": "RetroMoviesClub (API)",
+      "description": "RetroMoviesClub (RMC) is a Private Torrent Tracker for Classic Movies",
       "type": "Movies"
     },
     {
