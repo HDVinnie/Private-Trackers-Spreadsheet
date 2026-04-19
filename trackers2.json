@@ -76,11 +76,6 @@
       "type": "XXX, TV, PC, General, Books, Audio, Movies, Console"
     },
     {
-      "name": "Anime No Sekai",
-      "description": "Anime No Sekai (ANSK) is a BRAZILIAN Private Torrent Tracker for ANIME",
-      "type": "Movies, TV, Audio, General"
-    },
-    {
       "name": "AnimeTorrents.ro",
       "description": "AnimeTorrents.ro (Anime Torrents Romania) is a ROMANIAN Private Torrent Tracker for ANIME / MANGA",
       "type": "TV, Movies, Books"
@@ -326,11 +321,6 @@
       "type": "Movies, TV, Audio, General, Books, Console"
     },
     {
-      "name": "CrazySpirits",
-      "description": "Crazy Spirits is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, XXX, TV, PC, Console, Audio, Books"
-    },
-    {
       "name": "CrazySpirits (API)",
       "description": "Crazy Spirits is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, General"
@@ -338,12 +328,12 @@
     {
       "name": "CrnaBerza",
       "description": "CrnaBerza is a BALKAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, PC, TV, Books, Audio, XXX"
+      "type": "Movies, TV, Audio, PC, Books, General, XXX"
     },
     {
       "name": "CrnaBerza2FA",
       "description": "CrnaBerza is a BALKAN Private Torrent Tracker for MOVIES / TV / GENERAL. This indexer uses cookie login for 2FA.",
-      "type": "Movies, PC, TV, Books, Audio, XXX"
+      "type": "Movies, TV, Audio, PC, Books, General, XXX"
     },
     {
       "name": "CRT2FA",
@@ -479,6 +469,11 @@
       "name": "FunkyTorrents",
       "description": "FunkyTorrents (FT) is a Private Torrent Tracker for MUSIC",
       "type": "PC, Books, Movies, Audio"
+    },
+    {
+      "name": "funZone (API)",
+      "description": "funZone is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, PC, Audio, Console, General"
     },
     {
       "name": "FutureTorrent",
@@ -851,6 +846,11 @@
       "type": "Audio, TV, PC, Books, Movies, Console, General, XXX"
     },
     {
+      "name": "MidnightScene",
+      "description": "MidnightScene is a Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, Console"
+    },
+    {
       "name": "MMA-torrents",
       "description": "MMA-Torrents is a Private Torrent Tracker for MMA (Mixed Martial Arts)",
       "type": "Audio, TV, Movies, Books, General"
@@ -893,7 +893,7 @@
     {
       "name": "Nexum (API)",
       "description": "Nexum is a FRENCH Private Torrent Tracker for MOVIES / TV",
-      "type": "Movies, TV"
+      "type": "Movies, TV, Books, Audio"
     },
     {
       "name": "NicePT",
@@ -923,7 +923,7 @@
     {
       "name": "NORDiCHD",
       "description": "NORDiCHD is a Mixed NORDIC Private Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV"
+      "type": "Movies, TV, Audio"
     },
     {
       "name": "Nostradamus",
@@ -1264,6 +1264,11 @@
       "name": "Speedmaster HD",
       "description": "Speedmaster HD is a GERMAN Time based Torrent Tracker for MOVIES / TV",
       "type": "Movies, TV, XXX, Audio, General, Books"
+    },
+    {
+      "name": "SunnyPT",
+      "description": "SunnyPT is a CHINESE Private Torrent Tracker for MOVIES / TV",
+      "type": "Movies, TV, Audio, General"
     },
     {
       "name": "Swarmazon (API)",
