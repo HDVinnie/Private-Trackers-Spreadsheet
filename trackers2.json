@@ -566,6 +566,11 @@
       "type": "Movies, TV, Audio"
     },
     {
+      "name": "HDBao",
+      "description": "HDBao is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "TV, Movies, Audio, Books, General"
+    },
+    {
       "name": "HDCiTY",
       "description": "HDCiTY (HDC) is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, XXX, General, PC"
@@ -674,11 +679,6 @@
       "name": "JME-REUNIT3D (API)",
       "description": "JME-REUNIT3D is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, XXX, Audio, PC, Console, Books"
-    },
-    {
-      "name": "JoyHD",
-      "description": "JoyHD (JHD) is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, PC, General"
     },
     {
       "name": "JPTV4us (API)",
@@ -881,6 +881,11 @@
       "type": "TV, Audio, General"
     },
     {
+      "name": "Musopia (音乐乌托邦)",
+      "description": "Musopia (音乐乌托邦) is a CHINESE Private Torrent Tracker for MUSIC",
+      "type": "Audio"
+    },
+    {
       "name": "Muxuege",
       "description": "Muxuege is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, General, Books, Console"
@@ -918,7 +923,7 @@
     {
       "name": "NOBS",
       "description": "NOBS (NUCLEAR ORDER BIT SYNDICATE) is a SPANISH Private Torrent Tracker for MOVIES / TV",
-      "type": "Movies, TV"
+      "type": "Movies, TV, Console"
     },
     {
       "name": "NordicBytes",
@@ -932,7 +937,7 @@
     },
     {
       "name": "Nostradamus",
-      "description": "Nostradamus is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "description": "Nostradamus is a ratioless FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, Books, Console, PC"
     },
     {
@@ -1178,7 +1183,7 @@
     {
       "name": "RetroToon",
       "description": "RetroToon is a Private Torrent Tracker for ANIMATED MOVIES / TV",
-      "type": "TV, XXX, General, Books, Movies, Audio"
+      "type": "Movies, Audio, TV, Books, XXX, General"
     },
     {
       "name": "RocketHD (API)",
@@ -1199,6 +1204,11 @@
       "name": "Rousi.pro",
       "description": "Rousi.pro is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, Books, XXX, General"
+    },
+    {
+      "name": "RunTheFrames (API)",
+      "description": "RunTheFrames is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, Console, PC"
     },
     {
       "name": "SAMARITANO (API)",
@@ -1232,8 +1242,13 @@
     },
     {
       "name": "SexTorrent (API)",
-      "description": "SexTorrent is a Private Torrent Tracker for 3X",
-      "type": "XXX, TV, Audio"
+      "description": "SexTorrent is a Private Torrent Tracker for 3X / MOVIES / TV",
+      "type": "XXX, Console, Books, Movies, TV, General, PC"
+    },
+    {
+      "name": "Shadowbit",
+      "description": "Shadowbit is a ratioless ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Console, Movies, Audio, PC, TV, XXX, Books, General"
     },
     {
       "name": "ShaKaw",
@@ -1411,6 +1426,11 @@
       "type": "Movies, TV, PC, Audio, General, Books"
     },
     {
+      "name": "TorrentClaw",
+      "description": "TorrentClaw is a Private aggregate indexer of 10+ Public Torrent Trackers, with additional 'TrueSpec' metadata and quality score",
+      "type": "Movies, TV"
+    },
+    {
       "name": "TorrentDD",
       "description": "TorrentDD (TodayBit) is a THAI Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "General, TV, Console, PC, Books, Audio, Movies, XXX"
@@ -1469,11 +1489,6 @@
       "name": "TurkTorrent",
       "description": "TurkTorrent (TT) is a TURKISH Private PAY2DL Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, General, TV, Books, PC, Audio, Console"
-    },
-    {
-      "name": "TVChaosUK",
-      "description": "TV Chaos UK (TVCUK) is a Private Torrent Tracker for UK TV",
-      "type": "TV, Movies, Audio"
     },
     {
       "name": "UBits",
