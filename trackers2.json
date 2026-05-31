@@ -201,6 +201,11 @@
       "type": "Movies, XXX, TV, Audio, Console, Books"
     },
     {
+      "name": "BJ-Share",
+      "description": "BJ-Share is a BRAZILIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, PC, Books, General, Audio, XXX"
+    },
+    {
       "name": "BlueBird",
       "description": "BlueBird is a RUSSIAN Private Torrent Tracker for HD MOVIES",
       "type": "Movies, TV, Audio, XXX, General"
@@ -254,11 +259,6 @@
       "name": "CapybaraBR (API)",
       "description": "CapybaraBR is a BRAZILIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Console, PC, Books, General"
-    },
-    {
-      "name": "Carp-Hunter",
-      "description": "Carp-Hunter is a HUNGARIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, Audio, PC, General, Books, TV, XXX"
     },
     {
       "name": "Carpathians",
@@ -478,7 +478,7 @@
     {
       "name": "funZone (API)",
       "description": "funZone is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, PC, Audio, Console, XXX, Books"
+      "type": "Movies, TV, PC, Audio, Console, XXX, General, Books"
     },
     {
       "name": "FutureTorrent",
@@ -494,11 +494,6 @@
       "name": "G3MINI TR4CK3R (API)",
       "description": "G3MINI TR4CK3R is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Books, Audio"
-    },
-    {
-      "name": "gay-torrents.org",
-      "description": "Gay-Torrents.org is a Private Torrent Tracker for GAY 3X",
-      "type": "XXX, Movies, TV, General, PC, Books"
     },
     {
       "name": "GAYtorrent.ru",
@@ -644,6 +639,11 @@
       "name": "HELLENIC-HD (API)",
       "description": "HELLENIC-HD is a GREEK Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, Books"
+    },
+    {
+      "name": "HeroBit",
+      "description": "HeroBit is a HUNGARIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, Audio, PC, General, Books, TV, XXX"
     },
     {
       "name": "HHanClub",
@@ -903,7 +903,7 @@
     {
       "name": "Nexum (API)",
       "description": "Nexum is a FRENCH Private Torrent Tracker for MOVIES / TV",
-      "type": "Books, Movies, Audio, TV"
+      "type": "Books, PC, Movies, Audio, TV, General"
     },
     {
       "name": "NicePT",
@@ -1533,7 +1533,7 @@
     {
       "name": "VietMediaF",
       "description": "VietMediaF is a VIETNAMESE Private Torrent Tracker for MOVIES / TV",
-      "type": "Movies, TV"
+      "type": "Movies, TV, Audio, Books"
     },
     {
       "name": "White Angel",
@@ -1594,6 +1594,11 @@
       "name": "Zappateers",
       "description": "Zappateers is a Private Torrent Tracker for Frank Zappa MUSIC",
       "type": "Audio, General"
+    },
+    {
+      "name": "Zenith",
+      "description": "Zenith is an Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, Books, Console, PC, General"
     },
     {
       "name": "ZmPT (织梦)",
