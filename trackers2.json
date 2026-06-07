@@ -168,7 +168,7 @@
     {
       "name": "Bit-Bázis",
       "description": "Bit-Bázis is a HUNGARIAN Private Tracker for MOVIES / TV",
-      "type": "Movies, TV, Audio, Books, PC, XXX, General"
+      "type": "XXX, Movies, TV, Audio, Books, PC, General"
     },
     {
       "name": "Bitded",
@@ -544,6 +544,11 @@
       "name": "HD-CLUB",
       "description": "HD-CLUB is a CZECH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, XXX, PC, Audio, Console"
+    },
+    {
+      "name": "HD-Forever2FA",
+      "description": "HD-Forever (HD-F) is a FRENCH Private Torrent Tracker for HD MOVIES. This indexer uses cookie login for 2FA.",
+      "type": "Movies, TV"
     },
     {
       "name": "HD-Olimpo (API)",
@@ -984,6 +989,11 @@
       "name": "Panda",
       "description": "Panda is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Console, Audio, General, Books"
+    },
+    {
+      "name": "ParabellumHD (API)",
+      "description": "ParabellumHD is a SPANISH Private Torrent Tracker for HEVC & AV1-encoded MOVIES / TV",
+      "type": "Movies, TV, Audio, Console, PC, General"
     },
     {
       "name": "Party-Tracker",
@@ -1448,7 +1458,7 @@
     {
       "name": "Torrenting",
       "description": "Torrenting (TT) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, XXX, TV, Console, Audio, Books, PC"
+      "type": "Movies, TV, Console, PC, Audio, Books, General, XXX"
     },
     {
       "name": "ToTheGlory2FA",
@@ -1584,6 +1594,11 @@
       "name": "XWT-Classics",
       "description": "XWT-Classics is a Private Torrent Tracker for CLASSIC PROFESSIONAL WRESTLING",
       "type": "TV"
+    },
+    {
+      "name": "YggReborn (API)",
+      "description": "YggReborn is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "PC, Movies, Audio, TV, Books, General"
     },
     {
       "name": "YUSCENE (API)",
