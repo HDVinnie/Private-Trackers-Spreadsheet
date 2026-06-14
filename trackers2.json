@@ -731,11 +731,6 @@
       "type": "Movies, TV, Audio, General"
     },
     {
-      "name": "La Cale (API)",
-      "description": "La Cale is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "General, Books, Audio, PC, Console, Movies, TV, XXX"
-    },
-    {
       "name": "lajidui",
       "description": "lajidui is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General, Books, PC"
@@ -936,11 +931,6 @@
       "type": "Movies, TV, PC, Audio, Books, XXX"
     },
     {
-      "name": "NORDiCHD",
-      "description": "NORDiCHD is a Mixed NORDIC Private Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio"
-    },
-    {
       "name": "Nostradamus",
       "description": "Nostradamus is a ratioless FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, Books, Console, PC"
@@ -1004,6 +994,11 @@
       "name": "Peeratiko",
       "description": "Peeratiko is a GREEK Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "PC, Books, Console, Movies, Audio, General, TV"
+    },
+    {
+      "name": "PeerGarden",
+      "description": "PeerGarden (PG) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, PC, Audio, Books"
     },
     {
       "name": "Peers.FM",
@@ -1431,6 +1426,11 @@
       "type": "Movies, TV, PC, Console, Audio, Books, General, XXX"
     },
     {
+      "name": "TorrentAvenue (API)",
+      "description": "TorrentAvenue is a Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, PC, Console"
+    },
+    {
       "name": "TorrentCCF",
       "description": "TorrentCCF (TCCF) is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
       "type": "Movies, TV, PC, Audio, General, Books"
@@ -1489,6 +1489,11 @@
       "name": "TreZzoRCookie",
       "description": "TreZzoR is a CZECH Private Torrent Tracker for MOVIES / TV / GENERAL. This uses the cookie method for access",
       "type": "Movies, TV, Audio, XXX, PC, Books, General, Console"
+    },
+    {
+      "name": "TSDB",
+      "description": "TSDB (The Sports Database) is a Private Torrent Tracker for SPORTS",
+      "type": "TV, General"
     },
     {
       "name": "TurkSeed (API)",
