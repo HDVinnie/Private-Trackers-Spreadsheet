@@ -371,6 +371,11 @@
       "type": "Movies, TV, PC, Audio, Books, XXX"
     },
     {
+      "name": "Depth Studio",
+      "description": "Depth Studio is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
       "name": "DesiTorrents (API)",
       "description": "DesiTorrents is an INDIAN Private Torrent Tracker for MOVIES / TV",
       "type": "Movies, TV, Audio"
@@ -933,7 +938,7 @@
     {
       "name": "Nostradamus",
       "description": "Nostradamus is a ratioless FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, Books, Console, PC"
+      "type": "Movies, TV, Audio, Books, Console, PC, General"
     },
     {
       "name": "NovaHD",
@@ -1206,11 +1211,6 @@
       "type": "Audio"
     },
     {
-      "name": "RoTorrent (API)",
-      "description": "RoTorrent (ROT) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, PC, XXX, General"
-    },
-    {
       "name": "Rousi.pro",
       "description": "Rousi.pro is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, Books, XXX, General"
@@ -1239,6 +1239,11 @@
       "name": "SceneTime (API)",
       "description": "SceneTime is a Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Console, Movies, Audio, PC, TV, XXX, Books, General"
+    },
+    {
+      "name": "SeedCore (API)",
+      "description": "SeedCore (ROT) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, PC, XXX, General"
     },
     {
       "name": "seedpool (API)",
@@ -1284,6 +1289,11 @@
       "name": "SkipTheCommercials (API)",
       "description": "SkipTheCommercials (STC) is a Private Torrent Tracker for TV",
       "type": "Movies, TV"
+    },
+    {
+      "name": "Slobit Games",
+      "description": "Slobit Games is a Private Torrent Tracker for GAMES",
+      "type": "PC, Console, General"
     },
     {
       "name": "SoulVoice (聆音Club)",
@@ -1599,11 +1609,6 @@
       "name": "xTorrenty",
       "description": "xTorrenty is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, PC, Console, Audio, TV, XXX, Books, General"
-    },
-    {
-      "name": "Xtreme Bytes",
-      "description": "Xtreme Bytes (TorrentSurf) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "TV, PC, Books, Console, General, Movies, Audio, XXX"
     },
     {
       "name": "XWT-Classics",
