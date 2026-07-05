@@ -516,11 +516,6 @@
       "type": "Movies, PC, General, XXX, Audio, Books, Console, TV"
     },
     {
-      "name": "GimmePeers",
-      "description": "GimmePeers (formerly ILT) is a Private PAY2DL Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "TV, PC, Audio, Books, General, Console, Movies, XXX"
-    },
-    {
       "name": "Girotorrent",
       "description": "Girotorrent is an ITALIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Books, Audio, Movies, TV, PC, Console, General"
@@ -841,6 +836,11 @@
       "type": "TV, Movies, Books, Audio"
     },
     {
+      "name": "Memphis",
+      "description": "Memphis is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, PC, Books, Audio"
+    },
+    {
       "name": "MeseVilág",
       "description": "MeseVilág (Fairytale World) is a HUNGARIAN Private Torrent Tracker for ANIMATED MOVIES / TV",
       "type": "TV, Movies, Audio, PC, Console, Books"
@@ -904,11 +904,6 @@
       "name": "New Heaven",
       "description": "New Heaven is a GERMAN Private tracker for MOVIES / AUDIO / TV / GENERAL",
       "type": "PC, Console, Movies, Audio, TV, Books, General"
-    },
-    {
-      "name": "Nexum (API)",
-      "description": "Nexum is a FRENCH Private Torrent Tracker for MOVIES / TV",
-      "type": "Books, PC, Movies, Audio, TV, General"
     },
     {
       "name": "NicePT",
@@ -1044,11 +1039,6 @@
       "name": "PolishTracker (API)",
       "description": "PolishTracker is a POLISH Private Torrent Tracker for 0DAY / MOVIES / GENERAL",
       "type": "PC, Audio, Console, Books, Movies, TV, XXX"
-    },
-    {
-      "name": "PornBytes (API)",
-      "description": "PornBytes is a Private Torrent Tracker for 3X",
-      "type": "XXX"
     },
     {
       "name": "Portugas (API)",
@@ -1506,11 +1496,6 @@
       "type": "Movies, TV, Audio, XXX, PC, Books, General, Console"
     },
     {
-      "name": "TSDB",
-      "description": "TSDB (The Sports Database) is a Private Torrent Tracker for SPORTS",
-      "type": "TV, General"
-    },
-    {
       "name": "TurkSeed (API)",
       "description": "TurkSeed (Aturk) is a TURKISH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Console, General, PC, Audio"
@@ -1568,7 +1553,7 @@
     {
       "name": "VietMediaF",
       "description": "VietMediaF is a VIETNAMESE Private Torrent Tracker for MOVIES / TV",
-      "type": "Movies, TV, Audio, Books"
+      "type": "Movies, TV, Audio, Books, General"
     },
     {
       "name": "White Angel",
@@ -1609,6 +1594,11 @@
       "name": "xTorrenty",
       "description": "xTorrenty is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, PC, Console, Audio, TV, XXX, Books, General"
+    },
+    {
+      "name": "Xtreme Bytes",
+      "description": "Xtreme Bytes (TorrentSurf) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "TV, PC, Books, Console, General, Movies, Audio, XXX"
     },
     {
       "name": "XWT-Classics",
