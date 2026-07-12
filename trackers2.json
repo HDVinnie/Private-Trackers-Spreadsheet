@@ -671,11 +671,6 @@
       "type": "General"
     },
     {
-      "name": "INFINITY (API)",
-      "description": "INFINITY is a Private PAY2DL Torrent Tracker for MOVIES / TV",
-      "type": "Movies, TV"
-    },
-    {
       "name": "InfinityHD (API)",
       "description": "InfinityHD is a Private Torrent Tracker for MOVIES / TV / ANIME",
       "type": "Movies, TV"
@@ -1064,6 +1059,11 @@
       "name": "PTCC (我的PT)",
       "description": "PTCC (我的PT) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio"
+    },
+    {
+      "name": "PTCDY (传道院)",
+      "description": "PTCDY (传道院) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
     },
     {
       "name": "PTerClub (PT之友俱乐部)",
@@ -1456,9 +1456,9 @@
       "type": "Movies, TV"
     },
     {
-      "name": "TorrentHR",
+      "name": "TorrentHR (API)",
       "description": "TorrentHR is a ratioless CROATIAN Private Torrent Tracker for 0DAY / GENERAL",
-      "type": "TV, Movies, PC, Console, Books, Audio, XXX, General"
+      "type": "TV, PC, Books, Movies, Audio, Console, General, XXX"
     },
     {
       "name": "Torrenting",
@@ -1549,6 +1549,11 @@
       "name": "Vault network",
       "description": "Vault network is a Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "PC, Audio, Books, General, Movies, TV, Console"
+    },
+    {
+      "name": "VC-Lib",
+      "description": "VC-Lib is a CHINESE Private Torrent Tracker for MUSIC",
+      "type": "General, PC, Audio"
     },
     {
       "name": "VietMediaF",
