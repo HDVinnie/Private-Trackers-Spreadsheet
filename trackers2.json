@@ -371,6 +371,11 @@
       "type": "Movies, TV, PC, Audio, Books, XXX"
     },
     {
+      "name": "DaXiangJiao (大香蕉)",
+      "description": "DaXiangJiao (大香蕉) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
       "name": "Depth Studio",
       "description": "Depth Studio is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General"
@@ -474,11 +479,6 @@
       "name": "Free Farm (自由农场)",
       "description": "Free Farm (自由农场) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General, Books, PC"
-    },
-    {
-      "name": "FunkyTorrents",
-      "description": "FunkyTorrents (FT) is a Private Torrent Tracker for MUSIC",
-      "type": "PC, Books, Movies, Audio"
     },
     {
       "name": "funZone (API)",
@@ -613,7 +613,7 @@
     {
       "name": "HDTurk",
       "description": "HDTurk is a TURKISH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "General, Books, TV, Movies, Audio, Console, PC, XXX"
+      "type": "Movies, TV, PC, Audio"
     },
     {
       "name": "HDU",
@@ -1028,7 +1028,7 @@
     {
       "name": "Polish Torrent (API)",
       "description": "Polish Torrent (PTT) is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, PC, Audio, Books, Console, General"
+      "type": "PC, Audio, Books, Movies, General, TV"
     },
     {
       "name": "PolishTracker (API)",
@@ -1141,6 +1141,11 @@
       "type": "TV"
     },
     {
+      "name": "PWTorrents2FA",
+      "description": "PWTorrents (PWT) is a Private Torrent Tracker for PROFESSIONAL WRESTLING. This indexer uses cookie login for 2FA.",
+      "type": "TV"
+    },
+    {
       "name": "Qingwa (青蛙)",
       "description": "Qingwa (青蛙) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General"
@@ -1188,7 +1193,7 @@
     {
       "name": "RetroToon",
       "description": "RetroToon is a Private Torrent Tracker for ANIMATED MOVIES / TV",
-      "type": "Movies, Audio, TV, Books, XXX, General"
+      "type": "Movies, Audio, TV, Books, XXX"
     },
     {
       "name": "RocketHD (API)",
@@ -1609,6 +1614,16 @@
       "name": "XWT-Classics",
       "description": "XWT-Classics is a Private Torrent Tracker for CLASSIC PROFESSIONAL WRESTLING",
       "type": "TV"
+    },
+    {
+      "name": "XWT-Classics2FA",
+      "description": "XWT-Classics is a Private Torrent Tracker for CLASSIC PROFESSIONAL WRESTLING. This indexer uses cookie login for 2FA.",
+      "type": "TV"
+    },
+    {
+      "name": "XWtorrents2FA",
+      "description": "XtremeWrestlingTorrents (XWT) is a Private Torrent Tracker for PROFESSIONAL WRESTLING / MMA. This indexer uses cookie login for 2FA.",
+      "type": "TV, Movies, Books"
     },
     {
       "name": "YggReborn (API)",
