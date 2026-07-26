@@ -1193,7 +1193,7 @@
     {
       "name": "RetroToon",
       "description": "RetroToon is a Private Torrent Tracker for ANIMATED MOVIES / TV",
-      "type": "Movies, Audio, TV, Books, XXX"
+      "type": "Movies, Audio, TV, Books"
     },
     {
       "name": "RocketHD (API)",
@@ -1628,7 +1628,7 @@
     {
       "name": "YggReborn (API)",
       "description": "YggReborn is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "PC, Movies, Audio, TV, Books, General"
+      "type": "PC, Console, Movies, Audio, TV, XXX, Books, General"
     },
     {
       "name": "YUSCENE (API)",
