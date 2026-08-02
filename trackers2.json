@@ -1166,11 +1166,6 @@
       "type": "Audio, General, TV, Books, Console, PC, Movies"
     },
     {
-      "name": "Rain (雨)",
-      "description": "Rain (雨) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Audio, General, TV, Movies"
-    },
-    {
       "name": "Rastastugan (API)",
       "description": "Rastastugan is a NORDIC Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, Console, Books, General, XXX"
@@ -1209,11 +1204,6 @@
       "name": "Rousi.pro",
       "description": "Rousi.pro is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, Books, XXX, General"
-    },
-    {
-      "name": "RunTheFrames (API)",
-      "description": "RunTheFrames is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, Console, PC"
     },
     {
       "name": "SAMARITANO (API)",
@@ -1438,7 +1428,7 @@
     {
       "name": "TorrentAvenue (API)",
       "description": "TorrentAvenue is a Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, PC, Console"
+      "type": "Movies, TV, General, Audio, PC, Console"
     },
     {
       "name": "TorrentCCF",
