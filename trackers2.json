@@ -31,11 +31,6 @@
       "type": "Movies, TV, Audio, General, XXX"
     },
     {
-      "name": "720pier",
-      "description": "720pier is a RUSSIAN Private Torrent Tracker for HD SPORTS",
-      "type": "TV"
-    },
-    {
       "name": "Abnormal (API)",
       "description": "ABNormal (ABN) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, Movies, PC, Books"
@@ -716,11 +711,6 @@
       "type": "XXX, Books, PC"
     },
     {
-      "name": "Kunlun (昆仑)",
-      "description": "Kunlun (昆仑) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, General"
-    },
-    {
       "name": "lajidui",
       "description": "lajidui is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General, Books, PC"
@@ -919,11 +909,6 @@
       "name": "NordicBytes",
       "description": "NordicBytes is a Mixed NORDIC Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, PC, Audio, Books, XXX"
-    },
-    {
-      "name": "Nostradamus",
-      "description": "Nostradamus is a ratioless FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, Books, Console, PC, General"
     },
     {
       "name": "NovaHD",
