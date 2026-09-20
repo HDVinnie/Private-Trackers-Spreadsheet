@@ -413,7 +413,7 @@
     {
       "name": "DreadVault (API)",
       "description": "DreadVault is a Private Torrent Tracker for HORROR MOVIES / TV",
-      "type": "Movies, TV, Books"
+      "type": "Movies, TV, Books, Audio"
     },
     {
       "name": "Drugari",
@@ -429,11 +429,6 @@
       "name": "dubhe (天枢)",
       "description": "dubhe (天枢) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General, Books"
-    },
-    {
-      "name": "Ebooks-Shares",
-      "description": "Ebooks-Shares is a Private Torrent Tracker for EBOOKS / AUDIOBOOKS",
-      "type": "Audio, Books"
     },
     {
       "name": "eMuwarez (API)",
@@ -556,8 +551,8 @@
       "type": "Movies, TV, XXX, PC, Audio, Console"
     },
     {
-      "name": "HD-Forever2FA",
-      "description": "HD-Forever (HD-F) is a FRENCH Private Torrent Tracker for HD MOVIES. This indexer uses cookie login for 2FA.",
+      "name": "HD-Forever (API)",
+      "description": "HD-Forever (HD-F) is a French private tracker dedicated to movies, TV shows, animation, documentaries, concerts, and live shows.",
       "type": "Movies, TV"
     },
     {
@@ -973,7 +968,7 @@
     {
       "name": "P2PBG",
       "description": "P2PBG is a BULGARIAN Private PAY2DL Torrent Tracker for 0DAY / GENERAL",
-      "type": "Movies, TV, Audio, PC, Console, General, Books, XXX"
+      "type": "TV, Movies, Audio, PC, Console, General, Books, XXX"
     },
     {
       "name": "Panda",
@@ -1333,7 +1328,7 @@
     {
       "name": "The Brothers",
       "description": "The Brothers is a Private GERMAN tracker for MOVIES / TV / GENERAL",
-      "type": "TV, Movies, PC, Console, Audio, Books, General, XXX"
+      "type": "Movies, TV, Books, Audio, Console, PC, XXX"
     },
     {
       "name": "The Crazy Ones",
