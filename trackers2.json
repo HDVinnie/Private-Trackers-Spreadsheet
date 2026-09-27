@@ -8,7 +8,7 @@
     {
       "name": "0DayFiles (API)",
       "description": "0DayFiles is a Private Torrent Tracker for 0DAY / GENERAL",
-      "type": "Movies, TV, Console, PC, Audio, Books, General"
+      "type": "Movies, TV, Console, PC, Audio, Books, General, XXX"
     },
     {
       "name": "13City",
@@ -76,6 +76,11 @@
       "type": "TV, Movies"
     },
     {
+      "name": "alingPT (API)",
+      "description": "alingPT is a CHINESE Private Torrent Tracker for MOVIES / TV",
+      "type": "TV, Movies"
+    },
+    {
       "name": "Amigos Share Club",
       "description": "Amigos Share Club (ASC) is a BRAZILIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "XXX, TV, PC, General, Books, Audio, Movies, Console"
@@ -124,6 +129,11 @@
       "name": "AsianDVDClub",
       "description": "AsianDVDClub (ADC) is a Private Torrent Tracker for ASIAN DVD and BluRay",
       "type": "TV, Movies, General, Audio"
+    },
+    {
+      "name": "AstraTorrent",
+      "description": "AstraTorrent is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, PC, Audio, Books"
     },
     {
       "name": "Audiences",
@@ -372,6 +382,11 @@
     },
     {
       "name": "DaXiangJiao (大香蕉)",
+      "description": "DaXiangJiao (大香蕉) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
+      "name": "DaXiangJiao (大香蕉) (API)",
       "description": "DaXiangJiao (大香蕉) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General"
     },
@@ -721,6 +736,11 @@
       "type": "Console, Books, Audio, PC, TV, General, Movies"
     },
     {
+      "name": "Kufei (库非) (API)",
+      "description": "Kufei (库非) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Console, Books, Audio, PC, TV, General, Movies"
+    },
+    {
       "name": "Kufirc",
       "description": "Kufirc is a HUNGARIAN Private tracker for 3X",
       "type": "XXX, Books, PC"
@@ -958,10 +978,15 @@
     {
       "name": "Order66",
       "description": "Order66 is a Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "PC, Console, Audio, Books, Movies, TV"
+      "type": "PC, Console, Audio, Movies, TV, Books"
     },
     {
       "name": "OshenPT",
+      "description": "OshenPT is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General, Console"
+    },
+    {
+      "name": "OshenPT (API)",
       "description": "OshenPT is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General, Console"
     },
@@ -1082,6 +1107,11 @@
     },
     {
       "name": "PTSKIT",
+      "description": "PTSKIT is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "TV, Movies, Audio, General, XXX"
+    },
+    {
+      "name": "PTSKIT (API)",
       "description": "PTSKIT is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, Movies, Audio, General, XXX"
     },
@@ -1276,6 +1306,11 @@
       "type": "General, Movies, TV, Audio"
     },
     {
+      "name": "SoulVoice (聆音Club) (API)",
+      "description": "SoulVoice (聆音Club) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
       "name": "Speedmaster HD",
       "description": "Speedmaster HD is a GERMAN Time based Torrent Tracker for MOVIES / TV",
       "type": "Movies, TV, XXX, Audio, General, Books"
@@ -1359,6 +1394,11 @@
       "name": "The Show",
       "description": "TheShow (TSBZ) is a Private Torrent Tracker for ENTERTAINMENT-INDUSTRY E-LEARNING",
       "type": "General"
+    },
+    {
+      "name": "The Word Music",
+      "description": "The Word Music is a Private GERMAN tracker for  MUSIC / MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Books, Audio, General, PC, XXX"
     },
     {
       "name": "TheLeachZone (API)",
@@ -1506,6 +1546,11 @@
       "type": "Movies, TV, Audio, General"
     },
     {
+      "name": "UltraHD (API)",
+      "description": "UltraHD is a CHINESE Private Torrent Tracker for UHD MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
       "name": "Unbreakable",
       "description": "Unbreakable is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, Books, Movies, Audio, Console, PC, XXX"
@@ -1571,6 +1616,11 @@
       "type": "Movies, TV, Audio, General, Console"
     },
     {
+      "name": "XDY (修道院) (API)",
+      "description": "XDY (修道院) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General, Console"
+    },
+    {
       "name": "Xingtan (杏坛)",
       "description": "Xingtan (杏坛) is a CHINESE Torrent Tracker focusing on Medical Resources EBOOKS",
       "type": "Books"
@@ -1587,6 +1637,11 @@
     },
     {
       "name": "xloli",
+      "description": "xloli (ilolicon PT) is a CHINESE Private Torrent Tracker for LOLICON / MOVIES / 3X",
+      "type": "Movies, TV, Audio, Console, PC, General, XXX"
+    },
+    {
+      "name": "xloli (API)",
       "description": "xloli (ilolicon PT) is a CHINESE Private Torrent Tracker for LOLICON / MOVIES / 3X",
       "type": "Movies, TV, Audio, Console, PC, General, XXX"
     },
@@ -1637,6 +1692,11 @@
     },
     {
       "name": "ZmPT (织梦)",
+      "description": "ZmPT (织梦) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "General, TV, Audio, Movies, PC, Console"
+    },
+    {
+      "name": "ZmPT (织梦) (API)",
       "description": "ZmPT (织梦) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "General, TV, Audio, Movies, PC, Console"
     },
