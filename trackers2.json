@@ -511,6 +511,11 @@
       "type": "XXX, Books, Console, TV"
     },
     {
+      "name": "FileIplay",
+      "description": "FileIplay is a Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, Audio, PC, TV, General"
+    },
+    {
       "name": "FinElite",
       "description": "FinElite (FE) is a FINNISH Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Audio, TV, Books, Console, PC, Movies"
@@ -627,6 +632,11 @@
     },
     {
       "name": "HDBao",
+      "description": "HDBao is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "TV, Movies, Audio, Books, General"
+    },
+    {
+      "name": "HDBao (API)",
       "description": "HDBao is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, Movies, Audio, Books, General"
     },
@@ -928,7 +938,7 @@
     {
       "name": "Milnueve (API)",
       "description": "Milnueve is a SPANISH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, Books"
+      "type": "Movies, TV, Audio, Books, PC"
     },
     {
       "name": "MMA-torrents",
@@ -1396,11 +1406,6 @@
       "type": "Movies, TV"
     },
     {
-      "name": "Slobit Games",
-      "description": "Slobit Games is a Private Torrent Tracker for GAMES",
-      "type": "PC, Console, General"
-    },
-    {
       "name": "SoulVoice (聆音Club)",
       "description": "SoulVoice (聆音Club) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "General, Movies, TV, Audio"
@@ -1688,7 +1693,7 @@
     {
       "name": "V3X",
       "description": "V3X is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, Books, PC, Console, General"
+      "type": "Console, Movies, Audio, PC, TV, Books, General"
     },
     {
       "name": "Vault network",
