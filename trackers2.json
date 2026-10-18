@@ -46,6 +46,11 @@
       "type": "Movies, TV, PC, Audio, Books"
     },
     {
+      "name": "52movie",
+      "description": "52movie is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, General"
+    },
+    {
       "name": "52PT",
       "description": "52PT is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
       "type": "Movies, TV, Audio, General, XXX"
@@ -81,7 +86,7 @@
       "type": "Movies, TV"
     },
     {
-      "name": "AlaBala",
+      "name": "AlaBala (API)",
       "description": "AlaBala is a BULGARIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, PC, Books, Console, Movies, Audio, XXX"
     },
@@ -451,6 +456,11 @@
       "type": "Movies, TV, Audio"
     },
     {
+      "name": "DiscFan (API)",
+      "description": "DiscFan is a CHINESE Private Torrent Tracker for MOVIES / TV",
+      "type": "Movies, TV, Audio"
+    },
+    {
       "name": "DocsPedia",
       "description": "DocsPedia is a Private Torrent Tracker for E-LEARNING",
       "type": "PC, Books, Audio, TV, General"
@@ -558,7 +568,7 @@
     {
       "name": "G3MINI TR4CK3R (API)",
       "description": "G3MINI TR4CK3R is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Books, Console, PC, General"
+      "type": "Movies, TV, Audio, Console, Books, PC, General"
     },
     {
       "name": "GAYtorrent.ru",
@@ -603,7 +613,7 @@
     {
       "name": "HD-CLUB",
       "description": "HD-CLUB is a CZECH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, XXX, PC, Audio, Console"
+      "type": "TV, Movies, XXX"
     },
     {
       "name": "HD-Forever (API)",
@@ -1291,6 +1301,11 @@
       "type": "TV"
     },
     {
+      "name": "Racing4us",
+      "description": "Racing4us is a Private Torrent Tracker for SPORTS",
+      "type": "TV, Movies, Books"
+    },
+    {
       "name": "RailgunPT",
       "description": "RailgunPT is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Audio, General, TV, Books, Console, PC, Movies"
@@ -1426,13 +1441,8 @@
       "type": "Movies, TV, Audio, Console, PC"
     },
     {
-      "name": "Sportz247",
-      "description": "Sportz247 is a Private Torrent Tracker for SPORTS",
-      "type": "TV, Movies, Books"
-    },
-    {
       "name": "Stellarwinds",
-      "description": " Stellarwinds is a Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "description": "Stellarwinds is a Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Console, Movies, Audio, PC, TV, XXX, Books, General"
     },
     {
@@ -1593,7 +1603,7 @@
     {
       "name": "TorrentHaven (API)",
       "description": "TorrentHaven is a Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, General, Audio, PC, Console"
+      "type": "Movies, TV, Audio, PC, Console, General"
     },
     {
       "name": "TorrentHR (API)",
@@ -1702,6 +1712,11 @@
     },
     {
       "name": "VC-Lib",
+      "description": "VC-Lib is a CHINESE Private Torrent Tracker for MUSIC",
+      "type": "General, PC, Audio"
+    },
+    {
+      "name": "VC-Lib (API)",
       "description": "VC-Lib is a CHINESE Private Torrent Tracker for MUSIC",
       "type": "General, PC, Audio"
     },
