@@ -46,11 +46,6 @@
       "type": "Movies, TV, PC, Audio, Books"
     },
     {
-      "name": "52movie",
-      "description": "52movie is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, General"
-    },
-    {
       "name": "52PT",
       "description": "52PT is a CHINESE Private Torrent Tracker for HD MOVIES / TV",
       "type": "Movies, TV, Audio, General, XXX"
@@ -1201,16 +1196,6 @@
       "type": "Movies, TV, Audio, Console, PC, Books, General"
     },
     {
-      "name": "PTLAO",
-      "description": "PTLAO is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, General"
-    },
-    {
-      "name": "PTLAO (API)",
-      "description": "PTLAO is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, General"
-    },
-    {
       "name": "PTLGS",
       "description": "PTLGS is a CHINESE Private Torrent Tracker for MOVIES / TV",
       "type": "General, TV, Audio, Movies"
@@ -1354,6 +1339,11 @@
       "name": "SAMARITANO (API)",
       "description": "SAMARITANO is a BRAZILIAN Private tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, General, Console, Books, Audio, PC"
+    },
+    {
+      "name": "SAPIbr (API)",
+      "description": "SAPIbr (Toca Share) is a PORTUGUESE Private Torrent Tracker for EBOOKS / AUDIOBOOKS / COURSES",
+      "type": "Books, TV, Audio, Console, PC, General, XXX"
     },
     {
       "name": "SBPT",
@@ -1551,11 +1541,6 @@
       "type": "Movies, Audio, TV, Books, General"
     },
     {
-      "name": "Toca Share (API)",
-      "description": "Toca Share is a PORTUGUESE Private Torrent Tracker for EBOOKS / AUDIOBOOKS / COURSES",
-      "type": "Books, TV, Audio, Console, PC, General, XXX"
-    },
-    {
       "name": "Tormac",
       "description": "Tormac is a RUSSIAN Private Torrent Tracker for MAC SOFTWARE",
       "type": "PC, Books, General, Audio, Movies, TV"
@@ -1739,6 +1724,11 @@
       "name": "World-In-HD",
       "description": "World-In-HD is a Private Torrent Tracker. Your world in HD",
       "type": "Movies, TV, PC, Audio"
+    },
+    {
+      "name": "World-of-Tomorrow (API)",
+      "description": "World-of-Tomorrow is a GERMAN Private tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Audio, PC, Console, XXX, Books, General"
     },
     {
       "name": "XDY (修道院)",
