@@ -323,7 +323,7 @@
     {
       "name": "Concertos (API)",
       "description": "Concertos is a Private Torrent Tracker for Live Concerts with Strict Quality Control",
-      "type": "TV, Audio"
+      "type": "Movies, Audio, TV"
     },
     {
       "name": "CrabPT (蟹黄堡)",
@@ -404,6 +404,11 @@
       "name": "DaXiangJiao (大香蕉) (API)",
       "description": "DaXiangJiao (大香蕉) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, General"
+    },
+    {
+      "name": "Deep-Water (API)",
+      "description": "Deep-Water is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, XXX, PC, Console"
     },
     {
       "name": "Depth Studio",
@@ -1121,11 +1126,6 @@
       "type": "Movies, TV, Books, PC, Audio, XXX"
     },
     {
-      "name": "PigNetwork (猪猪网)",
-      "description": "PigNetwork (猪猪网) is a CHINESE Private Torrent Tracker for HD MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, General, Books"
-    },
-    {
       "name": "PixelCove2FA",
       "description": "PixelCove2FA (Ultimate Gamer) is a Private Torrent Tracker for GAMES. Cookie Login for 2FA use.",
       "type": "PC, Console, Books, Audio, General"
@@ -1301,6 +1301,11 @@
       "type": "Movies, TV, Audio, PC, Console, Books, General, XXX"
     },
     {
+      "name": "Red Angel",
+      "description": "Red Angel is a HUNGARIAN Private Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Console, Audio, PC, Books, XXX, General"
+    },
+    {
       "name": "Red Star Torrent",
       "description": "Red Star Torrent (RST) is a POLISH Private Torrent Tracker for MOVIES / TV",
       "type": "PC, Movies, TV, Books, General, Audio, XXX"
@@ -1384,6 +1389,11 @@
       "name": "SexTorrent (API)",
       "description": "SexTorrent is a Private Torrent Tracker for 3X / MOVIES / TV",
       "type": "XXX, Console, Books, Movies, TV, General, PC"
+    },
+    {
+      "name": "Shadow (API)",
+      "description": "Shadow is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, PC, Console, General, XXX, Books, Audio"
     },
     {
       "name": "Shadowbit",
@@ -1761,11 +1771,6 @@
       "type": "Movies, TV, Audio, Console, PC, General, XXX"
     },
     {
-      "name": "xTorrenty",
-      "description": "xTorrenty is a POLISH Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, PC, Console, Audio, TV, XXX, Books, General"
-    },
-    {
       "name": "Xtreme Bytes",
       "description": "Xtreme Bytes (TorrentSurf) is a Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "TV, PC, Books, Console, General, Movies, Audio, XXX"
@@ -1814,6 +1819,11 @@
       "name": "ZmPT (织梦) (API)",
       "description": "ZmPT (织梦) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "General, TV, Audio, Movies, PC, Console"
+    },
+    {
+      "name": "ZooToons",
+      "description": "ZooToons (ZT) is a Private Torrent Tracker for cartoons, animations and comics.",
+      "type": "Movies, TV, Books"
     },
     {
       "name": "ZRPT (自然)",
