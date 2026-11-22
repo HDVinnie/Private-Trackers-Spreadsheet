@@ -1306,6 +1306,11 @@
       "type": "Audio, General, TV, Books, Console, PC, Movies"
     },
     {
+      "name": "RailgunPT (API)",
+      "description": "RailgunPT is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Audio, General, TV, Books, Console, PC, Movies"
+    },
+    {
       "name": "Rastastugan (API)",
       "description": "Rastastugan is a NORDIC Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, Console, Books, General, XXX"
@@ -1382,7 +1387,7 @@
     },
     {
       "name": "SeedCore (API)",
-      "description": "SeedCore (ROT) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "description": "SeedCore (SC) is a ROMANIAN Private Torrent Tracker for MOVIES / TV / GENERAL",
       "type": "Movies, TV, Audio, PC, XXX, General"
     },
     {
@@ -1606,11 +1611,6 @@
       "type": "Movies, TV, Audio"
     },
     {
-      "name": "TorrentHaven (API)",
-      "description": "TorrentHaven is a Private Torrent Tracker for MOVIES / TV / GENERAL",
-      "type": "Movies, TV, Audio, PC, Console, General"
-    },
-    {
       "name": "TorrentHR (API)",
       "description": "TorrentHR is a ratioless CROATIAN Private Torrent Tracker for 0DAY / GENERAL",
       "type": "TV, PC, Books, Movies, Audio, Console, General, XXX"
@@ -1624,6 +1624,11 @@
       "name": "ToTheGlory2FA",
       "description": "ToTheGlory (TTG) is a CHINESE Private Torrent Tracker for MOVIES / TV / GENERAL. This indexer uses cookie login for 2FA.",
       "type": ""
+    },
+    {
+      "name": "Trackerformers",
+      "description": "Trackerformers is a GERMAN Private Torrent Tracker for MOVIES / TV / GENERAL",
+      "type": "Movies, TV, Books, Audio, General, PC, XXX"
     },
     {
       "name": "TrackerMK",
